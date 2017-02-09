@@ -28,6 +28,10 @@ nav ul {
     
 }
 
+.imagelist {
+    padding: 0;
+}
+
 nav img {
     width: 120px;
     margin-left: 0;
@@ -37,7 +41,7 @@ nav img {
 }
 
 nav li {
-    display: inline;
+    display: inline-block;
     height: 80px;
     margin: 0;
     padding: 30px 0 30px 0;
