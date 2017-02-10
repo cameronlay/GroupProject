@@ -11,7 +11,7 @@ body {
 
 /* top */
 
-#navbar {
+nav {
     width: 100%;
     /* position: fixed; */
     background-color: #000000;
@@ -30,10 +30,10 @@ nav ul {
     padding: 0;
     font-size: 2em;
     text-align: center;
-       
 }
 
 ul div {
+    margin: 0;
     width: 180px;
     height: 60px;
 }
@@ -80,9 +80,9 @@ nav a:visited {
     color: #f6f6e8;
 }
 
-/* nav a:hover { */
-    /* color: #f6f6e8; */
-/* } */
+nav a:hover {
+    color: #aaaaaa;
+}
 
 /* nav a:active { */
     /* color: #f6f6e8 */
