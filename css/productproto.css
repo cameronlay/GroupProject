@@ -9,138 +9,150 @@ body, html {
     margin: 0;
 }
 
-/* top */
-
-.navbar {
-    width: 100%;
-    /* position: fixed; */
+/* nav styling */
+nav {
     background-color: #000000;
+    font-family: 'Anton', sans-serif;
+    width: 100%;
     height: 80px;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+}   
+
+#navwrapper {
+    display: box;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 80px;
+}
+
+#navleft {
+    float: left;
     
 }
 
-nav ul {
+#navright {
+    float: right;
+}
+
+#imgid {
+    width: 180px;
+    margin: 0;
+    background-color: #000000;
+}
+
+ul {
+    background-color: #000000;
     list-style-type: none;
+    height: 80px;
+    margin: 0;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+ul li {
+    display: inline;
+    background-color: #000000;
+}
+
+ul a {
     color: #f6f6e8;
-    margin: 0;
-    padding: 0;
-    font-size: 1.5em;
-    text-align: center;
-    
-}
-
-.imagelist {
-    padding: 0;
-}
-
-nav img {
-    width: 120px;
-    margin-left: 0;
-    margin-right: 0;
-    padding: 0;
-    float: middle;
-}
-
-nav li {
-    display: inline-block;
-    height: 80px;
-    margin: 0;
-    padding: 30px 0 30px 0;
-    vertical-align: middle;
-    text-align: center;
-}
-
-.navborderright {
-    border-right: 2px solid #FFFFFF;
-}
-
-.navborderleft {
-    border-left: 2px solid #FFFFFF;
-}
-
-nav a {
-    height: 80px;
     text-decoration: none;
-    width: 120px;
-    padding: 30px 15px 30px 15px;
-    margin: 0;
+    display: box;
+    width: 300px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
-nav a:link { 
-    color: #f6f6e8; 
+nav li a:hover {
+    background-color: #f6f6e8;
+    color: #404040;
 }
 
-nav a:visited {
-    color: #f6f6e8;
-}
-
-nav a:hover {
-    color: #f6f6e8;
-}
-
-nav a:active {
-    color: #f6f6e8
-}
-
-#mousetitle { width: 100px;
-		      height: 100px;
-		      margin: auto;
-	
+hr { margin-top: 20px;
 }
 
 
-#mousetitle p { text-align: center;
+/* page name styling */
+
+#pagename    { margin-top: 40px;
+}
+
+
+#mousetitle  {  width: 100px;
+                margin: auto;
+				text-align: center;
+				height: 40px;
 		        border: 2px solid black;
 				background-color: #008F68;
+				
 		   
 }
 
 .pricebracket{ width: 100px;
-		       height: 50px;
+		       height: 30px;
 			   text-align: center;
 			   margin: auto;
+			   margin-top:40px;
+			   margin-bottom: 20px;
 			   border: 2px solid black;
 			   background-color: #008F68;
+
 }
 
-.bigbox { width: 750px;
-	      margin: auto;
+/* content styling */
+
+.contentbox { width: 750px;
+	          margin: auto;
+			  
 }
 
-.text { width:250px;
-		float:right;
+.textbox { width:400px;
+		   float:right;
+		   padding-right:20px;
+		   padding-top: 20px;
 }
 
 
 .imgbox img { height:250px;
-		      width: 250px;
+		      width: 300px;
 			  margin-top: 20px;
 }
 
-footer {
-	width: 100%;
-	min-height: 100px;
-	bottom: 0;
-	background-color: #000000;
-	z-index: 20;
+#bottombox { width: 750px;
+	         margin: auto;
+			 padding-bottom:50px;
+}			 
+
+/* Footer styling */
+
+footer { width: 100%;
+		 min-height: 100px;
+		 bottom: 0;
+		 background-color: #000000;
+		 z-index: 20;
 	
 	
 }
 
-.footerconstraint {
-	width: 1000px;
-	margin: auto;
+.footerconstraint { width: 1000px;
+	                margin: auto;
 }
 
-.bottomleftcolumn {
-	display: inline-table;
-	width: 20%;
-	margin-left: 10%;
+.bottomleftcolumn { display: inline-table;
+	                width: 20%;
+	                margin-left: 10%;
 }
 
-.middleleftcolumn {
-	display:inline-table;
-	width: 20%;
+.middleleftcolumn { display:inline-table;
+	                width: 20%;
 }
 
 .middlerightcolumn {
