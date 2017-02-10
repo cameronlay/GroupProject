@@ -12,6 +12,7 @@ body {
 /* nav */
 
 nav {
+    font-family: 'Anton', sans-serif;
     width: 100%;
     background-color: #000000;
     height: 80px;
@@ -37,8 +38,8 @@ ul {
     list-style-type: none;
     height: 80px;
     margin: 0;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 4px;
+    padding-bottom: 4px;
     padding-left: 0;
     padding-right: 0;
 }
@@ -53,13 +54,27 @@ ul a {
     text-decoration: none;
     display: box;
     width: 300px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
 nav li a:hover {
     background-color: #f6f6e8;
     color: #404040;
 }
+
+/* body */
+
+
+
+
+
+
+/* footer */
+
+
+
+
+
