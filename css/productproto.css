@@ -2,8 +2,9 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: #404040;
+body, html {
+    height: 100%;
+	background-color: #404040;
     color: #f6f6e8;
     margin: 0;
 }
@@ -95,7 +96,7 @@ nav a:active {
 }
 
 .pricebracket{ width: 100px;
-		       height: 50x;
+		       height: 50px;
 			   text-align: center;
 			   margin: auto;
 			   border: 2px solid black;
@@ -114,10 +115,40 @@ nav a:active {
 .imgbox img { height:250px;
 		      width: 250px;
 			  margin-top: 20px;
-			  
-			  
-			  
-			  
-				 
 }
 
+footer {
+	width: 100%;
+	min-height: 100px;
+	bottom: 0;
+	background-color: #000000;
+	z-index: 20;
+	
+	
+}
+
+.footerconstraint {
+	width: 1000px;
+	margin: auto;
+}
+
+.bottomleftcolumn {
+	display: inline-table;
+	width: 20%;
+	margin-left: 10%;
+}
+
+.middleleftcolumn {
+	display:inline-table;
+	width: 20%;
+}
+
+.middlerightcolumn {
+	display: inline-table;
+	width: 20%;
+}
+
+.bottomrightcolumn {
+	display: inline-table;
+	width: 20%;
+}
