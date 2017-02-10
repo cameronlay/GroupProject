@@ -12,14 +12,14 @@ body {
 /* nav */
 
 nav {
+    background-color: #000000;
     font-family: 'Anton', sans-serif;
     width: 100%;
-    background-color: #000000;
     height: 80px;
     font-weight: bold;
     font-size: 3em;
     text-align: center;
-}
+}   
 
 #navleft {
     float: left;
@@ -32,9 +32,12 @@ nav {
 
 #imgid {
     width: 180px;
+    margin: 0;
+    background-color: #000000;
 }
 
 ul {
+    background-color: #000000;
     list-style-type: none;
     height: 80px;
     margin: 0;
