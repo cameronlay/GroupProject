@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #404040;
+    color: #f6f6e8;
+    margin: 0;
+}
+
+/* top */
+
+.navbar {
+    width: 100%;
+    /* position: fixed; */
+    background-color: #000000;
+    height: 80px;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    color: #f6f6e8;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+    text-align: center;
+    
+}
+
+.imagelist {
+    padding: 0;
+}
+
+nav img {
+    width: 120px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    float: middle;
+}
+
+nav li {
+    display: inline-block;
+    height: 80px;
+    margin: 0;
+    padding: 30px 0 30px 0;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.navborderright {
+    border-right: 2px solid #FFFFFF;
+}
+
+.navborderleft {
+    border-left: 2px solid #FFFFFF;
+}
+
+nav a {
+    height: 80px;
+    text-decoration: none;
+    width: 120px;
+    padding: 30px 15px 30px 15px;
+    margin: 0;
+}
+
+nav a:link { 
+    color: #f6f6e8; 
+}
+
+nav a:visited {
+    color: #f6f6e8;
+}
+
+nav a:hover {
+    color: #f6f6e8;
+}
+
+nav a:active {
+    color: #f6f6e8
+}
+
+#mousetitle { width: 100px;
+		      height: 100px;
+		      margin: auto;
+	
+}
+
+
+#mousetitle p { text-align: center;
+		        border: 2px solid black;
+				background-color: #008F68;
+		   
+}
+
+.pricebracket{ width: 100px;
+		       height: 50x;
+			   text-align: center;
+			   margin: auto;
+			   border: 2px solid black;
+			   background-color: #008F68;
+}
+
+.bigbox { width: 750px;
+	      margin: auto;
+}
+
+.text { width:250px;
+		float:right;
+}
+
+
+.imgbox img { height:250px;
+		      width: 250px;
+			  margin-top: 20px;
+			  
+			  
+			  
+			  
+				 
+}
+
