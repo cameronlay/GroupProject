@@ -128,6 +128,16 @@ main{
 	width: 33%;
 }
 
+#contactus{
+	width: 1000px;
+	margin: auto;
+	text-align: center;
+}
+
+#contactus img{
+	align: middle;
+}
+
 /* footer */
 
 footer {
