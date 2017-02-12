@@ -13,6 +13,9 @@ body {
 
 nav {
     background-color: #000000;
+    /* <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+        if you guys want to use Anton font, then copy this link inside your
+        head section of html file. */
     font-family: 'Anton', sans-serif;
     width: 100%;
     height: 80px;
