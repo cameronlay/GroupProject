@@ -98,6 +98,9 @@ main {
 }
 h1 {
 	text-align: center;
+	background-color: #d43f3f;
+	width: 1000px;
+	margin: auto;
 }
 
 #topthree {
