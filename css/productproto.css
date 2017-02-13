@@ -5,9 +5,11 @@
 body, html {
     height: 100%;
 	background-color: #404040;
-    color: #f6f6e8;
+	color: #f6f6e8;
     margin: 0;
 }
+
+
 
 /* nav styling */
 nav {
@@ -86,9 +88,15 @@ nav li a:hover {
 
 
 
-/* page name styling */
+/* content styling */
 
-#pagename    { margin-top: 40px;
+#content{ width: 1000px;
+	      margin: auto;
+		  background-color: black;
+}
+
+#pagename{ padding-top: 40px;
+	
 }
 
 
@@ -98,8 +106,6 @@ nav li a:hover {
 				height: 40px;
 		        border: 2px solid black;
 				background-color: #008F68;
-				
-		   
 }
 
 .pricebracket{ width: 100px;
@@ -113,34 +119,34 @@ nav li a:hover {
 
 }
 
-/* content styling */
-
-
-
 .contentbox { width: 750px;
 			  margin: auto;
 			  
 }
 
-.textbox { width:400px;
-		   float:right;
-		   padding-right:20px;
-		   padding-top: 20px;
+.contentbox img { height:250px;
+                  width: 300px;
+			      margin-top: 20px;
 }
 
-
-.contentbox img { height:250px;
-    width: 300px;
-			  margin-top: 20px;
+.textbox { width:400px;
+		   float:right;
+		   padding-top:40px;
+		   padding-right: 20px;
 }
 
 #bottombox { width: 750px;
              height: 300px;
 	         margin: auto;
-			 
-}			 
+}
+
+#bottombox img {height:250px;
+                width: 300px;
+			    margin-top: 20px;
+}				  
 
 hr { margin-top: 20px;
+	 width: 750px;
 }
 
 /* Footer styling */
