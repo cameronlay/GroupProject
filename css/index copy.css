@@ -31,9 +31,10 @@ nav {
     padding: 0;
     width: 100%;
     height: 80px;
-    min-width: 1536px;
+    min-width: 1519px;
     min-height: 80px;
     max-height: 80px;
+    position: fixed;
 }
 
 #navleft {
@@ -60,6 +61,7 @@ ul {
     padding-bottom: 9px;
     padding-left: 0;
     padding-right: 0;
+    /* overflow: auto; */
 }
 
 ul li {
@@ -85,13 +87,61 @@ nav li a:hover {
 
 /* body */
 
+#mainwrapper {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
 
+main img {
+}
 
+main div {
 
+}
+
+.Pictures {
+    display: inline-block;
+    margin-left: 63px;
+    margin-right: 63px;
+}
 
 
 /* footer */
 
+footer { width: 100%;
+		 min-height: 100px;
+		 bottom: 0;
+		 background-color: #000000;
+		 z-index: 20;
+	
+	
+}
+
+.footerconstraint { width: 1000px;
+	                margin: auto;
+}
+
+.bottomleftcolumn { display: inline-table;
+	                width: 20%;
+	                margin-left: 10%;
+}
+
+.middleleftcolumn { display:inline-table;
+	                width: 20%;
+}
+
+.middlerightcolumn {
+	display: inline-table;
+	width: 20%;
+}
+
+.bottomrightcolumn {
+	display: inline-table;
+	width: 20%;
+}
 
 
 
