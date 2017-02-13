@@ -6,10 +6,10 @@ body {
     background-color: #404040;
     color: #f6f6e8;
     margin: 0;
+    width: 100%;
 }
 
-
-/* Navbar */
+/* nav */
 
 nav {
     background-color: #000000;
@@ -85,9 +85,6 @@ nav li a:hover {
     color: #404040;
 }
 
-/* body */
-
-
 /* footer */
 
 footer { width: 100%;
@@ -95,8 +92,6 @@ footer { width: 100%;
 		 bottom: 0;
 		 background-color: #000000;
 		 z-index: 20;
-	
-	
 }
 
 .footerconstraint { width: 1000px;
@@ -120,49 +115,4 @@ footer { width: 100%;
 .bottomrightcolumn {
 	display: inline-table;
 	width: 20%;
-}
-
-/* To Jason, just comment before another parts start */
-
-.sitemap{
-    text-align: center;
-     font-family: 'Anton', sans-serif;
-    background-color: #1d76b5;
-    box-shadow: 0 0 5px 10px #1d76b5;
-}
-
-
-
-#table1{
-    background-color: black;
-    font-family: 'Anton', sans-serif;
-    font-weight: bold;
-    margin-left: 25%;
-    margin-right: 25%;
-    box-shadow: 0 0 5px 10px black;
-   
-}
-#tablecontent{
-    
-     width:100%; 
-     border:"1";
-}
-
-.col{
-    text-align: center;
-}
-.cameron img{
-    -webkit-transition: all 1s ease; /* Safari and Chrome */
-    -moz-transition: all 1s ease; /* Firefox */
-    -ms-transition: all 1s ease; /* IE 9 */
-    -o-transition: all 1s ease; /* Opera */
-    transition: all 1s ease;
-}
-
-.cameron:hover img {
-    -webkit-transform:scale(1.5); /* Safari and Chrome */
-    -moz-transform:scale(1.5); /* Firefox */
-    -ms-transform:scale(1.5); /* IE 9 */
-    -o-transform:scale(1.5); /* Opera */
-     transform:scale(1.5);
 }
