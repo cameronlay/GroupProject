@@ -109,8 +109,10 @@ hr { margin-top: 20px;
 
 /* content styling */
 
+
+
 .contentbox { width: 750px;
-	          margin: auto;
+			  margin: auto;
 			  
 }
 
@@ -121,14 +123,15 @@ hr { margin-top: 20px;
 }
 
 
-.imgbox img { height:250px;
-		      width: 300px;
+img { height:250px;
+    width: 300px;
 			  margin-top: 20px;
 }
 
 #bottombox { width: 750px;
+             height: 300px;
 	         margin: auto;
-			 padding-bottom:50px;
+			 
 }			 
 
 /* Footer styling */
