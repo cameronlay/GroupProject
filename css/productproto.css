@@ -4,7 +4,9 @@
 
 body, html {
     height: 100%;
-	background-color: #404040;
+	background-image: url("../products/images/background.jpg");
+	background-attachment: fixed;
+	/*background-color: #404040;*/
 	color: #f6f6e8;
     margin: 0;
 }
@@ -90,9 +92,9 @@ nav li a:hover {
 
 /* content styling */
 
-#content{ width: 1000px;
-	      margin: auto;
-		  background-color: black;
+#contentwrapper{ width: 1000px;
+				 margin: auto;
+				 background-color: black;
 }
 
 #pagename{ padding-top: 40px;
