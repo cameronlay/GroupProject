@@ -83,22 +83,33 @@ nav a:active {
     color: #f6f6e8
 }
 
-.sitemap{
+#sitemaptop{
     text-align: center;
      font-family: 'Anton', sans-serif;
-    background-color: #1d76b5;
-    box-shadow: 0 0 5px 10px #1d76b5;
+    border-bottom: solid;
+    
+}
+
+#sitemapbtm{
+    text-align: center; 
+     font-family: 'Anton', sans-serif;
+    border-top: solid;
+    bottom:0;
+    background-position: bottom;
+
 }
 
 
 
 #table1{
-    background-color: black;
+    background-color: #595959;
     font-family: 'Anton', sans-serif;
     font-weight: bold;
     margin-left: 25%;
     margin-right: 25%;
-    box-shadow: 0 0 5px 10px black;
+    margin-top:10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px 10px #595959;
    
 }
 #tablecontent{
