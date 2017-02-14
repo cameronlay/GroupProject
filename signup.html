@@ -8,6 +8,7 @@
    </style>
    <meta charset="utf-8">
    <link rel="stylesheet" href="css/base.css">
+   <link rel="stylesheet" href="css/signup.css">
    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">   
 </head>
 
@@ -33,14 +34,53 @@
         </div>
     </nav>
 	<main>
-		<div>
-			<a href="index/Images/logostyle2.png" alt="Logo" width="300" width="200"></a>
+		<div id="bigLogo">
+			<a href=""><img src="index/Images/logostyle2.png" alt="Logo" width="500" width="350"></a>
 		</div>
-		<form id="loginForm" name="loginForm" method="post" action="login.php">
-			<table>
+		<form id="loginForm" name="loginForm" method="post" action="register.php">
+			<table id="signuptable">
 				<tbody>
 					<tr>
-						
+						<td>
+						<b>Email</b>
+						</td>
+						<td>
+						<input id="email" class="textfield" name="email" type="text">
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<b>Username</b>
+						</td>
+						<td>
+						<input id="login" class="textfield" name="login" type="text">
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<b>Password</b>
+						</td>
+						<td>
+						<input id="password" class="textfield" name="password" type="password">
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<b>Confirm Password</b>
+						</td>
+						<td>
+						<input id="cpassword" class="textfield" name="cpassword" type="password">
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+						<input name="Submt" value="Register" type="submit">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
 	</main>
    <footer>
 		<div class="footerconstraint">
