@@ -1,38 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <title>
-      
-   </title>
+   <title>Sign-Up</title>
+   <link rel="title icon" href="index/Images/titleimg2.ico"/>
    <style>
       
    </style>
    <meta charset="utf-8">
-    <!-- <link rel="stylesheet" href="NAME.css"> -->
+   <link rel="stylesheet" href="css/base.css">
+   <link rel="stylesheet" href="css/signup.css">
+   <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">   
 </head>
-<!-- <hr> make horizontal line
-    -->
-    
+
 <body>
-	<nav>
-		<ul>
-			<li>Home</li>
-			<li>Products</li>
-			<li>About us</li>
-		</ul>
-	</nav>
-   <main>
-      <div>
-         <p>Create Username</p>
-      </div>
-	  <div>
-         <p>Enter Email</p>
-      </div>
-	        <div>
-         
-      </div>
-   </main>
+   <nav>
+        <div id="navwrapper">
+            <div id="navleft">
+                <ul>
+                    <li><a href="">Mice</a></li>
+                    <li><a href="">Keyboard</a></li>
+                    <li><a href="">Monitor</a></li>
+                </ul>
+            </div>
+                <a href=""><img id="imgid" src="index/Images/logostyle2.png" alt="Logo"
+                width="180" height="80"></a>
+            <div id="navright">    
+                <ul>
+                    <li><a href="../info.html">About Us</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Forum</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+	<main>
+		<div id="bigLogo">
+			<a href=""><img src="index/Images/logostyle2.png" alt="Logo" width="500" width="350"></a>
+		</div>
+		<form id="loginForm" name="loginForm" method="post" action="register.php">
+			<table id="signuptable">
+				<tbody>
+					<tr>
+						<td>
+						<b>Email</b>
+						</td>
+						<td>
+						<input id="email" class="textfield" name="email" type="text">
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<b>Username</b>
+						</td>
+						<td>
+						<input id="login" class="textfield" name="login" type="text">
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<b>Password</b>
+						</td>
+						<td>
+						<input id="password" class="textfield" name="password" type="password">
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<b>Confirm Password</b>
+						</td>
+						<td>
+						<input id="cpassword" class="textfield" name="cpassword" type="password">
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+						<input name="Submt" value="Register" type="submit">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+	</main>
    <footer>
+		<div class="footerconstraint">
+        <div class="bottomleftcolumn">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Contact</a></li>
+				<li><a href="">About Us</a></li>
+			</ul>
+		</div>
+		<div class="middleleftcolumn">
+			<ul>
+                <li><a href="">Mice</a></li>
+                <li><a href="">Keyboard</a></li>
+                <li><a href="">Monitor</a></li>
+			</ul>
+		</div>
+		<div class="middlerightcolumn">
+			<ul>
+
+                <li><a href="">Forum</a></li>				
+            </ul>
+        </div>
+        <div class="bottomrightcolumn">
+            <ul>
+                <li><a href="">Information</a></li>
+                <li><a href="">Sitemap</a></li>
+            </ul>
+        </div>
+		</div>
    </footer>
 </body>
 </html>
