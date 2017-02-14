@@ -149,6 +149,9 @@ nav li a:hover {
 
 hr { margin-top: 20px;
 	 width: 750px;
+	 background: #008F68; height: 1px; border: 0; /* For browsers that do not support gradients */
+	 background: linear-gradient(to right, purple, blue, green, red, yellow);
+			
 }
 
 /* Footer styling */
