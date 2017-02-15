@@ -94,7 +94,7 @@ nav li a:hover {
 
 #contentwrapper{ width: 1000px;
 				 margin: auto;
-				 background-color: black;
+				 background-color: #404040;
 }
 
 #pagename{ padding-top: 40px;
@@ -137,6 +137,11 @@ nav li a:hover {
 		   padding-right: 20px;
 }
 
+#extraText { width:400px;
+			 float:right;
+		  
+}
+
 #bottombox { width: 750px;
              height: 300px;
 	         margin: auto;
@@ -145,12 +150,18 @@ nav li a:hover {
 #bottombox img {height:250px;
                 width: 300px;
 			    margin-top: 20px;
+}
+
+button { 
+		 
+		 position: relative;
+		 
 }				  
 
 hr { margin-top: 20px;
 	 width: 750px;
-	 background: #008F68; height: 1px; border: 0; /* For browsers that do not support gradients */
-	 background: linear-gradient(to right, purple, blue, green, red, yellow);
+	 background: #008F68; height: 3px; border: 0; /* For browsers that do not support gradients */
+	 background: linear-gradient(to right, blue, green, red);
 			
 }
 
