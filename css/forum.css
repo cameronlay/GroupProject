@@ -1,0 +1,106 @@
+/* WTB VARIABLES*/
+/* offset: 25px */
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+	    background-color: #404040;
+    color: #f6f6e8;
+    margin: 0;
+    width: 100%;
+}
+/* Main Container for contents */
+#container{
+	width:50%; /* 75% of total page */
+	background-color:pink;
+	
+	/* centered */
+	margin-left:auto;
+	margin-right:auto;
+}
+#form1 {
+	margin-top: 10%; /* If this changes Photo needs to change too*/
+	/* main box */
+	width:60%;
+	float:left;
+	height:700px;
+	background-color:blue;
+}
+/* photo is offsetting from form1's margin left*/
+#photo {
+	/* main box */
+	margin-top: 10%;
+	width:35%;
+	float: right;
+	height:700px;
+	background-color:green;
+	
+	/* RANDOM PLACEHOLDER */
+	text-align:center;
+}
+#fillinfo {
+	/* centered */
+	margin-left:auto;
+	margin-right:auto;
+	
+	margin-top: 25px;
+	width:350px; /*400-25-25*/
+	height:300px;
+	background-color:red;
+	
+	/* RANDOM PLACEHOLDER */
+	text-align:center;
+}
+#textbox {
+	/* centered */
+	margin-left:auto;
+	margin-right:auto;
+	
+	margin-top: 20px;
+	background-color: yellow;
+	width:350px;
+	height:300px;
+	
+	/* RANDOM PLACEHOLDER */
+	text-align:center;
+}
+
+
+
+/* footer */
+
+footer { width: 100%;
+		 min-height: 100px;
+		 bottom: 0;
+		 background-color: #000000;
+		 z-index: 20;
+	
+	
+}
+
+.footerconstraint { width: 1000px;
+	                margin: auto;
+}
+
+.bottomleftcolumn { display: inline-table;
+	                width: 20%;
+	                margin-left: 10%;
+}
+
+.middleleftcolumn { display:inline-table;
+	                width: 20%;
+}
+
+.middlerightcolumn {
+	display: inline-table;
+	width: 20%;
+}
+
+.bottomrightcolumn {
+	display: inline-table;
+	width: 20%;
+}
+
