@@ -152,9 +152,9 @@ nav li a:hover {
 			    margin-top: 20px;
 }
 
-button { 
-		 
-		 position: relative;
+button { position: relative;
+		 left: 500px;
+		 bottom: 30px;
 		 
 }				  
 
