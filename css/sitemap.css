@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #404040;
+    background-color: #f6f6e8;
     color: #f6f6e8;
     margin: 0;
 }
@@ -112,9 +112,17 @@ footer { width: 100%;
 	                width: 20%;
 }
 
-<<<<<<< HEAD
+<<<<<<< HEAD >>>>>>>
 #sitemaptop{
-=======
+    
+    
+}
+
+#sitemaptitle{
+    text-align: center;
+    text-align: middle;
+}
+
 .middlerightcolumn {
 	display: inline-table;
 	width: 20%;
@@ -128,7 +136,6 @@ footer { width: 100%;
 /* To Jason, just comment before another parts start */
 
 .sitemap{
->>>>>>> c9e399ffa50c81b8f3cc9aef7154830560196262
     text-align: center;
      font-family: 'Anton', sans-serif;
     border-bottom: solid;
@@ -166,18 +173,4 @@ footer { width: 100%;
 .col{
     text-align: center;
 }
-.cameron img{
-    -webkit-transition: all 1s ease; /* Safari and Chrome */
-    -moz-transition: all 1s ease; /* Firefox */
-    -ms-transition: all 1s ease; /* IE 9 */
-    -o-transition: all 1s ease; /* Opera */
-    transition: all 1s ease;
-}
 
-.cameron:hover img {
-    -webkit-transform:scale(1.5); /* Safari and Chrome */
-    -moz-transform:scale(1.5); /* Firefox */
-    -ms-transform:scale(1.5); /* IE 9 */
-    -o-transform:scale(1.5); /* Opera */
-     transform:scale(1.5);
-}
