@@ -1,13 +1,19 @@
 /* body */
+#centerlogo{
+	text-align:center;
+}
+/* #loginForm { */
+	/* align: center; */
+	/* width: 500; */
+	/* cellspacing: 0 */
+	/* cellpadding: 2 */
+	/* border: 0: */
+/* } */
 
-#biglogo {
-	margin: auto;
+/* Forces form fields to "center" on the page */
+form
+{
+	margin-left: 40%;
+	width : 50%
 }
 
-#signuptable {
-	align: center;
-	width: 500;
-	cellspacing: 0
-	cellpadding: 2
-	border: 0:
-}
