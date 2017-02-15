@@ -1,13 +1,23 @@
+
 /* body */
 
-#biglogo {
-	margin: auto;
+
+#centerlogo{
+	text-align:center;
 }
 
-#signuptable {
-	align: center;
-	width: 500;
-	cellspacing: 0
-	cellpadding: 2
-	border: 0:
+/* #loginForm { */
+	/* align: center; */
+	/* width: 500; */
+	/* cellspacing: 0 */
+	/* cellpadding: 2 */
+	/* border: 0: */
+/* } */
+
+/* Forces form fields to "center" on the page */
+form
+{
+	margin-left: 40%;
+	width : 50%
 }
+
