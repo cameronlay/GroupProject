@@ -69,13 +69,13 @@ nav ul {
 
 nav ul li {
     display: inline;
-    width: 18%;
+    flex: 1;
     background-color: #183030;
     margin: 0;
 }
 
 nav ul a {
-    width: 18%;
+    flex: 1;
     color: #f6f6e8;
     text-decoration: none;
     display: box;

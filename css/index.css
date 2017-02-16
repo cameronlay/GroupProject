@@ -18,6 +18,8 @@
 
 .dropdown:hover .dropdown_content {
     display: block;
+    /* background-color: #f6f6e8; */
+    /* color: #183030; */
 }
 
 /* body */
