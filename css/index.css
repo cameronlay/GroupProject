@@ -14,6 +14,12 @@
     width: 100%;
     z-index: 21;
     color: #f6f6e8;
+    padding: 0;
+}
+
+.dropdown_content a {
+    width: 100%;
+    
 }
 
 .dropdown:hover .dropdown_content {
