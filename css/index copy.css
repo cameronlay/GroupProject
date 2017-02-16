@@ -31,7 +31,7 @@ nav {
     padding: 0;
     width: 100%;
     height: 60px;
-    min-width: 1519px;
+    min-width: 1215px;
     min-height: 60px;
     max-height: 60px;
     position: fixed;
@@ -47,7 +47,7 @@ nav {
 }
 
 #imgid {
-    width: 180px;
+    width: 140px;
     /* width: 16%; */
     margin: 0;
     background-color: #183030;
@@ -62,25 +62,28 @@ nav ul {
     padding-bottom: 9px;
     padding-left: 0;
     padding-right: 0;
-    /* overflow: auto; */
 }
 
 nav ul li {
     display: inline;
-    width: 14%;
+    width: 18%;
     background-color: #183030;
+    margin: 0;
+    
 }
 
 nav ul a {
-    width: 14%;
+    width: 18%;
     color: #f6f6e8;
     text-decoration: none;
     display: box;
     /* width: 300px; */
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-top: 9px;
-    padding-bottom: 11px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin: 0;
+    /* vertical-align: middle; */
 }
 
 nav li a:hover {
@@ -110,43 +113,5 @@ main div {
     margin-left: 63px;
     margin-right: 63px;
 }
-
-
-/* footer */
-
-footer { width: 100%;
-		 min-height: 100px;
-		 bottom: 0;
-		 background-color: #183030;
-		 z-index: 20;
-		 font-family: sans-serif;
-	
-	
-}
-
-.footerconstraint { width: 1000px;
-	                margin: auto;
-}
-
-.bottomleftcolumn { display: inline-table;
-	                width: 20%;
-	                margin-left: 10%;
-}
-
-.middleleftcolumn { display:inline-table;
-	                width: 20%;
-}
-
-.middlerightcolumn {
-	display: inline-table;
-	width: 20%;
-}
-
-.bottomrightcolumn {
-	display: inline-table;
-	width: 20%;
-}
-
-
 
 
