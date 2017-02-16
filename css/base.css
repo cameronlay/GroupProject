@@ -108,6 +108,11 @@ footer {
 	z-index: 20;
 	font-family: sans-serif;	
 }
+
+footer li {
+	list-style: none;
+}
+
 footer li a:hover {
 	background-color: #f6f6e8;
     color: #183030;
