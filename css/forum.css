@@ -19,7 +19,8 @@
 	width:60%;
 	float:left;
 	height:700px;
-	background-color:#4b6b36;
+	color: #4b6b36;
+	/* background-color:#4b6b36; */
 	min-width: 350px; /* restricting size */
 }
 /* photo is offsetting from form1's margin left*/
@@ -30,10 +31,15 @@
 	float: right;
 	height:700px;
 	background-color:#4b6b36 ;
+	color:#ffffff;
 	min-width: 350px; /* restricting size */
 	/* RANDOM PLACEHOLDER */
 	
 	text-align:center;
+}
+/* hacking atm */
+table {
+	width:400px;
 }
 #forumlist {
 	/* centered */
@@ -45,7 +51,10 @@
 	height:30%;
 	min-width: 300px; /* restricting size */
 	
+	color: #4b6b36;
+	
 	background-color:#ffffff ;
+	text-align:center;
 }
 
 #textbox {
