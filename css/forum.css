@@ -39,8 +39,9 @@
 }
 /* hacking atm */
 table {
-	width:400px;
+	margin: auto;
 }
+
 #forumlist {
 	/* centered */
 	margin-left:auto;
