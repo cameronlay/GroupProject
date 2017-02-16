@@ -45,7 +45,9 @@ nav {
 }
 
 #navright {
-    float: right;
+	
+	margin-left: 60%;	/* Prevents Stacking with the center logo*/
+	/* float: right; */
 }
 
 #imgid {
@@ -63,7 +65,6 @@ nav {
 	padding:0;
 }
 
-
 nav ul {
     background-color: #183030;
     list-style-type: none;
@@ -73,6 +74,7 @@ nav ul {
     padding-bottom: 9px;
     padding-left: 0;
     padding-right: 0;
+	overflow:hidden; /* the magic happens here prevents it from the ul from cascading */
 }
 
 nav ul li {
