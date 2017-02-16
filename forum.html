@@ -8,7 +8,9 @@
    <meta charset="utf-8">
    <!-- <link rel="stylesheet" href="NAME.css"> -->
    <link rel="stylesheet" href="css/base.css" />
+   <link rel="icon" href="index/Images/titleimg2.ico"/>
    <link rel="stylesheet" href="./css/forum.css" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet"/>
 </head>
 
@@ -17,17 +19,40 @@
         <div id="navwrapper">
             <div id="navleft">
                 <ul>
-                    <li><a href="products/mouse.html">Mice</a></li>
-                    <li><a href="products/keyboard.html">Keyboard</a></li>
-                    <li><a href="products/monitor.html">Monitor</a></li>
+                    <li>
+						<!-- Button is seperate from the div -->
+						<div class="dropdown"><a href="products/mouse.html" class="dropdown">Mice</a>
+							<div class="dropdown_content">
+							<p><a href="#">$</a></p>
+							<p><a href="#">$$</a></p>
+							<p><a href="#">$$$</a></p>
+							</div>
+						</div>
+					</li>
+                    <li><div class="dropdown"><a href="products/keyboard.html" class="dropdown">Keyboard</a>
+                            <div class="dropdown_content">
+                            <p><a href="#">$</a></p>
+                            <p><a href="#">$$</a></p>
+                            <p><a href="#">$$$</a></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li><div class="dropdown"><a href="products/monitor.html" class="dropdown">Monitor</a>
+                            <div class="dropdown_content">
+                            <p><a href="#">$</a></p>
+                            <p><a href="#">$$</a></p>
+                            <p><a href="#">$$$</a></p>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
             </div>
-                <a href="index/index.html"><img id="imgid" src="index/Images/logostyle2.png" alt="Logo"/></a>
+                <a href="index/index.html"><img id="imgid" src="index/Images/logonew.png" alt="Logo"></a>
             <div id="navright">    
                 <ul>
-                    <li><a href="info.html">About Us</a></li>
-                    <li><a href="info.html#contactheader">Contact</a></li>
-                    <li><a href="forum.html">Forum</a></li>
+                    <li><div class="dropdown"><a href="./info.html" class="dropdown">About Us</a></div></li>
+                    <li><div class="dropdown"><a href="./info.html#contactheader" class="dropdown">Contact</a></div></li>
+                    <li><div class="dropdown"><a href="./forum.html" class="dropdown">Forum</a></div></li>
                 </ul>
             </div>
         </div>

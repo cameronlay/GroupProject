@@ -58,8 +58,9 @@ nav {
     width: 140px;
 	height: 60px;
     /* width: 16%; */
-    margin: auto;
+    margin: 0;
     background-color: #183030;
+    padding: 0;
 	/* position:absolute; 	/* Fixes the image*/ */
 }
 /* resizing the icon boxes*/
@@ -92,12 +93,12 @@ nav ul a {
     /* flex: 1; */
     color: #f6f6e8;
     text-decoration: none;
-    display: box;
+    display: block;
     /* width: 300px; */
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 10px;
-    padding-bottom: 3px;
+    padding-top: 6px;
+    padding-bottom: 7px;
     margin: 0;
     /* vertical-align: middle; */
 }
@@ -120,12 +121,17 @@ nav li a:hover {
     width: 100%;
     z-index: 21;
     color: #f6f6e8;
+    padding-left: 0;
+    margin: 0;
+}
+
+.dropdown_content p {
+    padding-top: 0;
+    margin: 0;
 }
 
 .dropdown:hover .dropdown_content {
     display: block;
-    /* background-color: #f6f6e8; */
-    /* color: #183030; */
 }
 
 /* body */
