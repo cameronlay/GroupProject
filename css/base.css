@@ -483,7 +483,7 @@ forumtable {
 	padding:15px;
 	text-align:center;
 }
-#forumtable td,tr,th {
+#forumtable td,#forumtable tr,#forumtable th {
 	margin: auto;
 	border: 1px solid black;
 	width: 600px;
