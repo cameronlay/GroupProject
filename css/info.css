@@ -23,6 +23,11 @@ h1 {
 	margin: auto;
 }
 
+.profilepic {
+	width: 140px;
+	height: 140px;
+}
+
 #cameroninfo {
 	display: inline-block;
 	text-align: center;
