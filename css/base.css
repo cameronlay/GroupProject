@@ -61,7 +61,7 @@ nav {
     margin: 0;
     background-color: #183030;
     padding: 0;
-	/* position:absolute; 	/* Fixes the image*/ */
+	/* position:absolute; 	/* Fixes the image*/
 }
 /* resizing the icon boxes*/
 .dropdown{
@@ -121,13 +121,14 @@ nav li a:hover {
     width: 100%;
     z-index: 21;
     color: #f6f6e8;
-    padding-left: 0;
-    margin: 0;
+    /* padding-left: 0; */
+    /* margin: 0; */
 }
 
 .dropdown_content p {
-    padding-top: 0;
+    /* padding-top: 0; */
     margin: 0;
+    /* border-top: 1px solid #ffffff; */
 }
 
 .dropdown:hover .dropdown_content {
@@ -136,6 +137,9 @@ nav li a:hover {
 
 /* body */
 
+main {
+    font-family: 'Open Sans', sans-serif;
+}
 
 
 /* footer */

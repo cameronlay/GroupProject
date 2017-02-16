@@ -6,7 +6,7 @@
 
 /* body */
 
-#mainwrapper {
+#indexMainWrapper {
     width: 85%;
     margin-left: auto;
     margin-right: auto;
@@ -14,17 +14,28 @@
     margin-bottom: 100px;
 }
 
-main img {
-}
-
-main div {
-
-}
-
-.Pictures {
+.indexPictures {
     display: inline-block;
     margin-left: 63px;
     margin-right: 63px;
 }
 
+.indexSignUp_LogIn {
+    float: right;
+    margin-right: 30px;
+    display: block;
+}
 
+.indexSignUp {
+    margin-right: 10px;
+    background-color: #183030;
+    display: block;
+    color: #f6f6e8;
+}
+
+.indexLogIn {
+    margin-left: 10px;
+    background-color: #183030;
+    display: block;
+    color: #f6f6e8;
+}
