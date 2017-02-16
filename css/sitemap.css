@@ -114,13 +114,12 @@ footer { width: 100%;
 
 <<<<<<< HEAD >>>>>>>
 #sitemaptop{
-    
-    
-}
+   }
 
 #sitemaptitle{
     text-align: center;
     text-align: middle;
+    text-decoration-color: black;
 }
 
 .middlerightcolumn {
@@ -153,21 +152,30 @@ footer { width: 100%;
 
 
 
+
+
 #table1{
-    background-color: #595959;
+
+    background-color: #f6f6e8;
     font-family: 'Anton', sans-serif;
     font-weight: bold;
+    color:black;
     margin-left: 25%;
     margin-right: 25%;
     margin-top:10px;
     margin-bottom: 10px;
-    box-shadow: 0 0 5px 10px #595959;
+    box-shadow: 0 0 5px 10px #f6f6e8;
    
 }
 #tablecontent{
-    
+    border-collapse: collapse;
      width:100%; 
      border:"1";
+}
+tr:hover {background-color: #c7c7c7}
+th, td {
+    border-bottom,border-left: 0;
+    margin:0;
 }
 
 .col{
