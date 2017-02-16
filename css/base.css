@@ -40,8 +40,8 @@ nav {
 }
 
 #navleft {
+	position:absolute; /* required so the UL doesnt push itself down */
     float: left;
-    
 }
 
 #navright {
@@ -50,11 +50,19 @@ nav {
 
 #imgid {
     width: 140px;
-    /* width: 16%; */
-    margin: 0;
-    background-color: #183030;
 	height: 60px;
+    /* width: 16%; */
+    margin: auto;
+    background-color: #183030;
+	position:absolute; 	/* Fixes the image*/
 }
+/* resizing the icon boxes*/
+.dropdown{
+	min-width: 200px; 
+	margin:0;
+	padding:0;
+}
+
 
 nav ul {
     background-color: #183030;
