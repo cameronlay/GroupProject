@@ -94,8 +94,8 @@ nav ul a {
     text-decoration: none;
     display: box;
     /* width: 300px; */
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-top: 10px;
     padding-bottom: 3px;
     margin: 0;
@@ -110,6 +110,7 @@ nav li a:hover {
 .dropdown {
     position: relative;
     display: inline-block;
+    width: 180px;
 }
 
 .dropdown_content {
