@@ -2,100 +2,11 @@
     box-sizing: border-box;
 }
 
-body, html {
-    height: 100%;
-	background-image: url("../products/images/background.jpg");
-	background-attachment: fixed;
-	/*background-color: #404040;*/
-	color: #f6f6e8;
-    margin: 0;
-}
-
-
-
-/* nav styling */
-nav {
-    background-color: #000000;
-    /* <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
-        if you guys want to use Anton font, then copy this link inside your
-        head section of html file. */
-    font-family: 'Anton', sans-serif;
-    width: 100%;
-    height: 80px;
-    font-weight: bold;
-    font-size: 2.5em;
-    text-align: center;
-}   
-
-#navwrapper {
-    display: box;
-    background-color: #000000;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 80px;
-    min-width: 1519px;
-    min-height: 80px;
-    max-height: 80px;
-    position: fixed;
-	z-index: 20;
-}
-
-#navleft {
-    float: left;
-    
-}
-
-#navright {
-    float: right;
-}
-
-#imgid {
-    width: 180px;
-    margin: 0;
-    background-color: #000000;
-}
-
-ul {
-    background-color: #000000;
-    list-style-type: none;
-    height: 80px;
-    margin: 0;
-    padding-top: 9px;
-    padding-bottom: 9px;
-    padding-left: 0;
-    padding-right: 0;
-    /* overflow: auto; */
-}
-
-ul li {
-    display: inline;
-    background-color: #000000;
-}
-
-ul a {
-    color: #f6f6e8;
-    text-decoration: none;
-    display: box;
-    width: 300px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 9px;
-    padding-bottom: 9px;
-}
-
-nav li a:hover {
-    background-color: #f6f6e8;
-    color: #404040;
-}
-
-
-
 /* content styling */
 
 #contentwrapper{ width: 1000px;
 				 margin: auto;
-				 background-color: #404040;
+				 
 }
 
 #pagename{ padding-top: 40px;
@@ -109,6 +20,7 @@ nav li a:hover {
 				height: 40px;
 		        border: 2px solid black;
 				background-color: #008F68;
+				color: #f6f6e8;
 }
 
 .pricebracket{ width: 100px;
@@ -118,10 +30,7 @@ nav li a:hover {
 			   margin-top: 20px;
 			   border: 2px solid black;
 			   background-color: #008F68;
-			   
-			   
-			   
-
+			   color: #f6f6e8;
 }
 
 .contentbox { width: 750px;
@@ -143,16 +52,14 @@ nav li a:hover {
 
 .textbox { width:400px;
 		   float:right;
-		   padding-top:40px;
-		   padding-right: 20px;
+		   padding:40px 20px 0px 0px;
+		   
 }
 
 .extraText { width:400px;
 			 float:right;
 		     display: none;
 }
-
-
 
 #bottombox { width: 750px;
              height: 300px;
@@ -164,12 +71,10 @@ nav li a:hover {
 			    margin-top: 20px;
 }
 
-#bottombox button { position: relative;
+#bottombox button {  position: relative;
 					 left: 500px;
 					 bottom: 30px;
 }
-
-				  
 
 hr { margin-top: 20px;
 	 width: 750px;
@@ -177,39 +82,7 @@ hr { margin-top: 20px;
 	 background: linear-gradient(to right, blue, green, red);
 }
 
-.invisibleHr { background:#404040;
+.altHr { background: #f6f6e8;
+		 width: 750px;
 }
 
-/* Footer styling */
-
-footer { width: 100%;
-		 min-height: 100px;
-		 bottom: 0;
-		 background-color: #000000;
-		 z-index: 20;
-	
-	
-}
-
-.footerconstraint { width: 1000px;
-	                margin: auto;
-}
-
-.bottomleftcolumn { display: inline-table;
-	                width: 20%;
-	                margin-left: 10%;
-}
-
-.middleleftcolumn { display:inline-table;
-	                width: 20%;
-}
-
-.middlerightcolumn {
-	display: inline-table;
-	width: 20%;
-}
-
-.bottomrightcolumn {
-	display: inline-table;
-	width: 20%;
-}
