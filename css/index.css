@@ -2,25 +2,7 @@
 
 /* nav */
 
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
 
-.dropdown_content {
-    display: none;
-    position: absolute;
-    background-color: #183030;
-    width: 100%;
-    z-index: 21;
-    color: #f6f6e8;
-}
-
-.dropdown:hover .dropdown_content {
-    display: block;
-    /* background-color: #f6f6e8; */
-    /* color: #183030; */
-}
 
 /* body */
 

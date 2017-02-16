@@ -25,8 +25,12 @@ nav {
     text-align: center;
 }   
 
+#navli {
+    width: 160px;
+}
+
 #navwrapper {
-    display: box;
+    display: block;
     background-color: #183030;
     margin: 0;
     padding: 0;
@@ -40,14 +44,14 @@ nav {
 }
 
 #navleft {
-	position:absolute; /* required so the UL doesnt push itself down */
+	/* position:absolute; /* required so the UL doesnt push itself down */ 
     float: left;
 }
 
 #navright {
 	
-	margin-left: 60%;	/* Prevents Stacking with the center logo*/
-	/* float: right; */
+	/* margin-left: 60%;	/* Prevents Stacking with the center logo*/ 
+	float: right;
 }
 
 #imgid {
@@ -56,13 +60,13 @@ nav {
     /* width: 16%; */
     margin: auto;
     background-color: #183030;
-	position:absolute; 	/* Fixes the image*/
+	/* position:absolute; 	/* Fixes the image*/ */
 }
 /* resizing the icon boxes*/
 .dropdown{
-	min-width: 200px; 
-	margin:0;
-	padding:0;
+	min-width: 160px; 
+	/* margin:0; */
+	/* padding:0; */
 }
 
 nav ul {
@@ -70,22 +74,22 @@ nav ul {
     list-style-type: none;
     height: 60px;
     margin: 0;
-    padding-top: 9px;
+    padding-top: 0;
     padding-bottom: 9px;
     padding-left: 0;
     padding-right: 0;
-	overflow:hidden; /* the magic happens here prevents it from the ul from cascading */
+	/* overflow:hidden; /* the magic happens here prevents it from the ul from cascading */ */
 }
 
 nav ul li {
     display: inline;
-    flex: 1;
+    /* flex: 1; */
     background-color: #183030;
     margin: 0;
 }
 
 nav ul a {
-    flex: 1;
+    /* flex: 1; */
     color: #f6f6e8;
     text-decoration: none;
     display: box;
@@ -93,7 +97,7 @@ nav ul a {
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 3px;
     margin: 0;
     /* vertical-align: middle; */
 }
@@ -103,6 +107,25 @@ nav li a:hover {
     color: #183030;
 }
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown_content {
+    display: none;
+    position: absolute;
+    background-color: #183030;
+    width: 100%;
+    z-index: 21;
+    color: #f6f6e8;
+}
+
+.dropdown:hover .dropdown_content {
+    display: block;
+    /* background-color: #f6f6e8; */
+    /* color: #183030; */
+}
 
 /* body */
 
