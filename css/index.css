@@ -1,93 +1,117 @@
 * {
     box-sizing: border-box;
-}   
+}
 
 body {
-    width: 100%;
-    background-color: #404040;
-    color: #f6f6e8;
+    background-color: #f6f6e8;
+    color: #404040;
     margin: 0;
+    width: 100%;
 }
 
-/* top */
+/* nav */
 
 nav {
+    background-color: #183030;
+    /* <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+        if you guys want to use Anton font, then copy this link inside your
+        head section of html file. */
+    font-family: 'Anton', sans-serif;
     width: 100%;
-    /*position: fixed;*/
-    background-color: #000000;
-    height: 80px;
-    display: block;
-    margin-top: 0;
-}
-
-
-nav ul {
-    list-style-type: none;
-    color: #f6f6e8;
-    display: inline;
-    height: 80px;
-    margin: 0;
-    padding: 0;
+    height: 60px;
+    font-weight: bold;
     font-size: 2em;
     text-align: center;
-}
+}   
 
-ul div {
+#navwrapper {
+    display: box;
+    background-color: #183030;
     margin: 0;
-    width: 180px;
-    height: 60px;
-}
-
-.navimg {
-    width: 120px;
-    margin-left: 25px;
-    margin-right: 25px;
     padding: 0;
-    margin-top: 0;
+    width: 100%;
+    height: 60px;
+    min-width: 1215px;
+    min-height: 60px;
+    max-height: 60px;
+    position: fixed;
 }
 
-nav li {
-    display: inline-block;
-    /* height: 80px; */
+#navleft {
+    float: left;
+    
+}
+
+#navright {
+    float: right;
+}
+
+#imgid {
+    width: 140px;
+    /* width: 16%; */
     margin: 0;
-    padding: 20px 6.2px 0 6.2px;
-    text-align: center;
-    /* width: 100px; */
+    background-color: #183030;
 }
 
-.navborderright {
-    border-right: 2px solid #FFFFFF;
+nav ul {
+    background-color: #183030;
+    list-style-type: none;
+    height: 60px;
+    margin: 0;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 0;
+    padding-right: 0;
 }
 
-.navborderleft {
-    border-left: 2px solid #FFFFFF;
+nav ul li {
+    display: inline;
+    width: 18%;
+    background-color: #183030;
+    margin: 0;
+    
 }
 
-nav a {
-    height: 80px;
-    text-decoration: none;
-    font-family: 'Orbitron', sans-serif;
-    font-weight: bold;
-    /* padding: 30px 15px 30px 15px; */
-    /* margin: 0; */
-}
-
-nav a:link { 
-    color: #f6f6e8; 
-}
-
-nav a:visited {
+nav ul a {
+    width: 18%;
     color: #f6f6e8;
+    text-decoration: none;
+    display: box;
+    /* width: 300px; */
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin: 0;
+    /* vertical-align: middle; */
 }
 
-nav a:hover {
-    color: #aaaaaa;
+nav li a:hover {
+    background-color: #f6f6e8;
+    color: #183030;
 }
-
-/* nav a:active { */
-    /* color: #f6f6e8 */
-/* } */ 
 
 /* body */
 
-/* footer */
+#mainwrapper {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+main img {
+}
+
+main div {
+
+}
+
+.Pictures {
+    display: inline-block;
+    margin-left: 63px;
+    margin-right: 63px;
+}
+
+
