@@ -1,6 +1,8 @@
 /* body */
 #centerlogo{
 	text-align:center;
+	margin-top: 70px;
+	margin-bottom: 70px;
 }
 /* #loginForm { */
 	/* align: center; */
@@ -14,6 +16,7 @@
 form
 {
 	margin-left: 40%;
-	width : 50%
+	margin-bottom: 50px;
+	width : 50%;
 }
 

@@ -1,17 +1,7 @@
 /* WTB VARIABLES*/
 /* offset: 25px */
 
-* {
-    box-sizing: border-box;
-}
 
-
-body {
-	    background-color: #404040;
-    color: #f6f6e8;
-    margin: 0;
-    width: 100%;
-}
 /* Main Container for contents */
 #container{
 	width:50%; /* 75% of total page */
@@ -71,36 +61,3 @@ body {
 
 
 /* footer */
-
-footer { width: 100%;
-		 min-height: 100px;
-		 bottom: 0;
-		 background-color: #000000;
-		 z-index: 20;
-	
-	
-}
-
-.footerconstraint { width: 1000px;
-	                margin: auto;
-}
-
-.bottomleftcolumn { display: inline-table;
-	                width: 20%;
-	                margin-left: 10%;
-}
-
-.middleleftcolumn { display:inline-table;
-	                width: 20%;
-}
-
-.middlerightcolumn {
-	display: inline-table;
-	width: 20%;
-}
-
-.bottomrightcolumn {
-	display: inline-table;
-	width: 20%;
-}
-
