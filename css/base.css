@@ -101,12 +101,13 @@ nav li a:hover {
 /* footer */
 
 footer {
+    font-family: 'Open Sans', sans-serif;
 	width: 100%;
 	min-height: 100px;
 	bottom: 0;
 	background-color: #183030;
 	z-index: 20;
-	font-family: sans-serif;	
+	font-size: 0.8em;
 }
 
 footer li {
