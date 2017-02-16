@@ -12,16 +12,6 @@ body {
 /
 /* body */
 
-
-#sitemaptop{
-   }
-
-#sitemaptitle{
-    text-align: center;
-    text-align: middle;
-    text-decoration-color: black;
-}
-
 .middlerightcolumn {
 	display: inline-table;
 	width: 20%;
@@ -42,31 +32,35 @@ body {
 }*/
 
 #sitemaptop {
-    text-align: center;
+    font-size: 60px;
     color:black;
     height:200px;
     font-family:'Anton';
-    background-image:url("index/Images/map.png");
-    background-attachment: none;
     width: 100%;
-    height: 200px;
+    height: 160px;
+    position:relative;
+    text-align: center;
+    bottom:0;
 
-
-
+}
+#sitemap span{
+  
+   
 }
 
 
 
 #table1{
-    background-color: #f6f6e8;
+    background-image: url("index/images/map.png");
+    background-color: white;
     font-family: 'Anton', sans-serif;
     font-weight: bold;
     color:black;
-    margin-left: 20%;
+    margin-left: 22%;
     margin-right: 20%;
     margin-top:10px;
     margin-bottom: 10px;
-    box-shadow: 0 0 5px 10px #f6f6e8;
+    box-shadow: 0 0 5px 10px white;
    
 }
 #tablecontent{
@@ -76,7 +70,7 @@ body {
 }
 
 tr:hover {
-    background-color: #c7c7c7
+    background-color: #f6f6e8;
 }
 
 th, td {
