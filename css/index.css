@@ -18,24 +18,29 @@
     display: inline-block;
     margin-left: 63px;
     margin-right: 63px;
+    
 }
 
 .indexSignUp_LogIn {
     float: right;
     margin-right: 30px;
     display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4em;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
-.indexSignUp {
-    margin-right: 10px;
+.indexSignUp_LogIn a {
+    text-decoration: none;
     background-color: #183030;
-    display: block;
     color: #f6f6e8;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;   
 }
 
-.indexLogIn {
-    margin-left: 10px;
-    background-color: #183030;
-    display: block;
-    color: #f6f6e8;
+.indexSignUp_LogIn a:hover {
+    background-color: #f6f6e8;
+    color: #183030;
 }
