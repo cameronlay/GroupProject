@@ -51,7 +51,7 @@ body {
 
 
 #table1{
-    background-image: url("index/images/map.png");
+
     background-color: white;
     font-family: 'Anton', sans-serif;
     font-weight: bold;
@@ -67,6 +67,16 @@ body {
     border-collapse: collapse;
      width:100%; 
      border:"1";
+}
+
+#tablecontent th a{
+    color:black;
+    text-decoration: none;
+}
+
+#tablecontent td a{
+    color:black;
+    text-decoration: none;
 }
 
 tr:hover {
