@@ -35,6 +35,7 @@ nav {
     min-height: 80px;
     max-height: 80px;
     position: fixed;
+	z-index: 20;
 }
 
 #navleft {
