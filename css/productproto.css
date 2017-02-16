@@ -38,6 +38,7 @@ nav {
     min-height: 80px;
     max-height: 80px;
     position: fixed;
+	z-index: 20;
 }
 
 #navleft {
@@ -114,10 +115,12 @@ nav li a:hover {
 		       height: 30px;
 			   text-align: center;
 			   margin: auto;
-			   margin-top:40px;
-			   margin-bottom: 20px;
+			   margin-top: 20px;
 			   border: 2px solid black;
 			   background-color: #008F68;
+			   
+			   
+			   
 
 }
 
@@ -125,6 +128,13 @@ nav li a:hover {
 			  margin: auto;
 			  
 }
+
+.contentbox button { position: relative;
+					 left: 500px;
+					 bottom: 30px;
+					 
+}
+
 
 .contentbox img { height:250px;
                   width: 300px;
@@ -137,10 +147,12 @@ nav li a:hover {
 		   padding-right: 20px;
 }
 
-#extraText { width:400px;
+.extraText { width:400px;
 			 float:right;
-		  
+		     display: none;
 }
+
+
 
 #bottombox { width: 750px;
              height: 300px;
@@ -152,17 +164,20 @@ nav li a:hover {
 			    margin-top: 20px;
 }
 
-button { position: relative;
-		 left: 500px;
-		 bottom: 30px;
-		 
-}				  
+#bottombox button { position: relative;
+					 left: 500px;
+					 bottom: 30px;
+}
+
+				  
 
 hr { margin-top: 20px;
 	 width: 750px;
 	 background: #008F68; height: 3px; border: 0; /* For browsers that do not support gradients */
 	 background: linear-gradient(to right, blue, green, red);
-			
+}
+
+.invisibleHr { background:#404040;
 }
 
 /* Footer styling */
