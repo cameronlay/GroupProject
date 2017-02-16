@@ -19,18 +19,38 @@
 				text-align: center;
 				height: 40px;
 		        border: 2px solid black;
-				background-color: #008F68;
+				background-color: #183030;
 				color: #f6f6e8;
 }
 
-.pricebracket{ width: 100px;
-		       height: 30px;
-			   text-align: center;
-			   margin: auto;
-			   margin-top: 20px;
-			   border: 2px solid black;
-			   background-color: #008F68;
-			   color: #f6f6e8;
+#pricebracketlow{ width: 100px;
+				  height: 30px;
+			      text-align: center;
+			      margin: auto;
+			      margin-top: 40px;
+			      border: 2px solid black;
+			      background-color: #183030;
+			      color: #f6f6e8;
+}
+
+#pricebracketmid{ width: 100px;
+				  height: 30px;
+			      text-align: center;
+			      margin: auto;
+			      margin-top: 20px;
+			      border: 2px solid black;
+			      background-color: #183030;
+			      color: #f6f6e8;
+}
+
+#pricebrackethigh{ width: 100px;
+				  height: 30px;
+			      text-align: center;
+			      margin: auto;
+			      margin-top: 20px;
+			      border: 2px solid black;
+			      background-color: #183030;
+			      color: #f6f6e8;
 }
 
 .contentbox { width: 750px;
