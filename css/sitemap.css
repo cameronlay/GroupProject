@@ -43,10 +43,6 @@ body {
     bottom:0;
 
 }
-#sitemap span{
-  
-}
-
 
 
 #sitemaptable{
@@ -104,6 +100,22 @@ body {
 .col{
     text-align: center;
 }
+
+.keyboardcell img {
+
+    width:75px; height:auto;
+}
+
+.mousecell img {
+
+    width:75px; height:auto;
+}
+
+.monitorcell img {
+
+    width:75px; height:auto;
+}
+
 
 .cameron img{
     width:50px; height:auto;
