@@ -7,11 +7,9 @@
 #contentwrapper{ width: 1000px;
 				 margin: auto;
 				 font-family: 'Open Sans', sans-serif;
-
 }
 
 #pagename{ padding-top: 40px;
-	
 }
 
 
@@ -103,12 +101,5 @@
 					 
 }
 
-hr { width: 750px;
-	 background: #008F68; height: 3px; border: 0; /* For browsers that do not support gradients */
-	 background: linear-gradient(to right, blue, green, red);
-}
 
-.altHr { background: #f6f6e8;
-		 width: 750px;
-}
 
