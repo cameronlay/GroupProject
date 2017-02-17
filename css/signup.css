@@ -1,5 +1,5 @@
 /* body */
-#centerlogo{
+/*#centerlogo{
 	text-align:center;
 	margin-top: 70px;
 	margin-bottom: 70px;
@@ -19,8 +19,7 @@
 /* } */
 
 /* Forces form fields to "center" on the page */
-form
-{
+#signupform {
 	margin-left: 40%;
 	margin-bottom: 50px;
 	width : 50%;
