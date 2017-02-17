@@ -1,4 +1,4 @@
-/* Common CSS */
+/*-------------- Common CSS -------------------*/
 
 * {
     box-sizing: border-box;
@@ -16,7 +16,7 @@ body {
 	height: 100%;
 }
 
-/* nav */
+/*------------------ Nav -------------------------*/
 
 nav {
     background-color: #183030;
@@ -139,17 +139,17 @@ nav li a:hover {
     display: block;
 }
 
-/*-------------------------------------------*/
+/*------------ Nav End -----------------*/
 
-/* body */
+/*------------ Body -------------------*/
 
 main {
     font-family: 'Open Sans', sans-serif;
 }
 
-/*------------------------------------------*/
+/*------------ Body End ---------------*/
 
-/* footer */
+/*--------------- Footer --------------*/
 
 footer {
     font-family: 'Open Sans', sans-serif;
@@ -207,11 +207,11 @@ footer li a {
 	width: 20%;
 }
 
-/*--------------------------*/
+/*---------- Footer End ----------------*/
 
-/* // END OF Common CSS */
+/*---------------  END OF Common CSS ---------------*/
 
-/* index  */
+/*------ Index  --------*/
 
 #indexMainWrapper {
     width: 85%;
@@ -255,7 +255,7 @@ footer li a {
     color: #f6f6e8;
 }
 
-/* // END OF index */
+/*------- END OF index -----------*/
 
 /* THIS IS INDEX CSS FOR THE AB TESTING */
 
@@ -265,7 +265,7 @@ footer li a {
 }
 
 
-/*----------------------------  Main Container for Contents of Page: Forums ----------------------------*/
+/*------  Main Container for Contents of Page: Forums -----*/
 
 
 #forumcontainer {
@@ -322,10 +322,9 @@ ul.forumbody{
 	margin-right:0;
 }
 
+/*-------- End of Forum -----------*/
 
-/*-------------------*/
-
-/* Info Page */
+/*---------- Info Page -----------*/
 
 #infomain {
 	margin-top: 40px;
@@ -396,9 +395,9 @@ ul.forumbody{
 	margin: auto;
 }
 
-/*-------------------*/
+/*------- End of Info -------*/
 
-/* Sign-Up Page */
+/*------- Sign-Up Page ------*/
 
 #centerlogo{
 	text-align:center;
@@ -423,9 +422,9 @@ ul.forumbody{
 	margin: auto;
 }
 
-/*-------------------*/
+/*------ End of Sign-Up ----*/
 
-/* Product Pages */
+/*-------- Product Pages ------*/
 
 #contentwrapper{ 
 	width: 1000px;
@@ -515,21 +514,9 @@ ul.forumbody{
 			 
 }
 	
-/*---------------------------------------*/
+/*-------- End of Product ----------*/
 
-/* Site Map Page */
-
-.middlerightcolumn {
-	display: inline-table;
-	width: 20%;
-}
-
-.bottomrightcolumn {
-	display: inline-table;
-	width: 20%;
-}
-
-/*SITEMAP START*/
+/*-------- Site Map Page -----------*/
 
 /*.sitemap{
     text-align: center;
@@ -647,4 +634,4 @@ ul.forumbody{
 	height:auto;
 }
 
-/*----------------------------*/
+/*---- End of Site Map --------*/
