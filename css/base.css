@@ -62,7 +62,7 @@ nav {
     margin: 0;
     background-color: #183030;
     padding: 0;
-	/* position:absolute; 	/* Fixes the image*/ */
+	/* position:absolute; 	/* Fixes the image*/
 }
 /* resizing the icon boxes*/
 .dropdown{
@@ -80,7 +80,7 @@ nav ul {
     padding-bottom: 9px;
     padding-left: 0;
     padding-right: 0;
-	/* overflow:hidden; /* the magic happens here prevents it from the ul from cascading */ */
+	/* overflow:hidden; /* the magic happens here prevents it from the ul from cascading */
 }
 
 nav ul li {
@@ -372,12 +372,13 @@ a.forumelements:visited {
 	text-align: center;
 }
 
-#contactus img{
-	align: center;
-}
 #emailForm {
 	width: 1000px;
-	margin-left: auto;
+	margin: auto;
+}
+
+#emailtable {
+	margin: auto;
 }
 
 /*-------------------*/
