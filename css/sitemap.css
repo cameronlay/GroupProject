@@ -53,10 +53,11 @@ body {
 
     background-color: #183030;
     font-family: 'Arial', sans-serif;
-    font-weight: bold;
+    
+    font-size:27px;
     color:black;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 22%;
+    margin-right: 20%;
     margin-top:10px;
     margin-bottom: 10px;
     box-shadow: 0 0 5px 10px #183030;
@@ -104,4 +105,23 @@ body {
     text-align: center;
 }
 
+.cameron img{
+    width:50px; height:auto;
+}
+
+.edmund img{
+    width: 50px; height:auto;
+}
+
+.jason img{
+    width: 50px; height:auto;
+}
+
+.daniel img{
+    width: 50px; height:auto;
+}
+
+.joseph img{
+    width: 50px; height:auto;
+}
 
