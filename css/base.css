@@ -247,13 +247,14 @@ footer li a {
 
 /*----------------------------  Main Container for Contents of Page: Forums ----------------------------*/
 
+
 #forumcontainer {
 	/* Box Offsets */
-	margin-top: 5%; /* If this changes Photo needs to change too*/
-	margin-left: 15%;
+	margin-top: 15%; /* If this changes Photo needs to change too*/
+	margin-left: 10%;
 	margin-bottom:10%;
 	/* main box */
-	width:70%;
+	width:80%;
 	min-width: 350px; /* restricting size */
 	height:700px;
 	
@@ -266,23 +267,40 @@ footer li a {
 	text-align:center;
 }
 
+
+
+#forumtable .forumheader {
+	color:#ffffff;
+	height:50px; 
+	font-size: 24px;
+}
+
 #forumtable td,#forumtable tr,#forumtable th {
 	margin: auto;
 	border: 1px solid black;
 	width: 600px;
 	max-width: 30%;
-	height: 100px;
+	height: 100px; 
 	background-color:#4b6b36; 
 	color: #183030;
 }
+#forumheader {
+	background-color:#f0f0f0;
+	height:50px;
+}
+/* topic is wider */
 
 #forumtable td {
 	width:300px;
 }
+a.forumelements {
+	height: 100px;
+}
+
+
 
 a.forumelements:visited {
 	color: #ffffff;
-	
 }
 
 /* This content are special */
