@@ -198,8 +198,6 @@ footer li a {
 
 /* index  */
 
-
-
 #indexMainWrapper {
     width: 85%;
     margin-left: auto;
@@ -239,9 +237,6 @@ footer li a {
     color: #183030;
 }
 
-
-
-
 /* // END OF index */
 
 /* THIS IS INDEX CSS FOR THE AB TESTING */
@@ -275,7 +270,7 @@ footer li a {
 	
 }
 /* -- Forum Elements -- */
-forumtable {
+#forumtable {
 	margin: auto;
 	padding:15px;
 	text-align:center;
