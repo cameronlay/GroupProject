@@ -1,18 +1,18 @@
+<?php
+	require_once('auth.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-   <title>Sign-Up</title>
+    <title>Forum</title>
    <link rel="icon" href="../images/titleimg2.ico"/>
-   <style></style>
    <meta charset="utf-8">
-   <link rel="stylesheet" href="../styles/base.css" type="text/css" />
-   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+   <link rel="stylesheet" href="../styles/base.css" />
    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet"/>
 </head>
-
 <body>
-   <nav>
+    <nav>
         <div id="navwrapper">
             <div id="navleft">
                 <ul>
@@ -49,50 +49,47 @@
                 <ul>
                     <li><div class="dropdown"><a href="info.html" class="dropdown">About Us</a></div></li>
                     <li><div class="dropdown"><a href="info.html#contactheader" class="dropdown">Contact</a></div></li>
-                    <li><div class="dropdown"><a href="php/forum.php" class="dropdown">Forum</a></div></li>
+                    <li><div class="dropdown"><a href="forum.php" class="dropdown">Forum</a></div></li>
                 </ul>
             </div>
         </div>
     </nav>
-	
-	<!-- main is not supported in IE 11; switching back to main is possible -->
-	<main>
-		<!-- center image is random placeholder -->
-		<div id="centerlogo"> 
-			<a href="#"><img id="largeLogo" src ="../images/logonew.PNG" alt="Logo"/></a>
-		</div>
-		<!-- Sign Up Table -->
-		<form id="signupform" name="loginForm" method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
-			<table id="signuptable">
-				<tbody>
-					<tr>
-						<td><label for="mail">Email:</label></td>					
-						<td><input type="text" id="mail" name="emailform" class="formfield"/></td>
-					</tr>
-					<tr> 
-						<td><label for="login">Username:</label></td> 	
-						<td><input type="text" id="login" name="login" class="formfield" /></td>
-					</tr>
-					<tr> 
-						<td><label for="password">Password:</label></td> 	
-						<td><input type="password" id="password" name="password"  class="formfield"/></td>
-						</tr>
-					<tr> 
-						<!-- to do : confirm password == password2 -->
-						<td><label for="password2">Confirm Password:</label></td> 	
-						<td><input type="password" id="password2" name="password2" class="formfield" /></td>
-					</tr>
-					<tr id="submitbutton"> 
-						<!-- Currently the button cannot be centered because it is in a table-->
-						<td></td>
-						<td><input id="registerbutton" name="Submit" value="Register" type="submit"/></td>
-					</tr>
-				</tbody>
-			</table>
-		</form>
-	</main>
-	
-	
+	<!-- Main Page Content -->
+	<section>
+	<div id="pagecontent">
+		<div id="forumcontainer">
+            <table width="400" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#CCCCCC">
+                <tr>
+                    <form id="form1" name="form1" method="post" action="add_topic.php">
+                        <td>
+                            <table width="100%" border="0" cellpadding="3" cellspacing="1" bgcolor="#FFFFFF">
+                                <tr>
+                                    <td colspan="3" bgcolor="#E6E6E6"><strong>Create New Topic</strong> </td>
+                                </tr>
+                                <tr>
+                                    <td width="14%"><strong>Topic</strong></td>
+                                    <td width="2%">:</td>
+                                    <td width="84%"><input name="topic" type="text" id="topic" size="50" /></td>
+                                </tr>
+                                <tr>
+                                    <td valign="top"><strong>Detail</strong></td>
+                                    <td valign="top">:</td>
+                                    <td><textarea name="detail" cols="50" rows="3" id="detail"></textarea></td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td>&nbsp;</td>
+                                    <td><input type="submit" name="Submit" value="Submit" /> <input type="reset" name="Submit2" value="Reset" /></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </form>
+                </tr>
+            </table>
+        </div>
+    </div>
+	</section>
+	<!-- Footer -->
    <footer>
 		<div class="footerconstraint">
         <div class="bottomleftcolumn">
@@ -112,7 +109,7 @@
 		<div class="middlerightcolumn">
 			<ul>
 
-                <li><a href="php/forum.php">Forum</a></li>				
+                <li><a href="forum.php">Forum</a></li>				
             </ul>
         </div>
         <div class="bottomrightcolumn">
@@ -124,6 +121,8 @@
 		<p>&copy; Copyright 2017 | lol </p>
 		</div>
    </footer>
-   
+
 </body>
 </html>
+
+
