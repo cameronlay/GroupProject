@@ -319,14 +319,14 @@
 	function myFunction4(){
 	
 	var x = document.getElementsByClassName("extraText");
-	var y = document.getElementsByClassName("contentbox")
+	var y = document.getElementById("bottombox")
 		
 			if (x[4].style.display === "none") {
 					x[4].style.display = "block";
-					y[4].style.height = "1000px";
+					y.style.height = "1000px";
 				} else {
 					x[4].style.display = "none";
-					y[4].style.height = "300px";
+					y.style.height = "300px";
 				}
 	}
 		
