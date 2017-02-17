@@ -375,6 +375,10 @@ a.forumelements:visited {
 #contactus img{
 	align: center;
 }
+#emailForm {
+	width: 1000px;
+	margin-left: auto;
+}
 
 /*-------------------*/
 
@@ -401,4 +405,6 @@ a.forumelements:visited {
 
 /*-------------------*/
 
+
+	
 
