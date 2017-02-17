@@ -270,7 +270,7 @@ footer li a {
 
 #forumcontainer {
 	/* Box Offsets */
-	margin-top: 15%; /* If this changes Photo needs to change too*/
+	margin-top: 5%; /* If this changes Photo needs to change too*/
 	margin-left: 10%;
 	margin-bottom:10%;
 	/* main box */
@@ -279,56 +279,51 @@ footer li a {
 	height:700px;
 	
 }
-
 /* -- Forum Elements -- */
-#forumtable {
+#forums
+{
+	font-weight: bold;
 	margin: auto;
-	padding:15px;
+	padding: 20px;
+}
+ul.forumbody{
+	background-color: white;
+	color: 4b6b36;
+	
+	/* Inner Box Settings*/
+	margin-left: 5%;
+	margin-right: 5%;
+	
+	padding:auto;
+	height: 100px;
+	
+	/* Magic Font Positioning Substitute for vertical-align*/
+	padding-top:1%;
+}
+#forums .contentwrapper{
+	border: 50px;
+	width: 1200px;
+	max-width: 50%;
+	background-color: #bfbfb0;
+}
+/* Forum Text Settings */
+#forums .contentwrapper a {
+    text-decoration: none;	/* Removes Hyperlink underlines*/
+}
+#forumcontainer h1 {
 	text-align:center;
 }
-
-
-
-#forumtable .forumheader {
-	color:#ffffff;
-	height:50px; 
-	font-size: 24px;
-}
-
-#forumtable td,#forumtable tr,#forumtable th {
+/* Settings for Text Box */
+#forums h2 {
 	margin: auto;
-	border: 1px solid black;
-	width: 600px;
-	max-width: 30%;
-	height: 100px; 
-	background-color:#4b6b36; 
-	color: #183030;
 }
-#forumheader {
-	background-color:#f0f0f0;
-	height:50px;
-}
-/* topic is wider */
-
-#forumtable td {
-	width:300px;
-}
-a.forumelements {
-	height: 100px;
+#forums p {
+	width: 50%;
+	margin-right:0;
 }
 
 
-
-a.forumelements:visited {
-	color: #ffffff;
-}
-
-/* This content are special */
-.forumcontent  {
-	width: 600px;
-}
-
-/**/
+/*-------------------*/
 
 /* Info Page */
 
