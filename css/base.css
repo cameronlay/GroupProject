@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html, body {
+	height: 100%
+}
+
 body {
     background-color: #f6f6e8;
     color: #404040;
@@ -174,6 +178,12 @@ footer li a {
 .footerconstraint { 
 	width: 1000px;
 	margin: auto;
+}
+
+.footerconstraint p {
+	text-align: center;
+	margin: 0;
+	padding: 0;
 }
 
 .bottomleftcolumn { 
