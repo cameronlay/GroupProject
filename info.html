@@ -96,11 +96,35 @@
 			Praesent ex dolor, elementum eu convallis vitae, rhoncus dictum metus.</p>
 		</div>
 		</div>
-		<h1 class="infoheader">Contact Us</h1>
+		<h1 class="infoheader" id="contactheader">Contact Us</h1>
 		<div id="contactus">
 			<p>If you have any questions or concerns about us or the site please feel free to contact us through the link below.<br>
 			<a href="mailto:cameron.lay1@gmail.com?Subject=MKM%20Reviews"><img src="index/images/contactus.png" alt="Contact Us" width="200" height="75"/></a></p>
 		</div>
+		<form id="emailus" name="loginForm" method="post" action="http://webdevfoundations.net/scripts/formdemo.asp"><br/>
+			<table id="emailtable">
+				<tbody>
+					<tr>
+						<td><label for="mail">Email:</label></td>					
+						<td><input type="text" id="mail" name="emailform" class="formfield"/></td>
+					</tr>
+					<tr> 
+						<td><label for="subject">Subject:</label></td> 	
+						<td><input type="text" id="subject" name="subject" class="formfield" /></td>
+					</tr>
+					<tr> 
+						<td><label for="password">Password:</label></td> 	
+						<td><input type="password" id="password" name="password"  class="formfield"/></td>
+						</tr>
+
+					<tr id="submitbutton"> 
+						<!-- Currently the button cannot be centered because it is in a table-->
+						<td></td>
+						<td><input id="send" name="send" value="Send" type="submit"/></td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
    </main>
    <footer>
 		<div class="footerconstraint">

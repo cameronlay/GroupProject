@@ -105,8 +105,8 @@ nav ul a {
 }
 
 nav li a:hover {
-    background-color: #f6f6e8;
-    color: #183030;
+    background-color: #306030;
+    color: #f6f6e8;
 }
 
 .dropdown {
@@ -231,8 +231,8 @@ footer li a {
 }
 
 .indexSignUp_LogIn a:hover {
-    background-color: #f6f6e8;
-    color: #183030;
+    background-color: #306030;
+    color: #f6f6e8;
 }
 
 /* // END OF index */
