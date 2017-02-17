@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+/* content styling */
+
+#contentwrapper{ width: 1000px;
+				 margin: auto;
+				 font-family: 'Open Sans', sans-serif;
+}
+
+#pagename{ padding-top: 40px;
+}
+
+
+#ptitle  {  width: 200px;
+            margin: auto;
+		    text-align: center;
+		    height: 50px;
+		    border: 2px solid black;
+		    background-color: #183030;
+			color: #f6f6e8;
+}
+
+#pricebracketlow{ width: 100px;
+				  height: 40px;
+			      text-align: center;
+			      margin: 20px 450px 20px 450px;
+			      border: 2px solid black;
+			      background-color: #183030;
+			      color: #f6f6e8;
+}
+
+#pricebracketmid{ width: 100px;
+				  height: 40px;
+			      text-align: center;
+			      margin: 20px 450px 20px 450px;
+			      border: 2px solid black;
+			      background-color: #183030;
+			      color: #f6f6e8;
+}
+
+#pricebrackethigh{ width: 100px;
+				  height: 40px;
+			      text-align: center;
+			      margin: 20px 450px 20px 450px;
+			      border: 2px solid black;
+			      background-color: #183030;
+			      color: #f6f6e8;
+}
+
+.contentbox { width: 750px;
+			  height: 300px;
+			  border: 2px solid black;
+			  margin: 0px 0px 20px 150px;
+			  
+}
+
+.contentbox button { position: relative;
+					 left: 500px;
+					 bottom:30px;
+					 
+}
+
+
+.contentbox img { height:250px;
+                  width: 300px;
+			      margin-top: 20px;
+				  padding-left: 10px;
+}
+
+.textbox { width:400px;
+		   float:right;
+		   padding:20px 20px 0px 0px;
+		   
+}
+
+.extraText { 
+			 float:right;
+			 padding:0px 20px 0px 20px;
+		     display: none;
+			 
+}
+
+
+#bottombox { width: 750px;
+             height: 300px;
+	         margin: auto;
+			 border: 2px solid black;
+}
+
+#bottombox img {height:250px;
+                width: 300px;
+			    margin-top: 20px;
+				padding-left: 10px;
+}
+
+#bottombox button {  position: relative;
+					 left: 500px;
+					 bottom:30px;
+					 
+}
+
+
+

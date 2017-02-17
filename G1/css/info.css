@@ -1,0 +1,64 @@
+/* body */
+#infomain {
+	margin-top: 40px;
+	margin-bottom: 100px;
+}
+
+.infoheader {
+	text-align: center;
+	width: 1000px;
+	margin: auto;
+}
+
+#topthree {
+	width: 1000px;
+	margin: auto;
+	margin-top: 40px;
+}
+#bottomtwo {
+	width: 1000px;
+	margin: auto;
+}
+
+.profilepic {
+	width: 140px;
+	height: 140px;
+}
+
+#cameroninfo {
+	display: inline-block;
+	text-align: center;
+	width: 33%;
+}
+
+#edmundinfo {
+	display: inline-block;
+	text-align: center;	
+	width: 33%;
+}
+#jasoninfo {
+	display: inline-block;
+	text-align: center;
+	width: 33%;
+}
+#danielinfo {
+	display: inline-block;
+	text-align: center;
+	width: 33%;
+	margin-left: 140px;
+}
+#josephinfo {
+	display: inline-block;
+	text-align: center;	
+	width: 33%;
+}
+
+#contactus{
+	width: 1000px;
+	margin: auto;
+	text-align: center;
+}
+
+#contactus img{
+	align: middle;
+}
