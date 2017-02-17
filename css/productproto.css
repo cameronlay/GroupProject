@@ -81,25 +81,3 @@
 		     display: none;
 			 
 }
-
-
-#bottombox { width: 750px;
-             height: 300px;
-	         margin: auto;
-			 border: 2px solid black;
-}
-
-#bottombox img {height:250px;
-                width: 300px;
-			    margin-top: 20px;
-				padding-left: 10px;
-}
-
-#bottombox button {  position: relative;
-					 left: 500px;
-					 bottom:30px;
-					 
-}
-
-
-
