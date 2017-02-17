@@ -50,8 +50,7 @@ nav {
     float: left;
 }
 
-#navright {
-	
+#navright {	
 	/* margin-left: 60%;	/* Prevents Stacking with the center logo*/ 
 	float: right;
 }
@@ -209,8 +208,7 @@ footer li a {
 .indexPictures {
     display: inline-block;
     margin-left: 63px;
-    margin-right: 63px;
-    
+    margin-right: 63px;   
 }
 
 .indexSignUp_LogIn {
@@ -241,23 +239,14 @@ footer li a {
 
 /* THIS IS INDEX CSS FOR THE AB TESTING */
 
-
-
-
-
 .indexPicturesTesting {
     display: inline;
     margin: 80px;
 }
 
 
-
-
-
-
-
-
 /*----------------------------  Main Container for Contents of Page: Forums ----------------------------*/
+
 #forumcontainer {
 	/* Box Offsets */
 	margin-top: 5%; /* If this changes Photo needs to change too*/
@@ -269,12 +258,14 @@ footer li a {
 	height:700px;
 	
 }
+
 /* -- Forum Elements -- */
 #forumtable {
 	margin: auto;
 	padding:15px;
 	text-align:center;
 }
+
 #forumtable td,#forumtable tr,#forumtable th {
 	margin: auto;
 	border: 1px solid black;
@@ -284,21 +275,90 @@ footer li a {
 	background-color:#4b6b36; 
 	color: #183030;
 }
+
 #forumtable td {
 	width:300px;
 }
+
 a.forumelements:visited {
 	color: #ffffff;
 	
 }
+
 /* This content are special */
 .forumcontent  {
 	width: 600px;
 }
 
-/* ------------------------------------------------------------------------------------------ */
+/**/
 
+/* Info Page */
 
+#infomain {
+	margin-top: 40px;
+	margin-bottom: 100px;
+}
+
+.infoheader {
+	text-align: center;
+	width: 1000px;
+	margin: auto;
+}
+
+#topthree {
+	width: 1000px;
+	margin: auto;
+	margin-top: 40px;
+}
+#bottomtwo {
+	width: 1000px;
+	margin: auto;
+}
+
+.profilepic {
+	width: 140px;
+	height: 140px;
+}
+
+#cameroninfo {
+	display: inline-block;
+	text-align: center;
+	width: 33%;
+}
+
+#edmundinfo {
+	display: inline-block;
+	text-align: center;	
+	width: 33%;
+}
+#jasoninfo {
+	display: inline-block;
+	text-align: center;
+	width: 33%;
+}
+#danielinfo {
+	display: inline-block;
+	text-align: center;
+	width: 33%;
+	margin-left: 140px;
+}
+#josephinfo {
+	display: inline-block;
+	text-align: center;	
+	width: 33%;
+}
+
+#contactus{
+	width: 1000px;
+	margin: auto;
+	text-align: center;
+}
+
+#contactus img{
+	align: middle;
+}
+
+/*-------------------*/
 
 
 

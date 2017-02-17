@@ -1,13 +1,10 @@
 /* body */
-main {
+#infomain {
 	margin-top: 40px;
 	margin-bottom: 100px;
 }
 
-#contactheader {
-	margin-top: 40px;
-}
-h1 {
+.infoheader {
 	text-align: center;
 	width: 1000px;
 	margin: auto;
