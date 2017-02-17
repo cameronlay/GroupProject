@@ -27,8 +27,7 @@
 #pricebracketlow{ width: 100px;
 				  height: 40px;
 			      text-align: center;
-			      margin: auto;
-			      margin-top: 40px;
+			      margin: 20px 450px 20px 450px;
 			      border: 2px solid black;
 			      background-color: #183030;
 			      color: #f6f6e8;
@@ -37,8 +36,7 @@
 #pricebracketmid{ width: 100px;
 				  height: 40px;
 			      text-align: center;
-			      margin: auto;
-			      margin-top: 20px;
+			      margin: 20px 450px 20px 450px;
 			      border: 2px solid black;
 			      background-color: #183030;
 			      color: #f6f6e8;
@@ -47,14 +45,15 @@
 #pricebrackethigh{ width: 100px;
 				  height: 40px;
 			      text-align: center;
-			      margin: auto;
-			      margin-top: 20px;
+			      margin: 20px 450px 20px 450px;
 			      border: 2px solid black;
 			      background-color: #183030;
 			      color: #f6f6e8;
 }
 
 .contentbox { width: 750px;
+			  height: 300px;
+			  border: 2px solid black;
 			  margin: auto;
 			  
 }
@@ -69,6 +68,7 @@
 .contentbox img { height:250px;
                   width: 300px;
 			      margin-top: 20px;
+				  padding-left: 10px;
 }
 
 .textbox { width:400px;
@@ -77,19 +77,24 @@
 		   
 }
 
-.extraText { width:400px;
+.extraText { 
 			 float:right;
+			 padding:0px 20px 0px 20px;
 		     display: none;
+			 
 }
+
 
 #bottombox { width: 750px;
              height: 300px;
 	         margin: auto;
+			 border: 2px solid black;
 }
 
 #bottombox img {height:250px;
                 width: 300px;
 			    margin-top: 20px;
+				padding-left: 10px;
 }
 
 #bottombox button {  position: relative;
@@ -98,8 +103,7 @@
 					 
 }
 
-hr { margin-top: 20px;
-	 width: 750px;
+hr { width: 750px;
 	 background: #008F68; height: 3px; border: 0; /* For browsers that do not support gradients */
 	 background: linear-gradient(to right, blue, green, red);
 }
