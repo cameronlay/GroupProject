@@ -227,6 +227,10 @@ footer li a {
     margin-right: 63px;   
 }
 
+#indexlargepicture {
+	width: 100%;
+}
+
 .indexSignUp_LogIn {
     float: right;
     margin-right: 30px;
@@ -567,7 +571,6 @@ a.forumelements:visited {
 #sitemaptablecontent{
     border-collapse: collapse;
      width:100%; 
-     border:"1";
 }
 
 #sitemaptablecontent th a{
@@ -594,11 +597,13 @@ a.forumelements:visited {
 }*/
 
 #sitemaptablecontent th {
-    border-bottom,border-left: 0;
-    margin:0;
+    border-bottom: 0;
+	border-left: 0;
+    margin: 0;
 }
 #sitemaptablecontent td {
-    border-bottom,border-left: 0;
+    border-bottom: 0;
+	border-left: 0;
     margin:0;
 }
 
@@ -607,39 +612,44 @@ a.forumelements:visited {
 }
 
 .keyboardcell img {
-
-    width:75px; height:auto;
+    width:75px; 
+	height:auto;
 }
 
 .mousecell img {
-
-    width:75px; height:auto;
+    width:75px; 
+	height:auto;
 }
 
 .monitorcell img {
-
-    width:75px; height:auto;
+    width:75px; 
+	height:auto;
 }
 
 
 .cameron img{
-    width:50px; height:auto;
+    width:50px; 
+	height:auto;
 }
 
 .edmund img{
-    width: 50px; height:auto;
+    width: 50px; 
+	height:auto;
 }
 
 .jason img{
-    width: 50px; height:auto;
+    width: 50px; 
+	height:auto;
 }
 
 .daniel img{
-    width: 50px; height:auto;
+    width: 50px; 
+	height:auto;
 }
 
 .joseph img{
-    width: 50px; height:auto;
+    width: 50px; 
+	height:auto;
 }
 
 /*----------------------------*/
