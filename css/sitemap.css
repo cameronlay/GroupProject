@@ -33,7 +33,7 @@ body {
 
 #sitemaptop {
     font-size: 60px;
-    color:black;
+    color:#183030;
     height:200px;
     font-family:'Anton';
     width: 100%;
@@ -55,8 +55,8 @@ body {
     font-family: 'Arial', sans-serif;
     font-weight: bold;
     color:black;
-    margin-left: 22%;
-    margin-right: 20%;
+    margin-left: 30%;
+    margin-right: 30%;
     margin-top:10px;
     margin-bottom: 10px;
     box-shadow: 0 0 5px 10px #183030;
@@ -78,7 +78,7 @@ body {
     text-decoration: none;
 }
 
-#sitemaptablecontent tr a:hover {
+#sitemaptablecontent tr:hover a{
     background-color: #f6f6e8;
     color: #183030;
 }
