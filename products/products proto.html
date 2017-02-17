@@ -199,6 +199,8 @@
 				
 				<button type="button" onclick="myFunction4()">Read More</button>
 				
+				
+				
 				<p class="extraText">
 				
 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -208,8 +210,8 @@
 				reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
 				Excepteur sint occaecat cupidatat non proident, 
 				sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-				
-			</div>
+				</div>
+			
 			
 			<hr class="altHr">	
 		
@@ -258,13 +260,17 @@
 	function myFunction(){
 	
 	var x = document.getElementsByClassName("extraText");
-		
+	var y = document.getElementsByClassName("contentbox");	
 			if (x[0].style.display === "none") {
 					x[0].style.display = "block";
+					y[0].style.height = "500px";
 				} else {
 					x[0].style.display = "none";
+					y[0].style.height = "300px";
 				}
 	}
+	
+	
 	
 	function myFunction1(){
 	
