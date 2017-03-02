@@ -43,7 +43,7 @@
                     </li>
                 </ul>
             </div>
-                <a href="../index/index.html"><img id="imgid" src="../../images/logonew.PNG" alt="Logo"></a>
+                <a href="../../index/index.html"><img id="imgid" src="../../images/logonew.PNG" alt="Logo"></a>
             <div id="navright">    
                 <ul>
                     <li><div class="dropdown"><a href="../info.html" class="dropdown">About Us</a></div></li>
