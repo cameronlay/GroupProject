@@ -16,92 +16,112 @@
 <!--	Created Day 01.12.2006                              	-->
 <!-- ========================================================== -->
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="author" content="LoadFoO" />
-	<meta name="description" content="Site description" />
-	<meta name="keywords" content="key, words" />
-	<title>LoadFoO [V2]</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
-	<link rel="shortcut icon" href="favicon.ico" />
-	<script type="text/javascript" src="js/textsizer.js"></script>
-	<script type="text/javascript" src="js/rel.js"></script>
+   <title>Forum</title>
+   <link rel="icon" href="../../images/titleimg2.ico"/>
+   
+   <style></style>
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="../../styles/base.css" />
+   <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet"/>
 </head>
 
 <body>
-<div id="wrap">
-<div id="top">
-<h2><a href="#" title="Back to main page">LoadFoO [V2]</a></h2>
-<div id="menu">
-<ul>
-<li><a href="#" class="current">home</a></li>
-<li><a href="#">about</a></li>
-<li><a href="#">portofolio</a></li>
-<li><a href="#">contact</a></li>
-</ul>
-</div>
-</div>
-<div id="content">
-<div style="float: right;"><a href="javascript:ts('body',1)">[+]</a> | <a
-href="javascript:ts('body',-1)">[-]</a></div>
-<div id="left">
-<h2>Welcome to LoadFoO [V1]</h2>
-<p>Text Content Text <a href="#">Content Text</a> Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content.</p>
- <ul>
- <li>ul-li test.</li>
- <li>ul-li test.</li>
- <li>ul-li test.</li>
- <li>ul-li test.</li>
- <li>ul-li test.</li>
- </ul>
- <h2>Functionality or performance</h2>
- <p>Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content.
- </p>
-</div>
-<div id="right">
-	<div class="box">
-		<h2 style="margin-top:17px">Recent Entries</h2>
-		<ul>
-		<?php
-			$sql="SELECT * FROM $tbl_name ORDER BY id DESC";
-			$result=mysqli_query($GLOBALS["___mysqli_ston"], $sql);
-			$count = min(5, mysqli_num_rows($result));
-			if($count==0)
-				echo "<li>No topics</li>";
-			else
-				for($i=0; $i < $count; $i++){
-					$row=mysqli_fetch_array($result);
-					echo '<li><a href="view_topic.php?id='.$row['id'].'">'.$row['topic'].'</a></li>';
-				}
-		?>
-		</ul>
-		<?php
-			if (isLoggedIn()){
-				echo '<a href="logout.php">Logout</a><br/>';
-				echo '<a href="forum.php">Go to forum</a><br/>';
-				echo '>><a href="add_topic_form.php">Create new topic</a>';
-			} else {
-				echo '<a href="login_form.php">Login</a><br/>';
-				echo '<a href="register_form.php">New user?</a>';
-			}
-		?>
-	</div>
-<ul id="nav">
-	<li><a href="#Home">Home</a></li>
-	<li><a href="#Archive">Archive</a></li>
-	<li><a href="#Link">Links</a></li>
-	<li><a href="#download">Download</a></li>
-	<li><a href="#support">Support</a></li>
-	<li><a href="#contact">Contact</a></li>
-</ul>
-</div>
-<div id="clear"></div></div>
-<div id="footer">
-<p>Copyright 2006 LoadFoO [V1]. Designed by <a href="http://loadfoo.org/" rel="external">LoadFoO</a>. Valid <a href="http://jigsaw.w3.org/css-validator/check/referer" rel="external">CSS</a> &amp; <a href="http://validator.w3.org/check?uri=referer" rel="external">XHTML</a></p>
-</div>
-</div>
+   <nav>
+        <div id="navwrapper">
+            <div id="navleft">
+                <ul>
+                    <li>
+						<!-- Button is seperate from the div -->
+						<div class="dropdown"><a href="../../products/mouse.html" class="dropdown">Mice</a>
+							<div class="dropdown_content">
+							<p><a href="../../products/mouse.html#pricebracketlow">$</a></p>
+							<p><a href="../../products/mouse.html#pricebracketmid">$$</a></p>
+							<p><a href="../../products/mouse.html#pricebrackethigh">$$$</a></p>
+							</div>
+						</div>
+					</li>
+                    <li><div class="dropdown"><a href="../../products/keyboard.html" class="dropdown">Keyboard</a>
+                            <div class="dropdown_content">
+                            <p><a href="../../products/keyboard.html#pricebracketlow">$</a></p>
+                            <p><a href="../../products/keyboard.html#pricebracketmid">$$</a></p>
+                            <p><a href="../../products/keyboard.html#pricebrackethigh">$$$</a></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li><div class="dropdown"><a href="../../products/monitor.html" class="dropdown">Monitor</a>
+                            <div class="dropdown_content">
+                            <p><a href="../../products/monitor.html#pricebracketlow">$</a></p>
+                            <p><a href="../../products/monitor.html#pricebracketmid">$$</a></p>
+                            <p><a href="../../products/monitor.html#pricebrackethigh">$$$</a></p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+                <a href="../../index/index.html"><img id="imgid" src="../../images/logonew.PNG" alt="Logo"></a>
+            <div id="navright">    
+                <ul>
+                    <li><div class="dropdown"><a href="../info.html" class="dropdown">About Us</a></div></li>
+                    <li><div class="dropdown"><a href="../info.html#contactheader" class="dropdown">Contact</a></div></li>
+                    <li><div class="dropdown"><a href="forum.php" class="dropdown">Forum</a></div></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
+
+    <div class="indexSignUp_LogIn">
+        <a href="register_form.php">Sign Up</a>
+        <a href="login_form">Log In</a>
+    </div>    
+    <main id="indexMainWrapper">
+        <div class="indexPictures">
+        	<!-- <p class="indexPicturesText">MKM<br>REVIEWS</p> -->
+            <img id="indexlargepicture" src="../../images/monitorhighcropped.jpg" alt="Main Pictures">
+        </div>
+    </main>
+
+
+    
+
+
+
+<!-- Footer -->
+   <footer>
+		<div class="footerconstraint">
+        <div class="bottomleftcolumn">
+            <ul>
+                <li><a href="../../index/index.html">Home</a></li>
+                <li><a href="../info.html#contactheader">Contact</a></li>
+				<li><a href="../info.html">About Us</a></li>
+			</ul>
+		</div>
+		<div class="middleleftcolumn">
+			<ul>
+                <li><a href="../../products/mouse.html">Mice</a></li>
+                <li><a href="../../products/keyboard.html">Keyboard</a></li>
+                <li><a href="../../products/monitor.html">Monitor</a></li>
+			</ul>
+		</div>
+		<div class="middlerightcolumn">
+			<ul>
+
+                <li><a href="forum.php">Forum</a></li>				
+            </ul>
+        </div>
+        <div class="bottomrightcolumn">
+            <ul>
+				<li><a href="../signup.html">Sign-Up</a></li>
+                <li><a href="../sitemap.html">Sitemap</a></li>
+            </ul>
+        </div>
+		<p>&copy; Copyright 2017 | lol </p>
+		</div>
+   </footer>
+   
 </body>
 </html>
