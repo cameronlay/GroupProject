@@ -151,9 +151,11 @@ nav li a:hover {
 /*Because of this, you should use main tag instead of section tag*/
 /*Otherwise you should add section {font-family}*/
 
-main {
+main, section {
     font-family: 'Open Sans', sans-serif;
 }
+
+
 
 /*------------------------------------------*/
 
