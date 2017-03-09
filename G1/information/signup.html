@@ -67,21 +67,21 @@
 			<table id="signuptable">
 				<tbody>
 					<tr>
-						<td><label for="mail">Email:</label></td>					
-						<td><input type="text" id="mail" name="emailform" class="formfield"/></td>
+						<td><label for="mail">Email:</label></td>			
+						<td><input type="text" id="mail" name="Email" class="formfield" onchange="testForumValidation('mail')"/></td>
 					</tr>
 					<tr> 
 						<td><label for="login">Username:</label></td> 	
-						<td><input type="text" id="login" name="login" class="formfield" /></td>
+						<td><input type="text" id="login" name="Username" class="formfield" /></td>
 					</tr>
 					<tr> 
 						<td><label for="password">Password:</label></td> 	
-						<td><input type="password" id="password" name="password"  class="formfield"/></td>
+						<td><input type="password" id="password" name="Password"  class="formfield"/></td>
 						</tr>
 					<tr> 
 						<!-- to do : confirm password == password2 -->
 						<td><label for="password2">Confirm Password:</label></td> 	
-						<td><input type="password" id="password2" name="password2" class="formfield" /></td>
+						<td><input type="password" id="password2" name="Password" class="formfield" onchange="testForumValidation('password2')" /></td>
 					</tr>
 					<tr id="submitbutton"> 
 						<!-- Currently the button cannot be centered because it is in a table-->
