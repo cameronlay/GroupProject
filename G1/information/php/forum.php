@@ -53,6 +53,10 @@
             </div>
         </div>
     </nav>
+    <div class="indexSignUp_LogIn">
+        <a href="register_form.php">Sign Up</a>
+        <a href="login_form.php">Log In</a>
+    </div>   
 	<!-- Main Page Content -->
 	<section>
 	<div id="pagecontent">
