@@ -76,7 +76,7 @@
 
     <div class="indexSignUp_LogIn">
         <a href="register_form.php">Sign Up</a>
-        <a href="login_form">Log In</a>
+        <a href="login_form.php">Log In</a>
     </div>    
     <main id="indexMainWrapper">
         <div class="indexPictures">
