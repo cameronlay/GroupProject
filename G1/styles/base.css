@@ -508,7 +508,7 @@ a.forumelements:visited {
 
 .contentbox { 
 	width: 750px;
-	height: 300px;
+	height: 325px;
 	border: 2px solid black;
 	margin: 0px 0px 20px 150px;
 			  
@@ -517,24 +517,40 @@ a.forumelements:visited {
 .contentbox button { 
 	position: relative;
 	left: 500px;
-	bottom:30px;
-					 
 }
 
 
 .contentbox img { 
-	height:250px;
+	height: 250px;
     width: 300px;
 	margin-top: 20px;
 	padding-left: 10px;
 }
 
 .textbox { 
-	width:400px;
-	float:right;
+	width: 400px;
+	float: right;
 	padding:20px 20px 0px 0px;
 		   
 }
+
+.proTitle {
+    margin: 0;
+}
+
+.proList {
+    margin: 0;
+}
+
+.conTitle {
+    margin:0;
+    padding-top: 20px;
+}
+
+.conList {
+    margin: 0;
+}
+
 
 .extraText { 
 	float:right;
