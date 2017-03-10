@@ -176,7 +176,6 @@ footer {
 	background-color: #183030;
 	z-index: 20;
 	font-size: 0.8em;
-	position: absolute;
 }
 
 footer li {
@@ -238,6 +237,7 @@ footer li a {
     margin-right: auto;
     margin-top: 80px;
     margin-bottom: 100px;
+	min-height: 600px;
 }
 
 .indexPictures {

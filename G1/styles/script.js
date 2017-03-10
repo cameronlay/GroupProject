@@ -41,7 +41,7 @@ function warningMessage(id)
 // Test Validation for .com/.ca/.org && @hotmail @gmail @yahoo @outlook
 function testForumValidation(id) {
 	// Email
-	switch($(id).id)
+	switch($(id))
 	{
 		case "mail": {
 			var aSplit = $(id).value.split("@"); // split email at @
@@ -77,4 +77,14 @@ function testForumValidation(id) {
 
 	
 }
+
+function testEmailType(id){
+	var x = $(id).value;
+	x = x.substring(x.lastIndexOf(".");
+	return x == ".com" || x == ".ca" || x == ".org" || x == "";
+}
+		
+function warnEmailType(id) {
+	if(!testEmailType(id))
+		alert("The email does not have a proper domain.");
 
