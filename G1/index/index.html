@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="../styles/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     
 </head>
 <body>
@@ -58,12 +59,30 @@
     <div class="indexSignUp_LogIn">
         <a href="../information/signup.html">Sign Up</a>
         <a href="../information/signup.html">Log In</a>
-    </div>    
+    </div> 
+
+<!--SLIDE SHOW SCRIPT-->
+    <script>
+  $(function(){
+    $('.indexPictures img:gt(0)').hide(); 
+    setInterval(function(){
+    $('.indexPictures :first-child').fadeOut(5000)
+    .next('img').fadeIn(6000)
+    .end().appendTo('.indexPictures');}, 
+      7000);
+});
+</script>   
     <main id="indexMainWrapper">
         <div class="indexPictures">
         	<!-- <p class="indexPicturesText">MKM<br>REVIEWS</p> -->
-            <img id="indexlargepicture" src="../images/monitorhighcropped.jpg" alt="Main Pictures">
+            <img src="../images/monitortransparent.png" alt="Main Pictures">
+
+            <img src="../images/keyboardtransparent.png" alt="Main Pictures">
+
+            <img src="../images/micetransparent.png" alt="Main Pictures">
+
         </div>
+
     </main>
    <footer>
 		<div class="footerconstraint">
