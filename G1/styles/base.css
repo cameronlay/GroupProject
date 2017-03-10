@@ -483,7 +483,7 @@ a.forumelements:visited {
 }
 
 #pricebracketlow{ 
-	width: 100px;
+	width: 125px;
 	height: 40px;
 	text-align: center;
 	margin: 20px 450px 20px 450px;
@@ -493,7 +493,7 @@ a.forumelements:visited {
 }
 
 #pricebracketmid{ 
-	width: 100px;
+	width: 125px;
 	height: 40px;
 	text-align: center;
 	margin: 20px 450px 20px 450px;
@@ -503,7 +503,7 @@ a.forumelements:visited {
 }
 
 #pricebrackethigh{ 
-	width: 100px;
+	width: 125px;
 	height: 40px;
 	text-align: center;
 	margin: 20px 450px 20px 450px;
@@ -514,7 +514,7 @@ a.forumelements:visited {
 
 .contentbox { 
 	width: 750px;
-	height: 325px;
+	height: 350px;
 	border: 2px solid black;
 	margin: 0px 0px 20px 150px;
 			  
@@ -523,6 +523,7 @@ a.forumelements:visited {
 .contentbox button { 
 	position: relative;
 	left: 500px;
+    top: 25px;
 }
 
 
@@ -536,7 +537,7 @@ a.forumelements:visited {
 .textbox { 
 	width: 400px;
 	float: right;
-	padding:20px 20px 0px 0px;
+	padding: 20px 20px 0px 0px;
 		   
 }
 
@@ -561,6 +562,7 @@ a.forumelements:visited {
 .extraText { 
 	float:right;
 	padding:0px 20px 0px 20px;
+    margin-top: 30px;
 	display: none;
 			 
 }
