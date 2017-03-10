@@ -71,8 +71,6 @@ function testForumValidation(id) {
 			if($(id).value != $("password").value)
 				warningMessage(id);
 		}break;
-		
-		
 	}
 
 	
