@@ -8,12 +8,13 @@
    <meta charset="utf-8">
    <link rel="stylesheet" href="../../styles/base.css" />
    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet"/>
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 
 <body>
    <nav>
         <div id="navwrapper">
-            <div id="navleft">
+            
                 <ul>
                     <li>
 						<!-- Button is seperate from the div -->
@@ -41,16 +42,16 @@
                             </div>
                         </div>
                     </li>
-                </ul>
-            </div>
+                
+            <li>
                 <a href="../../index/index.html"><img id="imgid" src="../../images/logonew.PNG" alt="Logo"></a>
-            <div id="navright">    
-                <ul>
+            </li>
+
                     <li><div class="dropdown"><a href="../info.html" class="dropdown">About Us</a></div></li>
                     <li><div class="dropdown"><a href="../info.html#contactheader" class="dropdown">Contact</a></div></li>
                     <li><div class="dropdown"><a href="forum.php" class="dropdown">Forum</a></div></li>
                 </ul>
-            </div>
+            
         </div>
     </nav>
     <div class="indexSignUp_LogIn">
@@ -58,9 +59,10 @@
         <a href="login_form.php">Log In</a>
     </div>   
 	<!-- Main Page Content -->
-	<section>
-	<div id="pagecontent">
-		<div id="forumcontainer">
+	<main id="signupmain">
+
+
+
 
             <?php
             	require_once('config.php');
@@ -104,9 +106,11 @@
             </table>
 
 
-        </div>
-    </div>
-	</section>
+        
+
+
+        
+        </main>
 	<!-- Footer -->
    <footer>
 		<div class="footerconstraint">
