@@ -130,7 +130,6 @@ function warnConfirm(id, id1) {
 /*======== Product page javascript ========= */
 
 
- 
 var z= document.getElementsByClassName("extraText");
 	var i;
 	for(i = 0; i < z.length; i++){
@@ -141,15 +140,31 @@ var z= document.getElementsByClassName("extraText");
 	
 	var x = document.getElementsByClassName("extraText");
 	var y = document.getElementsByClassName("contentbox");
+    var z = document.getElementsByClassName("readMore");
 		
 			if (x[0].style.display === "none") {
 					x[0].style.display = "block";
 					y[0].style.height = "700px";
+                    z[0].style.display = "none";
 				} else {
 					x[0].style.display = "none";
 					y[0].style.height = "350px";
 				}
 	}
+    
+    function showLess() {
+        
+        var x = document.getElementsByClassName("extraText");
+        var y = document.getElementsByClassName("contentbox");
+        var z = document.getElementsByClassName("readMore");
+        
+            x[0].style.display = "none";
+		    y[0].style.height = "350px";
+            z[0].style.display = "block";
+            
+        
+        
+    }
 	
 	function myFunction1(){
 	
