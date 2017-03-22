@@ -88,3 +88,85 @@ function warnEmailType(id) {
 	if(!testEmailType(id))
 		alert("The email does not have a proper domain.");
 
+
+    
+/*======== Product page javascript ========= */
+
+
+ 
+var z= document.getElementsByClassName("extraText");
+	var i;
+	for(i = 0; i < z.length; i++){
+		z[i].style.display = "none";
+	}
+
+	function myFunction(){
+	
+	var x = document.getElementsByClassName("extraText");
+	var y = document.getElementsByClassName("contentbox");
+		
+			if (x[0].style.display === "none") {
+					x[0].style.display = "block";
+					y[0].style.height = "700px";
+				} else {
+					x[0].style.display = "none";
+					y[0].style.height = "350px";
+				}
+	}
+	
+	function myFunction1(){
+	
+	var x = document.getElementsByClassName("extraText");
+	var y = document.getElementsByClassName("contentbox")
+		
+			if (x[1].style.display === "none") {
+					x[1].style.display = "block";
+					y[1].style.height = "700px";
+				} else {
+					x[1].style.display = "none";
+					y[1].style.height = "350px";
+				}
+	}
+	
+	function myFunction2(){
+	
+	var x = document.getElementsByClassName("extraText");
+	var y = document.getElementsByClassName("contentbox")
+		
+			if (x[2].style.display === "none") {
+					x[2].style.display = "block";
+					y[2].style.height = "700px";
+				} else {
+					x[2].style.display = "none";
+					y[2].style.height = "350px";
+				}
+	}
+	
+	function myFunction3(){
+	
+	var x = document.getElementsByClassName("extraText");
+	var y = document.getElementsByClassName("contentbox")
+		
+			if (x[3].style.display === "none") {
+					x[3].style.display = "block";
+					y[3].style.height = "700px";
+				} else {
+					x[3].style.display = "none";
+					y[3].style.height = "350px";
+				}
+	}
+	
+	function myFunction4(){
+	
+	var x = document.getElementsByClassName("extraText");
+	var y = document.getElementsByClassName("contentbox")
+		
+			if (x[4].style.display === "none") {
+					x[4].style.display = "block";
+					y[4].style.height = "700px";
+				} else {
+					x[4].style.display = "none";
+					y[4].style.height = "350px";
+				}
+	}
+
