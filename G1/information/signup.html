@@ -68,20 +68,24 @@
 				<tbody>
 					<tr>
 						<td><label for="mail">Email:</label></td>			
-						<td><input type="text" id="mail" name="Email" class="formfield" onblur="warnEmailType('mail')"/></td>
+						<td><input type="text" id="mail" name="Email" class="formfield" onchange="warnEmailType('mail')"/></td>
+						<td id="errEmail">Please enter a valid email</td>
 					</tr>
 					<tr> 
 						<td><label for="login">Username:</label></td> 	
-						<td><input type="text" id="login" name="Username" class="formfield" /></td>
+						<td><input type="text" id="login" name="Username" class="formfield" onchange="warnUsername('login')"/></td>
+						<td id="errUsername">Please enter a username</td>
 					</tr>
 					<tr> 
 						<td><label for="password">Password:</label></td> 	
-						<td><input type="password" id="password" name="Password"  class="formfield"/></td>
-						</tr>
+						<td><input type="password" id="password" name="Password" class="formfield" onchange="warnPassword('password')"/></td>
+						<td id="errPassword">Password must be between 8 and 16 characters in length</td>
+					</tr>
 					<tr> 
 						<!-- to do : confirm password == password2 -->
 						<td><label for="password2">Confirm Password:</label></td> 	
-						<td><input type="password" id="password2" name="Password" class="formfield" onchange="testForumValidation('password2')" /></td>
+						<td><input type="password" id="password2" name="Password" class="formfield" onchange="warnConfirm('password2', 'password')" /></td>
+						<td id="errConfirm">Does not match password</td>
 					</tr>
 					<tr id="submitbutton"> 
 						<!-- Currently the button cannot be centered because it is in a table-->
