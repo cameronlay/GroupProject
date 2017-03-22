@@ -538,7 +538,6 @@ a.forumelements:visited {
     top: 25px;
 }
 
-
 .contentbox img { 
 	height: 250px;
     width: 300px;
@@ -577,6 +576,11 @@ a.forumelements:visited {
     margin-top: 30px;
 	display: none;
 			 
+}
+
+.extraText button {
+    position: relative;
+    left: 300px;
 }
 	
 /*---------------------------------------*/
