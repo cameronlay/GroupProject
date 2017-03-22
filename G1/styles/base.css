@@ -711,4 +711,28 @@ a.forumelements:visited {
 	height:auto;
 }
 
-/*----------------------------
+/*----------------------------*/
+
+#errEmail {
+	visibility: hidden;
+	color: red;
+	font-size: .8em;
+}
+
+#errUsername {
+	visibility: hidden;
+	color: red;
+	font-size: .8em;
+}
+
+#errPassword {
+	visibility: hidden;
+	color: red;
+	font-size: .8em;
+}
+
+#errConfirm {
+	visibility: hidden;
+	color: red;
+	font-size: .8em;
+}

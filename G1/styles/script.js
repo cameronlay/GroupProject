@@ -1,30 +1,28 @@
 // USEFULL PREDEFINED FUNCTION
 
-function $(id) {
-	
+function $(id){
 	var element = document.getElementById(id);
+	if( element == null )
+		alert( 'Programmer error: ' + id + ' does not exist.' );
+	return element;
+}
+
+
+function $$(className) {
+	var element = document.getElementsByClassName(className);
 
 	if (element == null) {
-		alert('Programmer error (id): ' + id + 'does not exist.');
+		alert('Programmer error (class): ' + className + 'does not exist.');
 	}
 	return element;
 }
 
-// function @(className) {
-	// var element = document.getElementsByClassName(className);
-
-	// if (element == null) {
-		// alert('Programmer error (class): ' + className + 'does not exist.');
-	// }
-	// return element;
-// }
-
 //NOT SURE WE ARE USING THESE FUNCTION, BUT MADE IT JUST IN CASE WE NEED THEM
 
-function valueId(id) {
-	var idValue = $(id).value;
-	return idValue;
-}
+// function valueId(id) {
+	// var idValue = $(id).value;
+	// return idValue;
+// }
 
 // function valueClass(className) {
 	// var classValue = @(className).value;
@@ -32,61 +30,100 @@ function valueId(id) {
 
 // }
 
-function warningMessage(id)
-{
-	alert("Please enter a valid " + $(id).name);
+// function warningMessage(id)
+// {
+	// alert("Please enter a valid " + $(id).name);
 	//alert("Function hit");
-}
+// }
 
 // Test Validation for .com/.ca/.org && @hotmail @gmail @yahoo @outlook
-function testForumValidation(id) {
-	// Email
-	switch($(id))
-	{
-		case "mail": {
-			var aSplit = $(id).value.split("@"); // split email at @
+// function testForumValidation(id) {
+	//Email
+	// switch($(id))
+	// {
+		// case "mail": {
+			// var aSplit = $(id).value.split("@"); // split email at @
 		
 			//Exit Statement, entered two "@"
-			if(aSplit.length > 2) 
-				return warningMessage(id); // leaves function and do not proceed furthur checks until the dude fixes his shit
+			// if(aSplit.length > 2) 
+				// return warningMessage(id); // leaves function and do not proceed furthur checks until the dude fixes his shit
 			
 			// Split Elements to desired searching elements
-			var domain = aSplit[1];
+			// var domain = aSplit[1];
 			
-			var address = domain.split(".")[0];
-			var dot = domain.split(".")[1];
+			// var address = domain.split(".")[0];
+			// var dot = domain.split(".")[1];
 			
-			alert( address +" " + dot);
-			if(!(address == "hotmail" || address == "yahoo"|| address == "gmail"|| address == "outlook" )){
-				warningMessage(id);
-			}
-			else if(!(dot == "com" || dot == "org" || dot == "ca")){
-				warningMessage(id);
-			}
-		}break;
-		case "login": {
+			// alert( address +" " + dot);
+			// if(!(address == "hotmail" || address == "yahoo"|| address == "gmail"|| address == "outlook" )){
+				// warningMessage(id);
+			// }
+			// else if(!(dot == "com" || dot == "org" || dot == "ca")){
+				// warningMessage(id);
+			// }
+		// }break;
+		// case "login": {
 			
-		}break;
-		case "password2": {
-			if($(id).value != $("password").value)
-				warningMessage(id);
-		}break;
+		// }break;
+		// case "password2": {
+			// if($(id).value != $("password").value)
+				// warningMessage(id);
+		// }break;
 		
 		
-	}
+	// }
 
 	
-}
+// }
 
 function testEmailType(id){
 	var x = $(id).value;
-	x = x.substring(x.lastIndexOf(".");
-	return x == ".com" || x == ".ca" || x == ".org" || x == "";
+	x = x.substring(x.lastIndexOf("."));
+	return x == ".com" || x == ".ca" || x == ".org";
 }
 		
 function warnEmailType(id) {
-	if(!testEmailType(id))
-		alert("The email does not have a proper domain.");
+	if(!testEmailType(id)){
+		$("errEmail").style.visibility = 'visible';
+	} else { 
+		$("errEmail").style.visibility = 'hidden';
+	}
+}
+
+function testUsername(id){
+	var x = $(id).value;
+	return x != 0;
+}
+		
+function warnUsername(id) {
+	if(!testUsername(id)){
+		$("errUsername").style.visibility = 'visible';
+	} else { 
+		$("errUsername").style.visibility = 'hidden';
+	}
+}
+
+function testPassword(id){
+	var x = $(id).value.length;
+	return x >= 8 && x <= 16;
+}
+		
+function warnPassword(id) {
+	if(!testPassword(id)){
+		$("errPassword").style.visibility = 'visible';
+	} else { 
+		$("errPassword").style.visibility = 'hidden';
+	}
+}
+
+
+function warnConfirm(id, id1) {
+	if(!($(id).value == $(id1).value)){
+		$("errConfirm").style.visibility = 'visible';
+	} else { 
+		$("errConfirm").style.visibility = 'hidden';
+	}
+}
 
 
     
