@@ -736,3 +736,15 @@ a.forumelements:visited {
 	color: red;
 	font-size: .8em;
 }
+
+#errEmailValid {
+	visibility: hidden;
+	color: red;
+	font-size: .8em;
+}
+
+#errEmptyField{
+	visibility: hidden;
+	color: red;
+	font-size: .8em;
+}

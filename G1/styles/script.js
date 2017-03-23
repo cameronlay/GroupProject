@@ -17,64 +17,7 @@ function $$(className) {
 	return element;
 }
 
-//NOT SURE WE ARE USING THESE FUNCTION, BUT MADE IT JUST IN CASE WE NEED THEM
-
-// function valueId(id) {
-	// var idValue = $(id).value;
-	// return idValue;
-// }
-
-// function valueClass(className) {
-	// var classValue = @(className).value;
-	// return classValue;
-
-// }
-
-// function warningMessage(id)
-// {
-	// alert("Please enter a valid " + $(id).name);
-	//alert("Function hit");
-// }
-
-// Test Validation for .com/.ca/.org && @hotmail @gmail @yahoo @outlook
-// function testForumValidation(id) {
-	//Email
-	// switch($(id))
-	// {
-		// case "mail": {
-			// var aSplit = $(id).value.split("@"); // split email at @
-		
-			//Exit Statement, entered two "@"
-			// if(aSplit.length > 2) 
-				// return warningMessage(id); // leaves function and do not proceed furthur checks until the dude fixes his shit
-			
-			// Split Elements to desired searching elements
-			// var domain = aSplit[1];
-			
-			// var address = domain.split(".")[0];
-			// var dot = domain.split(".")[1];
-			
-			// alert( address +" " + dot);
-			// if(!(address == "hotmail" || address == "yahoo"|| address == "gmail"|| address == "outlook" )){
-				// warningMessage(id);
-			// }
-			// else if(!(dot == "com" || dot == "org" || dot == "ca")){
-				// warningMessage(id);
-			// }
-		// }break;
-		// case "login": {
-			
-		// }break;
-		// case "password2": {
-			// if($(id).value != $("password").value)
-				// warningMessage(id);
-		// }break;
-		
-		
-	// }
-
-	
-// }
+/*=========Sign-up Page Javascript===============*/
 
 function testEmailType(id){
 	var x = $(id).value;
@@ -122,6 +65,33 @@ function warnConfirm(id, id1) {
 		$("errConfirm").style.visibility = 'visible';
 	} else { 
 		$("errConfirm").style.visibility = 'hidden';
+	}
+}
+
+
+/*================= Contact-Us JavaScript============*/
+
+function testEmailValid(id){
+	var x = $(id).value;
+	x = x.substring(x.lastIndexOf("."));
+	return x == ".com" || x == ".ca" || x == ".org" || $(id).value == "";
+}
+
+function warnEmailValid(id) {
+	if(!testEmailValid(id)){
+		$("errEmailValid").style.visibility = 'visible';
+	} else { 
+		$("errEmailValid").style.visibility = 'hidden';
+	}
+}
+
+
+function warnEmptyField (id, id1, id2) {
+	if($(id).value != "" && $(id1).value != "" && $(id2).value != ""){
+	if(!testEmailValid(id) || $(id1).value == "" || $(id2).value == "")
+		$("errEmptyField").style.visibility = 'visible';
+	} else {
+		$("errEmptyField").style.visibility = 'hidden';
 	}
 }
 
