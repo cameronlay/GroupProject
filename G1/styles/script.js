@@ -21,7 +21,7 @@ function $$(className) {
 
 function testEmailType(){
 	var x = $("mail").value;
-        var patt = /(\w+\S)(@)(\w+)(\.com|\.co|\.org|\.ca)/;
+        var patt = /(\w+)(@)(\w+)(\.com$|\.co$|\.org$|\.ca$|\.net$)/;
         var res = patt.test(x);
 //        will return true if input is valid
 	return res;
