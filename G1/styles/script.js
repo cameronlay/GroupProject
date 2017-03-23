@@ -19,55 +19,94 @@ function $$(className) {
 
 /*=========Sign-up Page Javascript===============*/
 
-function testEmailType(id){
-	var x = $(id).value;
-	x = x.substring(x.lastIndexOf("."));
-	return x == ".com" || x == ".ca" || x == ".org";
+function testEmailType(){
+	var x = $("mail").value;
+        var patt = /(\w+\S)(@)(\w+)(\.com|\.co|\.org|\.ca)/;
+        var res = patt.test(x);
+//        will return true if input is valid
+	return res;
 }
 		
-function warnEmailType(id) {
-	if(!testEmailType(id)){
-		$("errEmail").style.visibility = 'visible';
-	} else { 
-		$("errEmail").style.visibility = 'hidden';
-	}
-}
+//function warnEmailType(id) {
+//	if(!testEmailType(id)){
+//		$("errEmail").style.visibility = 'visible';
+//	} else { 
+//		$("errEmail").style.visibility = 'hidden';
+//	}
+//}
 
-function testUsername(id){
-	var x = $(id).value;
-	return x != 0;
+function testUsername(){
+	var x = $("login").value;
+//        will return true if input is valid
+	return x !== "";
 }
 		
-function warnUsername(id) {
-	if(!testUsername(id)){
-		$("errUsername").style.visibility = 'visible';
-	} else { 
-		$("errUsername").style.visibility = 'hidden';
-	}
-}
+//function warnUsername(id) {
+//	if(!testUsername(id)){
+//		$("errUsername").style.visibility = 'visible';
+//	} else { 
+//		$("errUsername").style.visibility = 'hidden';
+//	}
+//}
 
-function testPassword(id){
-	var x = $(id).value.length;
-	return x >= 8 && x <= 16;
+function testPassword(){
+	var x = $("password").value.length;
+//        will return true if input is valid
+	return 8 <= x && x <= 16;
 }
 		
-function warnPassword(id) {
-	if(!testPassword(id)){
-		$("errPassword").style.visibility = 'visible';
-	} else { 
-		$("errPassword").style.visibility = 'hidden';
-	}
+//function warnPassword(id) {
+//	if(!testPassword(id)){
+//		$("errPassword").style.visibility = 'visible';
+//	} else { 
+//		$("errPassword").style.visibility = 'hidden';
+//	}
+//}
+
+function testConfirm() {
+    var x = $("password").value === $("password2").value;
+//    will return true if input is valid
+    return x;
 }
 
+//function warnConfirm(id, id1) {
+//	if(!($(id).value === $(id1).value)){
+//		$("errConfirm").style.visibility = 'visible';
+//	} else { 
+//		$("errConfirm").style.visibility = 'hidden';
+//	}
+//}
 
-function warnConfirm(id, id1) {
-	if(!($(id).value == $(id1).value)){
-		$("errConfirm").style.visibility = 'visible';
-	} else { 
-		$("errConfirm").style.visibility = 'hidden';
-	}
+//Validating for onsubmit
+
+function formValidate() {
+    if (testEmailType() && testUsername() && testPassword()
+            && testConfirm()) {
+        return true;
+    }   else {
+        if (!testEmailType()) {
+            $("errEmail").style.visibility = 'visible';
+        }   else {
+            $("errEmail").style.visibility = 'hidden';
+        }
+        if (!testUsername()) {
+            $("errUsername").style.visibility = 'visible';
+        }   else {
+            $("errUsername").style.visibility = 'hidden';
+        }
+        if (!testPassword()) {
+            $("errPassword").style.visibility = 'visible';
+        }   else {
+            $("errPassword").style.visibility = 'hidden';
+        }
+        if (!testConfirm()) {
+            $("errConfirm").style.visibility = 'visible';
+        }   else {
+            $("errConfirm").style.visibility = 'hidden';
+        }
+        return false;
+    }
 }
-
 
 /*================= Contact-Us JavaScript============*/
 
