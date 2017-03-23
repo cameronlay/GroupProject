@@ -74,7 +74,7 @@ function warnConfirm(id, id1) {
 function testEmailValid(id){
 	var x = $(id).value;
 	x = x.substring(x.lastIndexOf("."));
-	return x == ".com" || x == ".ca" || x == ".org" || $(id).value == "";
+	return x == ".com" || x == ".ca" || x == ".org";
 }
 
 function warnEmailValid(id) {
@@ -87,8 +87,7 @@ function warnEmailValid(id) {
 
 
 function warnEmptyField (id, id1, id2) {
-	if($(id).value != "" && $(id1).value != "" && $(id2).value != ""){
-	if(!testEmailValid(id) || $(id1).value == "" || $(id2).value == "")
+	if($(id).value == "" || $(id1).value == "" || $(id2).value == ""){
 		$("errEmptyField").style.visibility = 'visible';
 	} else {
 		$("errEmptyField").style.visibility = 'hidden';
