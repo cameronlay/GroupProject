@@ -465,6 +465,10 @@ a.forumelements:visited {
 	margin: auto;
 }
 
+input.formfield {
+	width: 100%;
+}
+
 #signupmain{
 	margin-bottom: 100px;
 }
@@ -724,24 +728,28 @@ a.forumelements:visited {
 	visibility: hidden;
 	color: red;
 	font-size: .8em;
+	text-align: right;
 }
 
 #errUsername {
 	visibility: hidden;
 	color: red;
 	font-size: .8em;
+	text-align: right;
 }
 
 #errPassword {
 	visibility: hidden;
 	color: red;
 	font-size: .8em;
+	text-align: right;
 }
 
 #errConfirm {
 	visibility: hidden;
 	color: red;
 	font-size: .8em;
+	text-align: right;
 }
 
 #errEmailValid {
