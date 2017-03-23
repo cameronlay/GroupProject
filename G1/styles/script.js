@@ -100,7 +100,6 @@ function warnEmptyField (id, id1, id2) {
 /*======== Product page javascript ========= */
 
 
- 
 var z= document.getElementsByClassName("extraText");
 	var i;
 	for(i = 0; i < z.length; i++){
@@ -111,69 +110,120 @@ var z= document.getElementsByClassName("extraText");
 	
 	var x = document.getElementsByClassName("extraText");
 	var y = document.getElementsByClassName("contentbox");
+    var z = document.getElementsByClassName("readMore");
 		
-			if (x[0].style.display === "none") {
+			
 					x[0].style.display = "block";
 					y[0].style.height = "700px";
-				} else {
-					x[0].style.display = "none";
-					y[0].style.height = "350px";
-				}
+                    z[0].style.display = "none";
+				
 	}
+   
 	
 	function myFunction1(){
 	
 	var x = document.getElementsByClassName("extraText");
 	var y = document.getElementsByClassName("contentbox")
+    var z = document.getElementsByClassName("readMore");
 		
-			if (x[1].style.display === "none") {
+			
 					x[1].style.display = "block";
 					y[1].style.height = "700px";
-				} else {
-					x[1].style.display = "none";
-					y[1].style.height = "350px";
-				}
+                    z[1].style.display = "none";
+				
 	}
 	
 	function myFunction2(){
 	
 	var x = document.getElementsByClassName("extraText");
 	var y = document.getElementsByClassName("contentbox")
+    var z = document.getElementsByClassName("readMore");
 		
-			if (x[2].style.display === "none") {
+			
 					x[2].style.display = "block";
 					y[2].style.height = "700px";
-				} else {
-					x[2].style.display = "none";
-					y[2].style.height = "350px";
-				}
+                    z[2].style.display = "none";
+				
 	}
 	
 	function myFunction3(){
 	
 	var x = document.getElementsByClassName("extraText");
 	var y = document.getElementsByClassName("contentbox")
+    var z = document.getElementsByClassName("readMore");
 		
-			if (x[3].style.display === "none") {
+			
 					x[3].style.display = "block";
 					y[3].style.height = "700px";
-				} else {
-					x[3].style.display = "none";
-					y[3].style.height = "350px";
-				}
+                    z[3].style.display = "none";
+				
 	}
 	
 	function myFunction4(){
 	
 	var x = document.getElementsByClassName("extraText");
 	var y = document.getElementsByClassName("contentbox")
+    var z = document.getElementsByClassName("readMore");
 		
-			if (x[4].style.display === "none") {
+			
 					x[4].style.display = "block";
 					y[4].style.height = "700px";
-				} else {
-					x[4].style.display = "none";
-					y[4].style.height = "350px";
-				}
+                    z[4].style.display = "none";
+				
 	}
+    
+    function showLess() {
+        
+        var x = document.getElementsByClassName("extraText");
+        var y = document.getElementsByClassName("contentbox");
+        var z = document.getElementsByClassName("readMore");
+        
+            x[0].style.display = "none";
+		    y[0].style.height = "350px";
+            z[0].style.display = "block";
+    }
+    
+    function showLess1() {
+        
+        var x = document.getElementsByClassName("extraText");
+        var y = document.getElementsByClassName("contentbox");
+        var z = document.getElementsByClassName("readMore");
+        
+            x[1].style.display = "none";
+		    y[1].style.height = "350px";
+            z[1].style.display = "block";
+    }
+    
+    function showLess2() {
+        
+        var x = document.getElementsByClassName("extraText");
+        var y = document.getElementsByClassName("contentbox");
+        var z = document.getElementsByClassName("readMore");
+        
+            x[2].style.display = "none";
+		    y[2].style.height = "350px";
+            z[2].style.display = "block";
+    }
+    
+    function showLess3() {
+        
+        var x = document.getElementsByClassName("extraText");
+        var y = document.getElementsByClassName("contentbox");
+        var z = document.getElementsByClassName("readMore");
+        
+            x[3].style.display = "none";
+		    y[3].style.height = "350px";
+            z[3].style.display = "block";
+    }
+    
+    function showLess4() {
+        
+        var x = document.getElementsByClassName("extraText");
+        var y = document.getElementsByClassName("contentbox");
+        var z = document.getElementsByClassName("readMore");
+        
+            x[4].style.display = "none";
+		    y[4].style.height = "350px";
+            z[4].style.display = "block";
+    }
 

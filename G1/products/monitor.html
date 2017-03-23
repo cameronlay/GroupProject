@@ -13,7 +13,7 @@
     <link rel="icon" href="../images/titleimg2.ico"/>
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-	<script src="../styles/script.js"></script>
+	
 
 </head>
 <body>
@@ -97,7 +97,7 @@
                 
                 </div>
 				
-				<button type="button" onclick="myFunction()">Read More</button>
+				<button class="readMore" type="button" onclick="myFunction()">Read More</button>
 				
 				<div class="extraText">
 				
@@ -105,6 +105,7 @@
                 
                 </p>
 				
+                <button type="button" onclick="showLess()">Show Less</button>
                 </div>
 				
 			</div>
@@ -136,11 +137,15 @@
                 
                 </div>
 				
-				<button type="button" onclick="myFunction1()">Read More</button>
+				<button class="readMore" type="button" onclick="myFunction1()">Read More</button>
 				
 				<div class="extraText">
 				
+                <p>
                 
+                </p>
+                
+                <button type="button" onclick="showLess1()">Show Less</button>
                 </div>
 				
 			
@@ -174,7 +179,7 @@
                 
                 </div>
 				
-				<button type="button" onclick="myFunction2()">Read More</button>
+				<button class="readMore" type="button" onclick="myFunction2()">Read More</button>
 				
 				<div class="extraText">
                 
@@ -182,6 +187,7 @@
                 
                 </p>
 				
+                <button type="button" onclick="showLess2()">Show Less</button>
 				</div>
 				
 			</div>
@@ -212,7 +218,7 @@
                 
                 </div>
 				
-				<button type="button" onclick="myFunction3()">Read More</button>
+				<button class="readMore" type="button" onclick="myFunction3()">Read More</button>
 				
 				<div class="extraText">
                 
@@ -220,6 +226,7 @@
                 
                 </p>
 				
+                <button type="button" onclick="showLess3()">Show Less</button>
 				</div>
 				
 			</div>
@@ -252,7 +259,7 @@
                 
                 </div>
 				
-				<button type="button" onclick="myFunction4()">Read More</button>
+				<button class="readMore" type="button" onclick="myFunction4()">Read More</button>
 				
 				<div class="extraText">
 				
@@ -260,6 +267,7 @@
                 
                 </p>
                 
+                <button type="button" onclick="showLess4()">Show Less</button>
                 </div>
 				
 			</div>
@@ -301,85 +309,7 @@
 		</div>
     </footer>
 	
-	<script>
-	
-	var z= document.getElementsByClassName("extraText");
-	var i;
-	for(i = 0; i < z.length; i++){
-		z[i].style.display = "none"
-	}
-
-	function myFunction(){
-	
-	var x = document.getElementsByClassName("extraText");
-	var y = document.getElementsByClassName("contentbox")
-		
-			if (x[0].style.display === "none") {
-					x[0].style.display = "block";
-					y[0].style.height = "700px";
-				} else {
-					x[0].style.display = "none";
-					y[0].style.height = "350px";
-				}
-	}
-	
-	function myFunction1(){
-	
-	var x = document.getElementsByClassName("extraText");
-	var y = document.getElementsByClassName("contentbox")
-		
-			if (x[1].style.display === "none") {
-					x[1].style.display = "block";
-					y[1].style.height = "700px";
-				} else {
-					x[1].style.display = "none";
-					y[1].style.height = "350px";
-				}
-	}
-	
-	function myFunction2(){
-	
-	var x = document.getElementsByClassName("extraText");
-	var y = document.getElementsByClassName("contentbox")
-		
-			if (x[2].style.display === "none") {
-					x[2].style.display = "block";
-					y[2].style.height = "700px";
-				} else {
-					x[2].style.display = "none";
-					y[2].style.height = "350px";
-				}
-	}
-	
-	function myFunction3(){
-	
-	var x = document.getElementsByClassName("extraText");
-	var y = document.getElementsByClassName("contentbox")
-		
-			if (x[3].style.display === "none") {
-					x[3].style.display = "block";
-					y[3].style.height = "700px";
-				} else {
-					x[3].style.display = "none";
-					y[3].style.height = "350px";
-				}
-	}
-	
-	function myFunction4(){
-	
-	var x = document.getElementsByClassName("extraText");
-	var y = document.getElementsByClassName("contentbox")
-		
-			if (x[4].style.display === "none") {
-					x[4].style.display = "block";
-					y[4].style.height = "700px";
-				} else {
-					x[4].style.display = "none";
-					y[4].style.height = "350px";
-				}
-	}
-		
-	</script>
+	<script src="../styles/script.js"></script>
 	
 	
 </body>
