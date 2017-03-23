@@ -109,16 +109,18 @@
 				<tbody>
 					<tr>
 						<td><label for="mail">Email:</label></td>					
-						<td><input type="text" id="mail" name="email" class="formfield"/></td>
+						<td><input type="text" id="mail" name="email" class="formfield" onchange="warnEmailValid('mail')"/></td>
+						<td id="errEmailValid">Please enter a valid Email</td>
 					</tr>
 					<tr> 
 						<td><label for="subject">Subject:</label></td> 	
-						<td><input type="text" id="subject" name="subject" class="formfield" /></td>
+						<td><input type="text" id="subject" name="subject" class="formfield" onchange="warnEmptyField('mail', 'subject', 'emailReply')"/></td>
+						<td id="errEmptyField">Please complete all fields</td>
 					</tr>
 					<tr> 
 						<td></td> 	
-						<td><textarea rows="4" cols="50" name="comment" form="emailForm"></textarea></td>
-						</tr>
+						<td><textarea rows="4" cols="50" id="emailReply" name="comment" form="emailForm" onchange="warnEmptyField('mail', 'subject', 'emailReply')"></textarea></td>
+					</tr>
 					<tr id="sendbutton"> 
 						<td></td>
 						<td><input id="send" name="send" value="Send" type="submit"/></td>

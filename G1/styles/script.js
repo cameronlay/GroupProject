@@ -17,111 +17,119 @@ function $$(className) {
 	return element;
 }
 
-//NOT SURE WE ARE USING THESE FUNCTION, BUT MADE IT JUST IN CASE WE NEED THEM
+/*=========Sign-up Page Javascript===============*/
 
-// function valueId(id) {
-	// var idValue = $(id).value;
-	// return idValue;
-// }
-
-// function valueClass(className) {
-	// var classValue = @(className).value;
-	// return classValue;
-
-// }
-
-// function warningMessage(id)
-// {
-	// alert("Please enter a valid " + $(id).name);
-	//alert("Function hit");
-// }
-
-// Test Validation for .com/.ca/.org && @hotmail @gmail @yahoo @outlook
-// function testForumValidation(id) {
-	//Email
-	// switch($(id))
-	// {
-		// case "mail": {
-			// var aSplit = $(id).value.split("@"); // split email at @
+function testEmailType(){
+	var x = $("mail").value;
+        var patt = /(\w+)(@)(\w+)(\.com$|\.co$|\.org$|\.ca$|\.net$)/;
+        var res = patt.test(x);
+//        will return true if input is valid
+	return res;
+}
 		
-			//Exit Statement, entered two "@"
-			// if(aSplit.length > 2) 
-				// return warningMessage(id); // leaves function and do not proceed furthur checks until the dude fixes his shit
-			
-			// Split Elements to desired searching elements
-			// var domain = aSplit[1];
-			
-			// var address = domain.split(".")[0];
-			// var dot = domain.split(".")[1];
-			
-			// alert( address +" " + dot);
-			// if(!(address == "hotmail" || address == "yahoo"|| address == "gmail"|| address == "outlook" )){
-				// warningMessage(id);
-			// }
-			// else if(!(dot == "com" || dot == "org" || dot == "ca")){
-				// warningMessage(id);
-			// }
-		// }break;
-		// case "login": {
-			
-		// }break;
-		// case "password2": {
-			// if($(id).value != $("password").value)
-				// warningMessage(id);
-		// }break;
-		
-		
-	// }
+//function warnEmailType(id) {
+//	if(!testEmailType(id)){
+//		$("errEmail").style.visibility = 'visible';
+//	} else { 
+//		$("errEmail").style.visibility = 'hidden';
+//	}
+//}
 
-	
-// }
+function testUsername(){
+	var x = $("login").value;
+//        will return true if input is valid
+	return x !== "";
+}
+		
+//function warnUsername(id) {
+//	if(!testUsername(id)){
+//		$("errUsername").style.visibility = 'visible';
+//	} else { 
+//		$("errUsername").style.visibility = 'hidden';
+//	}
+//}
 
-function testEmailType(id){
+function testPassword(){
+	var x = $("password").value.length;
+//        will return true if input is valid
+	return 8 <= x && x <= 16;
+}
+		
+//function warnPassword(id) {
+//	if(!testPassword(id)){
+//		$("errPassword").style.visibility = 'visible';
+//	} else { 
+//		$("errPassword").style.visibility = 'hidden';
+//	}
+//}
+
+function testConfirm() {
+    var x = $("password").value === $("password2").value;
+//    will return true if input is valid
+    return x;
+}
+
+//function warnConfirm(id, id1) {
+//	if(!($(id).value === $(id1).value)){
+//		$("errConfirm").style.visibility = 'visible';
+//	} else { 
+//		$("errConfirm").style.visibility = 'hidden';
+//	}
+//}
+
+//Validating for onsubmit
+
+function formValidate() {
+    if (testEmailType() && testUsername() && testPassword()
+            && testConfirm()) {
+        return true;
+    }   else {
+        if (!testEmailType()) {
+            $("errEmail").style.visibility = 'visible';
+        }   else {
+            $("errEmail").style.visibility = 'hidden';
+        }
+        if (!testUsername()) {
+            $("errUsername").style.visibility = 'visible';
+        }   else {
+            $("errUsername").style.visibility = 'hidden';
+        }
+        if (!testPassword()) {
+            $("errPassword").style.visibility = 'visible';
+        }   else {
+            $("errPassword").style.visibility = 'hidden';
+        }
+        if (!testConfirm()) {
+            $("errConfirm").style.visibility = 'visible';
+        }   else {
+            $("errConfirm").style.visibility = 'hidden';
+        }
+        return false;
+    }
+}
+
+/*================= Contact-Us JavaScript============*/
+
+function testEmailValid(id){
 	var x = $(id).value;
 	x = x.substring(x.lastIndexOf("."));
 	return x == ".com" || x == ".ca" || x == ".org";
 }
-		
-function warnEmailType(id) {
-	if(!testEmailType(id)){
-		$("errEmail").style.visibility = 'visible';
-	} else { 
-		$("errEmail").style.visibility = 'hidden';
-	}
-}
 
-function testUsername(id){
-	var x = $(id).value;
-	return x != 0;
-}
-		
-function warnUsername(id) {
-	if(!testUsername(id)){
-		$("errUsername").style.visibility = 'visible';
+function warnEmailValid(id) {
+	if(!testEmailValid(id)){
+		$("errEmailValid").style.visibility = 'visible';
 	} else { 
-		$("errUsername").style.visibility = 'hidden';
-	}
-}
-
-function testPassword(id){
-	var x = $(id).value.length;
-	return x >= 8 && x <= 16;
-}
-		
-function warnPassword(id) {
-	if(!testPassword(id)){
-		$("errPassword").style.visibility = 'visible';
-	} else { 
-		$("errPassword").style.visibility = 'hidden';
+		$("errEmailValid").style.visibility = 'hidden';
 	}
 }
 
 
-function warnConfirm(id, id1) {
-	if(!($(id).value == $(id1).value)){
-		$("errConfirm").style.visibility = 'visible';
-	} else { 
-		$("errConfirm").style.visibility = 'hidden';
+function warnEmptyField (id, id1, id2) {
+	if($(id).value == "" || $(id1).value == "" || $(id2).value == ""){
+		$("errEmptyField").style.visibility = 'visible';
+	} else {
+		$("errEmptyField").style.visibility = 'hidden';
 	}
 }
 

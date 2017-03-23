@@ -10,6 +10,15 @@
    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet"/>
    <script src="../styles/script.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+   <!-- This jQuery code imports navbar from one html to another -->
+   <script>
+	$(document).ready(function(){
+		$('#nav1').load('navigation.html');
+	});
+	</script>
+
 </head>
 
 <body>
@@ -63,29 +72,38 @@
 			<a href="#"><img id="largeLogo" src ="../images/logonew.PNG" alt="Logo"/></a>
 		</div>
 		<!-- Sign Up Table -->
-		<form id="signupform" name="loginForm" method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
+		<form id="signupform" name="loginForm" method="post" action="http://webdevfoundations.net/scripts/formdemo.asp"
+		onsubmit="return formValidate()">
 			<table id="signuptable">
 				<tbody>
 					<tr>
 						<td><label for="mail">Email:</label></td>			
-						<td><input type="text" id="mail" name="Email" class="formfield" onchange="warnEmailType('mail')"/></td>
-						<td id="errEmail">Please enter a valid email</td>
+						<td><input type="text" id="mail" name="Email" class="formfield"/></td>
+					</tr>
+					<tr>
+						<td colspan="2" id="errEmail">Please enter a valid email</td>
 					</tr>
 					<tr> 
 						<td><label for="login">Username:</label></td> 	
-						<td><input type="text" id="login" name="Username" class="formfield" onchange="warnUsername('login')"/></td>
-						<td id="errUsername">Please enter a username</td>
+						<td><input type="text" id="login" name="Username" class="formfield"/></td>
+					</tr>
+					<tr>
+						<td colspan="2"  id="errUsername">Please enter a username</td>
 					</tr>
 					<tr> 
 						<td><label for="password">Password:</label></td> 	
-						<td><input type="password" id="password" name="Password" class="formfield" onchange="warnPassword('password')"/></td>
-						<td id="errPassword">Password must be between 8 and 16 characters in length</td>
+						<td><input type="password" id="password" name="Password" class="formfield"/></td>
+					</tr>
+					<tr>
+						<td colspan="2" id="errPassword">Password must be between 8 and 16 characters in length</td>
 					</tr>
 					<tr> 
 						<!-- to do : confirm password == password2 -->
 						<td><label for="password2">Confirm Password:</label></td> 	
-						<td><input type="password" id="password2" name="Password" class="formfield" onchange="warnConfirm('password2', 'password')" /></td>
-						<td id="errConfirm">Does not match password</td>
+						<td><input type="password" id="password2" name="Password" class="formfield"/></td>
+					</tr>
+					<tr>
+						<td colspan="2"  id="errConfirm">Does not match password</td>
 					</tr>
 					<tr id="submitbutton"> 
 						<!-- Currently the button cannot be centered because it is in a table-->
