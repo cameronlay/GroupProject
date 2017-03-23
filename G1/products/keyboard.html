@@ -13,7 +13,7 @@
     <link rel="icon" href="../images/titleimg2.ico"/>
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-	<script src="../styles/script.js"></script>
+	
 
 </head>
 <body>
@@ -75,7 +75,7 @@
             
 			<div class="contentbox"> 
 				
-				<img src="../images/K55_RGB_NA_01.png" alt="Corsair K55 RGB keyboard">
+				<img src="../images/keyboardprod1.png" alt="Corsair K55 RGB keyboard">
 
 			    <div class="textbox">
                 
@@ -97,7 +97,7 @@
 				
                 </div>
 				
-				<button type="button" onclick="myFunction()">Read More</button>
+				<button class="readMore" type="button" onclick="myFunction()">Read More</button>
 				
 				<div class="extraText">
 				
@@ -110,7 +110,11 @@
 				It doesn’t have a mechanical keyboard which may affect some users due to the tactile feedback mechanical keyboards give. 
 				It doesn’t have per-key RGB lighting. Overall the Corsair K55 RGB keyboard is a very good keyboard for its price range.</p>
 				
-				</div>
+                <button type="button" onclick="showLess()">Show Less</button>
+				
+                </div>
+                
+                
 				
 			</div>
 			
@@ -118,7 +122,7 @@
 			
 			<div class="contentbox"> 
 				
-				<img src="../images/razer-blackwidow-x-ultimate-small.jpg" alt="razer blackwidow ultimate x keyboard">
+				<img src="../images/keyboardprod2.png" alt="razer blackwidow ultimate x keyboard">
 
 			    <div class="textbox">
                 
@@ -141,7 +145,7 @@
                 
                 </div>
 				
-				<button type="button" onclick="myFunction1()">Read More</button>
+				<button class="readMore" type="button" onclick="myFunction1()">Read More</button>
 				
 				<div class="extraText">
 				
@@ -154,7 +158,11 @@
                 the fly. Like all razer products, the Black Widow also has a braided fiber cable to prevent too much bending and damages to the cable. 
                 The down side is that to use the Macro option, you need to install Razer Synapses. The Pulsing effect of the Illumination on the 
                 keyboard also requires Razer Synapses. Because of Razer’s special unique design of the keys and the green switches, if 
-                the keyboard ever breaks down, it is often hard to find replacements.</p>
+                the keyboard ever breaks down, it is often hard to find replacements.
+                </p>
+                
+                
+                <button type="button" onclick="showLess1()">Show Less</button>
                 
                 </div>
 				
@@ -164,7 +172,7 @@
 		
 			<div class="contentbox"> 
 				
-				<img src="../images/K70_RAPIDFIRE_RGB_NA_08.png" alt="K70 rapidfire rgb keyboard">
+				<img src="../images/keyboardprod3.png" alt="K70 rapidfire rgb keyboard">
 
 			    <div class="textbox">
                 
@@ -174,7 +182,7 @@
 				
                     <ul class="proList">
                         <li>Cherry MX Speed switches release quicker</li>
-                        <li></li>
+                        <li>Aluminum frame</li>
                     </ul>	
                     
                     <h4 class="conTitle">Con's</h4>
@@ -185,7 +193,7 @@
                     </ul>
                 </div>
 				
-				<button type="button" onclick="myFunction2()">Read More</button>
+				<button class="readMore" type="button" onclick="myFunction2()">Read More</button>
 				
 				<div class="extraText">
                 
@@ -198,6 +206,8 @@
                 detachable wrist rest, textured keycaps, multimedia controls, and software for macro customization. 
                 Overall the keyboard is great for its price and perfect for gamers and everyday users who want a comfortable 
                 and responsive mechanical keyboard.</p>
+                
+                <button type="button" onclick="showLess2()">Show Less</button>
 				
 				</div>
 				
@@ -207,7 +217,7 @@
 			
 			<div class="contentbox"> 
 				
-				<img src="../images/cleankeyboard.jpg" alt="keyboard">
+				<img src="../images/keyboardprod4.png" alt="topre real force">
 
 			    <div class="textbox">
                 
@@ -230,7 +240,7 @@
                 
                 </div>
 				
-				<button type="button" onclick="myFunction3()">Read More</button>
+				<button class="readMore" type="button" onclick="myFunction3()">Read More</button>
 				
 				<div class="extraText">
 				
@@ -242,15 +252,17 @@
                 users also can customize their keyboards pressure which means some keys can be touched at 1.5mm or some keys can be touched at 2.2mm 
                 or even 3.0mm. Each key reacts very sensitively, giving users great feeling by touching keys minimum 45g pressure. To sum up, 
                 it is one of the most expensive keyboards in the world, but its functions make the products worth buying it.
+                 </p>
                 
-                </p>
+                <button type="button" onclick="showLess3()">Show Less</button>
+                
                 </div>
 				
 			</div>
         
 		<div class="contentbox"> 
 				
-				<img src="../images/cleankeyboard.jpg" alt="keyboard">
+				<img src="../images/keyboardprod5.png" alt="das pro 4">
 
 			    <div class="textbox">
                 
@@ -273,7 +285,7 @@
                 
                 </div>
 				
-				<button type="button" onclick="myFunction4()">Read More</button>
+				<button class="readMore" type="button" onclick="myFunction4()">Read More</button>
 				
 				<div class="extraText">
                 
@@ -290,6 +302,8 @@
                  leads to less clutter when it is plugged in but on the downside that it is not braided but simply plastic. Overall the
                  Das Keyboard 4 Professional is a very good keyboard for someone looking for a solid keyboard without the “gaming” appearance.
                 </p>
+                
+                <button type="button" onclick="showLess4()">Show Less</button>
 				
 				</div>
 				
@@ -332,86 +346,7 @@
 		</div>
     </footer>
 	
-	<script>
-	
-	var z= document.getElementsByClassName("extraText");
-	var i;
-	for(i = 0; i < z.length; i++){
-		z[i].style.display = "none"
-	}
-
-	function myFunction(){
-	
-	var x = document.getElementsByClassName("extraText");
-	var y = document.getElementsByClassName("contentbox")
-		
-			if (x[0].style.display === "none") {
-					x[0].style.display = "block";
-					y[0].style.height = "700px";
-				} else {
-					x[0].style.display = "none";
-					y[0].style.height = "350px";
-				}
-	}
-	
-	function myFunction1(){
-	
-	var x = document.getElementsByClassName("extraText");
-	var y = document.getElementsByClassName("contentbox")
-		
-			if (x[1].style.display === "none") {
-					x[1].style.display = "block";
-					y[1].style.height = "700px";
-				} else {
-					x[1].style.display = "none";
-					y[1].style.height = "350px";
-				}
-	}
-	
-	function myFunction2(){
-	
-	var x = document.getElementsByClassName("extraText");
-	var y = document.getElementsByClassName("contentbox")
-		
-			if (x[2].style.display === "none") {
-					x[2].style.display = "block";
-					y[2].style.height = "700px";
-				} else {
-					x[2].style.display = "none";
-					y[2].style.height = "350px";
-				}
-	}
-	
-	function myFunction3(){
-	
-	var x = document.getElementsByClassName("extraText");
-	var y = document.getElementsByClassName("contentbox")
-		
-			if (x[3].style.display === "none") {
-					x[3].style.display = "block";
-					y[3].style.height = "700px";
-				} else {
-					x[3].style.display = "none";
-					y[3].style.height = "350px";
-				}
-	}
-	
-	function myFunction4(){
-	
-	var x = document.getElementsByClassName("extraText");
-	var y = document.getElementsByClassName("contentbox")
-		
-			if (x[4].style.display === "none") {
-					x[4].style.display = "block";
-					y[4].style.height = "700px";
-				} else {
-					x[4].style.display = "none";
-					y[4].style.height = "350px";
-				}
-	}
-		
-	</script>
-	
+<script src="../styles/script.js"></script>	
 	
 </body>
 </html>

@@ -101,21 +101,26 @@
 		<div id="contactus">
 			<p>If you have any questions or concerns about us or the site please feel free to contact us through the form below.</p>
 		</div>
-		<form id="emailForm" name="emailForm" method="post" action="http://webdevfoundations.net/scripts/formdemo.asp"><br/>
+		<form id="emailForm" name="emailForm" method="post" action="php/formmail.php"><br/>
+		<input type="hidden" name="recipients" value="mkbmreviews@gmail.com" />
+		<input type="hidden" name="subject" value="Sample FormMail Testing" />
+		<input type="hidden" name="good_url" value="thankyou.html" />
 			<table id="emailtable">
 				<tbody>
 					<tr>
 						<td><label for="mail">Email:</label></td>					
-						<td><input type="text" id="mail" name="emailform" class="formfield"/></td>
+						<td><input type="text" id="mail" name="email" class="formfield" onchange="warnEmailValid('mail')"/></td>
+						<td id="errEmailValid">Please enter a valid Email</td>
 					</tr>
 					<tr> 
 						<td><label for="subject">Subject:</label></td> 	
-						<td><input type="text" id="subject" name="subject" class="formfield" /></td>
+						<td><input type="text" id="subject" name="subject" class="formfield" onchange="warnEmptyField('mail', 'subject', 'emailReply')"/></td>
+						<td id="errEmptyField">Please complete all fields</td>
 					</tr>
 					<tr> 
 						<td></td> 	
-						<td><textarea rows="4" cols="50" name="comment" form="emailForm"></textarea></td>
-						</tr>
+						<td><textarea rows="4" cols="50" id="emailReply" name="comment" form="emailForm" onchange="warnEmptyField('mail', 'subject', 'emailReply')"></textarea></td>
+					</tr>
 					<tr id="sendbutton"> 
 						<td></td>
 						<td><input id="send" name="send" value="Send" type="submit"/></td>

@@ -231,11 +231,13 @@ footer li a {
 /* index  */
 
 #indexMainWrapper {
+	position:relative;
     width: 85%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 80px;
     margin-bottom: 100px;
+	min-height: 600px;
 }
 
 .indexPictures {
@@ -247,18 +249,17 @@ footer li a {
 	/*height: 500px;*/
 }
 
-/*main#indexMainWrapper p.indexPicturesText {
-	font-size: 5em;
-	background-color: rgba(0, 0, 0, 0.4);
-	color: #f6f6e8;
-	font-family: 'Anton', sans-serif;
-	height: 500px;
-	text-align: center;
-}*/
+#indexMainWrapper img { 
+	position:absolute; 
+	left:0;
+	top:0; 
+	z-index: 2;
+	height:auto;
+	width:100%;
 
-#indexlargepicture {
-	width: 100%;
 }
+
+
 
 .indexSignUp_LogIn {
     float: right;
@@ -464,6 +465,10 @@ a.forumelements:visited {
 	margin: auto;
 }
 
+input.formfield {
+	width: 100%;
+}
+
 #signupmain{
 	margin-bottom: 100px;
 }
@@ -537,7 +542,6 @@ a.forumelements:visited {
     top: 25px;
 }
 
-
 .contentbox img { 
 	height: 250px;
     width: 300px;
@@ -576,6 +580,14 @@ a.forumelements:visited {
     margin-top: 30px;
 	display: none;
 			 
+}
+
+.extraText button {
+    position: relative;
+    left: 300px;
+    top: -5px;
+    
+   
 }
 	
 /*---------------------------------------*/
@@ -710,4 +722,44 @@ a.forumelements:visited {
 	height:auto;
 }
 
-/*----------------------------
+/*----------------------------*/
+
+#errEmail {
+	visibility: hidden;
+	color: red;
+	font-size: .8em;
+	text-align: right;
+}
+
+#errUsername {
+	visibility: hidden;
+	color: red;
+	font-size: .8em;
+	text-align: right;
+}
+
+#errPassword {
+	visibility: hidden;
+	color: red;
+	font-size: .8em;
+	text-align: right;
+}
+
+#errConfirm {
+	visibility: hidden;
+	color: red;
+	font-size: .8em;
+	text-align: right;
+}
+
+#errEmailValid {
+	visibility: hidden;
+	color: red;
+	font-size: .8em;
+}
+
+#errEmptyField{
+	visibility: hidden;
+	color: red;
+	font-size: .8em;
+}
