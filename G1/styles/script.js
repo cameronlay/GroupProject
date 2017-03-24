@@ -110,27 +110,63 @@ function formValidate() {
 
 /*================= Contact-Us JavaScript============*/
 
-function testEmailValid(id){
-	var x = $(id).value;
-	x = x.substring(x.lastIndexOf("."));
-	return x == ".com" || x == ".ca" || x == ".org";
+//function testEmailValid(id){
+//	var x = $(id).value;
+//	x = x.substring(x.lastIndexOf("."));
+//	return x == ".com" || x == ".ca" || x == ".org";
+//}
+
+function testEmailValid(){
+	var x = $("mailUs").value;
+        var patt = /(\w+)(@)(\w+)(\.com$|\.co$|\.org$|\.ca$|\.net$)/;
+        var res = patt.test(x);
+//        will return true if input is valid
+	return res;
 }
 
-function warnEmailValid(id) {
-	if(!testEmailValid(id)){
-		$("errEmailValid").style.visibility = 'visible';
+//function warnEmailValid(id) {
+//	if(!testEmailValid(id)){
+//		$("errEmailValid").style.visibility = 'visible';
+//	} else { 
+//		$("errEmailValid").style.visibility = 'hidden';
+//	}
+//}
+
+
+function testEmptyField () {
+    // will return if all inputs' are completed
+	var x = !($("mailUs").value == "" 
+                || $("subject").value == "" 
+                || $("emailReply").value == "");
+        return x;
+}
+
+//function warnEmptyField (id, id1, id2) {
+//	if($(id).value == "" || $(id1).value == "" || $(id2).value == ""){
+//		$("errEmptyField").style.visibility = 'visible';
+//	} else {
+//		$("errEmptyField").style.visibility = 'hidden';
+//	}
+//}
+
+function infoValidate() {
+    if (testEmailValid() && testEmptyField()) {
+        return true;
+    }   else {
+        if (!testEmailValid()) {
+            $("errEmailValid").style.visibility = 'visible';
+            $("errEmailValid").style.textAlign = "right";
 	} else { 
-		$("errEmailValid").style.visibility = 'hidden';
+            $("errEmailValid").style.visibility = 'hidden';
 	}
-}
-
-
-function warnEmptyField (id, id1, id2) {
-	if($(id).value == "" || $(id1).value == "" || $(id2).value == ""){
-		$("errEmptyField").style.visibility = 'visible';
+        if (!testEmptyField()) {
+            $("errEmptyField").style.visibility = 'visible';
+            $("errEmptyField").style.textAlign = "right";
 	} else {
-		$("errEmptyField").style.visibility = 'hidden';
+            $("errEmptyField").style.visibility = 'hidden';
 	}
+        return false;
+    }
 }
 
 

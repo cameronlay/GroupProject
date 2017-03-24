@@ -14,51 +14,49 @@
 </head>
 
 <body>
-   <nav>
+    <nav>
         <div id="navwrapper">
             
-            	<ul>
-                    <li>
-						<!-- Button is seperate from the div -->
-						<div class="dropdown"><a href="../products/mouse.html" class="dropdown">Mice</a>
-							<div class="dropdown_content">
-							<p><a href="../products/mouse.html#pricebracketlow">$</a></p>
-							<p><a href="../products/mouse.html#pricebracketmid">$$</a></p>
-							<p><a href="../products/mouse.html#pricebrackethigh">$$$</a></p>
-							</div>
-						</div>
-					</li>
+            <ul>
+                <li>
+		    <!-- Button is seperate from the div -->
+                    <div class="dropdown"><a href="../products/mouse.html" class="dropdown">Mice</a>
+                    <div class="dropdown_content">
+                    <p><a href="../products/mouse.html#pricebracketlow">$</a></p>
+                    <p><a href="../products/mouse.html#pricebracketmid">$$</a></p>
+                    <p><a href="../products/mouse.html#pricebrackethigh">$$$</a></p>
+        </div>
+        </div>
+             </li>
                     <li><div class="dropdown"><a href="../products/keyboard.html" class="dropdown">Keyboard</a>
                             <div class="dropdown_content">
-                            <p><a href="../products/keyboard.html#pricebracketlow">$</a></p>
-                            <p><a href="../products/keyboard.html#pricebracketmid">$$</a></p>
-                            <p><a href="../products/keyboard.html#pricebrackethigh">$$$</a></p>
+                                <p><a href="../products/keyboard.html#pricebracketlow">$</a></p>
+                                <p><a href="../products/keyboard.html#pricebracketmid">$$</a></p>
+                                <p><a href="../products/keyboard.html#pricebrackethigh">$$$</a></p>
                             </div>
                         </div>
                     </li>
                     <li><div class="dropdown"><a href="../products/monitor.html" class="dropdown">Monitor</a>
                             <div class="dropdown_content">
-                            <p><a href="../products/monitor.html#pricebracketlow">$</a></p>
-                            <p><a href="../products/monitor.html#pricebracketmid">$$</a></p>
-                            <p><a href="../products/monitor.html#pricebrackethigh">$$$</a></p>
+                                <p><a href="../products/monitor.html#pricebracketlow">$</a></p>
+                                <p><a href="../products/monitor.html#pricebracketmid">$$</a></p>
+                                <p><a href="../products/monitor.html#pricebrackethigh">$$$</a></p>
                             </div>
                         </div>
                     </li>
-                
-            <li>
-                <a href="../index/index.html"><img id="imgid" src="../images/logonew.PNG" alt="Logo"></a>
-            </li>
-
+                    <li>
+                        <a href="../index/index.html"><img id="imgid" src="../images/logonew.PNG" alt="Logo"></a>
+                    </li>
                     <li><div class="dropdown"><a href="info.html" class="dropdown">About Us</a></div></li>
                     <li><div class="dropdown"><a href="info.html#contactheader" class="dropdown">Contact</a></div></li>
                     <li><div class="dropdown"><a href="php/forum.php" class="dropdown">Forum</a></div></li>
-                </ul>
-            
+                </ul> 
         </div>
     </nav>
-   <main id="infomain">
-		<h1 class="infoheader">About Us</h1>
-		<div id="topthree">
+    
+    <main id="infomain">
+        <h1 class="infoheader">About Us</h1>
+            <div id="topthree">
 		<div id="cameroninfo">
 			<p><a href="#"><img class="profilepic" src="../images/igloo.jpg" alt="Cartoon Eskimo"/></a></p>
 			<p> Cameron</p>
@@ -74,13 +72,13 @@
 			Praesent ex dolor, elementum eu convallis vitae, rhoncus dictum metus.</p>
 		</div>
 		<div id="jasoninfo">
-			<p><a href="#"><img class="profilepic" src="../images/jason.jpg" alt="Jason Huang"/></a></p>		
-			<p>Jason</p>
-			<p>Duis a leo ac ipsum tempor sollicitudin. Praesent risus purus, porta iaculis cursus et, vehicula imperdiet mauris. 
-			Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed vel tincidunt magna. 
-			Praesent ex dolor, elementum eu convallis vitae, rhoncus dictum metus.</p>
-		</div>
-		</div>
+                        <p><a href="#"><img class="profilepic" src="../images/jason.jpg" alt="Jason Huang"/></a></p>		
+                        <p>Jason</p>
+                        <p>Duis a leo ac ipsum tempor sollicitudin. Praesent risus purus, porta iaculis cursus et, vehicula imperdiet mauris. 
+                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed vel tincidunt magna. 
+                        Praesent ex dolor, elementum eu convallis vitae, rhoncus dictum metus.</p>
+                </div>
+            </div>
 		<div id="bottomtwo">		
 		<div id="danielinfo">
 			<p><a href="#"><img class="profilepic" src="../images/daniel.jpg" alt="Daniel Zhang"/></a></p>
@@ -101,7 +99,8 @@
 		<div id="contactus">
 			<p>If you have any questions or concerns about us or the site please feel free to contact us through the form below.</p>
 		</div>
-		<form id="emailForm" name="emailForm" method="post" action="php/formmail.php"><br/>
+		<form id="emailForm" name="emailForm" method="post" 
+                      onsubmit="return infoValidate()" action="php/formmail.php"><br/>
 		<input type="hidden" name="recipients" value="mkbmreviews@gmail.com" />
 		<input type="hidden" name="subject" value="Sample FormMail Testing" />
 		<input type="hidden" name="good_url" value="thankyou.html" />
@@ -109,21 +108,30 @@
 				<tbody>
 					<tr>
 						<td><label for="mail">Email:</label></td>					
-						<td><input type="text" id="mail" name="email" class="formfield" onchange="warnEmailValid('mail')"/></td>
-						<td id="errEmailValid">Please enter a valid Email</td>
+						<td><input type="text" id="mailUs" placeholder="abc@example.abc" name="email"
+                                                           class="formfield"/></td>
 					</tr>
-					<tr> 
+                                        <tr>
+						<td colspan="2" id="errEmailValid">Please enter a valid Email</td>
+                                        </tr>
+                                        <tr> 
 						<td><label for="subject">Subject:</label></td> 	
-						<td><input type="text" id="subject" name="subject" class="formfield" onchange="warnEmptyField('mail', 'subject', 'emailReply')"/></td>
-						<td id="errEmptyField">Please complete all fields</td>
+						<td><input type="text" id="subject" name="subject" 
+                                                           class="formfield"/></td>
 					</tr>
-					<tr> 
+                                        <tr>
+						<td colspan="2" id="errEmptyField">Please complete all fields</td>
+                                        </tr>
+                                        <tr> 
 						<td></td> 	
-						<td><textarea rows="4" cols="50" id="emailReply" name="comment" form="emailForm" onchange="warnEmptyField('mail', 'subject', 'emailReply')"></textarea></td>
+						<td><textarea rows="4" cols="50" id="emailReply"
+                                                              placeholder="Thanks for sharing with us!"
+                                                              name="comment" form="emailForm"></textarea></td>
 					</tr>
 					<tr id="sendbutton"> 
 						<td></td>
-						<td><input id="send" name="send" value="Send" type="submit"/></td>
+						<td><input id="send" name="send" value="Send" 
+                                                           type="submit"/></td>
 					</tr>
 				</tbody>
 			</table>
