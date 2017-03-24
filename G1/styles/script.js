@@ -21,7 +21,7 @@ function $$(className) {
 
 function testEmailType(){
 	var x = $("mail").value;
-        var patt = /(\w+)(@)(\w+)(\.com$|\.co$|\.org$|\.ca$|\.net$)/;
+        var patt = /^(\w+)(@){1}(\w+)(\.com|\.co|\.org|\.ca|\.net)$/;
         var res = patt.test(x);
 //        will return true if input is valid
 	return res;
@@ -37,8 +37,10 @@ function warnEmailType() {
 
 function testUsername(){
 	var x = $("login").value;
+        var patt = /^(?:\S\w*_*)$/i;
+        var res = patt.test(x);
 //        will return true if input is valid
-	return x !== "";
+	return res;
 }
 		
 function warnUsername() {
@@ -52,7 +54,7 @@ function warnUsername() {
 function testPassword(){
 	var x = $("password").value.length;
 //        will return true if input is valid
-	return 8 <= x && x <= 16;
+	return 8 <= x && x <= 128;
 }
 		
 function warnPassword() {
