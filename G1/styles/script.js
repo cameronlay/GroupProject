@@ -27,13 +27,13 @@ function testEmailType(){
 	return res;
 }
 		
-//function warnEmailType(id) {
-//	if(!testEmailType(id)){
-//		$("errEmail").style.visibility = 'visible';
-//	} else { 
-//		$("errEmail").style.visibility = 'hidden';
-//	}
-//}
+function warnEmailType() {
+	if(!testEmailType()){
+		$("errEmail").style.visibility = 'visible';
+	} else { 
+		$("errEmail").style.visibility = 'hidden';
+	}
+}
 
 function testUsername(){
 	var x = $("login").value;
@@ -41,13 +41,13 @@ function testUsername(){
 	return x !== "";
 }
 		
-//function warnUsername(id) {
-//	if(!testUsername(id)){
-//		$("errUsername").style.visibility = 'visible';
-//	} else { 
-//		$("errUsername").style.visibility = 'hidden';
-//	}
-//}
+function warnUsername() {
+	if(!testUsername()){
+		$("errUsername").style.visibility = 'visible';
+	} else { 
+		$("errUsername").style.visibility = 'hidden';
+	}
+}
 
 function testPassword(){
 	var x = $("password").value.length;
@@ -55,13 +55,13 @@ function testPassword(){
 	return 8 <= x && x <= 16;
 }
 		
-//function warnPassword(id) {
-//	if(!testPassword(id)){
-//		$("errPassword").style.visibility = 'visible';
-//	} else { 
-//		$("errPassword").style.visibility = 'hidden';
-//	}
-//}
+function warnPassword() {
+	if(!testPassword()){
+		$("errPassword").style.visibility = 'visible';
+	} else { 
+		$("errPassword").style.visibility = 'hidden';
+	}
+}
 
 function testConfirm() {
     var x = $("password").value === $("password2").value;
@@ -69,13 +69,13 @@ function testConfirm() {
     return x;
 }
 
-//function warnConfirm(id, id1) {
-//	if(!($(id).value === $(id1).value)){
-//		$("errConfirm").style.visibility = 'visible';
-//	} else { 
-//		$("errConfirm").style.visibility = 'hidden';
-//	}
-//}
+function warnConfirm() {
+	if(!testConfirm()){
+		$("errConfirm").style.visibility = 'visible';
+	} else { 
+		$("errConfirm").style.visibility = 'hidden';
+	}
+}
 
 //Validating for onsubmit
 
