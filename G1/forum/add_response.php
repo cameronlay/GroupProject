@@ -1,6 +1,6 @@
 <?php
-require_once('auth.php');
-require_once('config.php');
+require_once('../php/auth.php');
+require_once('../php/config.php');
 
 // Connect to server and select database.
 ($GLOBALS["___mysqli_ston"] = mysqli_connect(DB_HOST,  DB_USER,  DB_PASSWORD))or die("cannot connect");

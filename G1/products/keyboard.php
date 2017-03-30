@@ -24,38 +24,38 @@
                 <ul>
                     <li>
 						<!-- Button is seperate from the div -->
-						<div class="dropdown"><a href="./mouse.html" class="dropdown">Mice</a>
+						<div class="dropdown"><a href="./mouse.php" class="dropdown">Mice</a>
 							<div class="dropdown_content">
-							<p><a href="mouse.html#pricebracketlow">$</a></p>
-							<p><a href="mouse.html#pricebracketmid">$$</a></p>
-							<p><a href="mouse.html#pricebrackethigh">$$$</a></p>
+							<p><a href="mouse.php#pricebracketlow">$</a></p>
+							<p><a href="mouse.php#pricebracketmid">$$</a></p>
+							<p><a href="mouse.php#pricebrackethigh">$$$</a></p>
 							</div>
 						</div>
 					</li>
-                    <li><div class="dropdown"><a href="./keyboard.html" class="dropdown">Keyboard</a>
+                    <li><div class="dropdown"><a href="./keyboard.php" class="dropdown">Keyboard</a>
                             <div class="dropdown_content">
-                            <p><a href="keyboard.html#pricebracketlow">$</a></p>
-                            <p><a href="keyboard.html#pricebracketmid">$$</a></p>
-                            <p><a href="keyboard.html#pricebrackethigh">$$$</a></p>
+                            <p><a href="keyboard.php#pricebracketlow">$</a></p>
+                            <p><a href="keyboard.php#pricebracketmid">$$</a></p>
+                            <p><a href="keyboard.php#pricebrackethigh">$$$</a></p>
                             </div>
                         </div>
                     </li>
-                    <li><div class="dropdown"><a href="./monitor.html" class="dropdown">Monitor</a>
+                    <li><div class="dropdown"><a href="./monitor.php" class="dropdown">Monitor</a>
                             <div class="dropdown_content">
-                            <p><a href="monitor.html#pricebracketlow">$</a></p>
-                            <p><a href="monitor.html#pricebracketmid">$$</a></p>
-                            <p><a href="monitor.html#pricebrackethigh">$$$</a></p>
+                            <p><a href="monitor.php#pricebracketlow">$</a></p>
+                            <p><a href="monitor.php#pricebracketmid">$$</a></p>
+                            <p><a href="monitor.php#pricebrackethigh">$$$</a></p>
                             </div>
                         </div>
                     </li>
                 
             <li>
-                <a href="../index/index.html"><img id="imgid" src="../images/logonew.PNG" alt="Logo"></a>
+                <a href="../index/index.php"><img id="imgid" src="../images/logonew.PNG" alt="Logo"></a>
             </li>
 
-                    <li><div class="dropdown"><a href="../information/info.html" class="dropdown">About Us</a></div></li>
-                    <li><div class="dropdown"><a href="../information/info.html#contactheader" class="dropdown">Contact</a></div></li>
-                    <li><div class="dropdown"><a href="../information/php/forum.php" class="dropdown">Forum</a></div></li>
+                    <li><div class="dropdown"><a href="../information/info.php" class="dropdown">About Us</a></div></li>
+                    <li><div class="dropdown"><a href="../information/info.php#contactheader" class="dropdown">Contact</a></div></li>
+                    <li><div class="dropdown"><a href="../forum/forum.php" class="dropdown">Forum</a></div></li>
                 </ul>
             
         </div>
@@ -318,28 +318,28 @@
         <div class="footerconstraint">
         <div class="bottomleftcolumn">
             <ul>
-                <li><a href="../index/index.html">Home</a></li>
-                <li><a href="../information/info.html#contactheader">Contact</a></li>
-				<li><a href="../information/info.html">About Us</a></li>
+                <li><a href="../index/index.php">Home</a></li>
+                <li><a href="../information/info.php#contactheader">Contact</a></li>
+				<li><a href="../information/info.php">About Us</a></li>
 			</ul>
 		</div>
 		<div class="middleleftcolumn">
 			<ul>
-                <li><a href="mouse.html">Mice</a></li>
-                <li><a href="keyboard.html">Keyboard</a></li>
-                <li><a href="monitor.html">Monitor</a></li>
+                <li><a href="mouse.php">Mice</a></li>
+                <li><a href="keyboard.php">Keyboard</a></li>
+                <li><a href="monitor.php">Monitor</a></li>
 			</ul>
 		</div>
 		<div class="middlerightcolumn">
 			<ul>
 
-                <li><a href="../information/php/forum.php">Forum</a></li>				
+                <li><a href="../forum/forum.php">Forum</a></li>				
             </ul>
         </div>
         <div class="bottomrightcolumn">
             <ul>
-				<li><a href="../information/signup.html">Sign-Up</a></li>
-                <li><a href="../information/sitemap.html">Sitemap</a></li>
+				<li><a href="../index/register_form.php">Sign-Up</a></li>
+                <li><a href="../information/sitemap.php">Sitemap</a></li>
             </ul>
         </div>
 		<p>&copy; Copyright 2017 | lol </p>

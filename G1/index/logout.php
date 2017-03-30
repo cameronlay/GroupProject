@@ -1,5 +1,5 @@
 <?php
-	require_once('config.php');
+	require_once('../php/config.php');
 	//Start session
 	session_start();
 	

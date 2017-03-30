@@ -2,11 +2,11 @@
 <html lang="en">
     <head>
         <title>Forum</title>
-        <link rel="icon" href="../../images/titleimg2.ico"/>
+        <link rel="icon" href="../images/titleimg2.ico"/>
 
         <style></style>
         <meta charset="utf-8">
-            <link rel="stylesheet" href="../../styles/base.css" />
+            <link rel="stylesheet" href="../styles/base.css" />
             <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet"/>
             <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
         </head>
@@ -19,72 +19,72 @@
                         <li>
                             <!-- Button is seperate from the div -->
                             <div class="dropdown">
-                                <a href="../../products/mouse.html" class="dropdown">Mice</a>
+                                <a href="../products/mouse.php" class="dropdown">Mice</a>
                                 <div class="dropdown_content">
                                     <p>
-                                        <a href="../../products/mouse.html#pricebracketlow">$</a>
+                                        <a href="../products/mouse.php#pricebracketlow">$</a>
                                     </p>
                                     <p>
-                                        <a href="../../products/mouse.html#pricebracketmid">$$</a>
+                                        <a href="../products/mouse.php#pricebracketmid">$$</a>
                                     </p>
                                     <p>
-                                        <a href="../../products/mouse.html#pricebrackethigh">$$$</a>
+                                        <a href="../products/mouse.php#pricebrackethigh">$$$</a>
                                     </p>
                                 </div>
                             </div>
                         </li>
                         <li>
                             <div class="dropdown">
-                                <a href="../../products/keyboard.html" class="dropdown">Keyboard</a>
+                                <a href="../products/keyboard.php" class="dropdown">Keyboard</a>
                                 <div class="dropdown_content">
                                     <p>
-                                        <a href="../../products/keyboard.html#pricebracketlow">$</a>
+                                        <a href="../products/keyboard.php#pricebracketlow">$</a>
                                     </p>
                                     <p>
-                                        <a href="../../products/keyboard.html#pricebracketmid">$$</a>
+                                        <a href="../products/keyboard.php#pricebracketmid">$$</a>
                                     </p>
                                     <p>
-                                        <a href="../../products/keyboard.html#pricebrackethigh">$$$</a>
+                                        <a href="../products/keyboard.php#pricebrackethigh">$$$</a>
                                     </p>
                                 </div>
                             </div>
                         </li>
                         <li>
                             <div class="dropdown">
-                                <a href="../../products/monitor.html" class="dropdown">Monitor</a>
+                                <a href="../products/monitor.php" class="dropdown">Monitor</a>
                                 <div class="dropdown_content">
                                     <p>
-                                        <a href="../../products/monitor.html#pricebracketlow">$</a>
+                                        <a href="../products/monitor.php#pricebracketlow">$</a>
                                     </p>
                                     <p>
-                                        <a href="../../products/monitor.html#pricebracketmid">$$</a>
+                                        <a href="../products/monitor.php#pricebracketmid">$$</a>
                                     </p>
                                     <p>
-                                        <a href="../../products/monitor.html#pricebrackethigh">$$$</a>
+                                        <a href="../products/monitor.php#pricebrackethigh">$$$</a>
                                     </p>
                                 </div>
                             </div>
                         </li>
 
             <li>
-                <a href="../../index/index.html">
-                    <img id="imgid" src="../../images/logonew.PNG" alt="Logo">
+                <a href="../index/index.php">
+                    <img id="imgid" src="../images/logonew.PNG" alt="Logo">
                 </a>
             </li>
 
                         <li>
                             <div class="dropdown">
-                                <a href="../info.html" class="dropdown">About Us</a>
+                                <a href="../information/info.php" class="dropdown">About Us</a>
                             </div>
                         </li>
                         <li>
                             <div class="dropdown">
-                                <a href="../info.html#contactheader" class="dropdown">Contact</a>
+                                <a href="../information/info.php#contactheader" class="dropdown">Contact</a>
                             </div>
                         </li>
                         <li>
                             <div class="dropdown">
-                                <a href="forum.php" class="dropdown">Forum</a>
+                                <a href="./forum.php" class="dropdown">Forum</a>
                             </div>
                         </li>
                     </ul>
@@ -92,14 +92,14 @@
             </div>
         </nav>
         <div class="indexSignUp_LogIn">
-        <a href="register_form.php">Sign Up</a>
-        <a href="login_form.php">Log In</a>
+        <a href="../index/register_form.php">Sign Up</a>
+        <a href="../index/login_form.php">Log In</a>
     </div>   
         <!-- Main Page Content -->
         <main id="signupmain">
     <!-- center image is random placeholder -->
     <div id="centerlogo"> 
-      <a href="#"><img id="largeLogo" src ="../../images/logonew.PNG" alt="Logo"/></a>
+      <a href="#"><img id="largeLogo" src ="../images/logonew.PNG" alt="Logo"/></a>
     </div>
 
 
@@ -107,8 +107,8 @@
 
 <?php
 
-	include 'functions.php';
-	require_once('config.php');
+	include '../php/functions.php';
+	require_once('../php/config.php');
 	session_start();
 
 	// Connect to server and select database.
@@ -227,26 +227,26 @@ while($rows=mysqli_fetch_array($result2)){
 <div class="bottomleftcolumn">
 <ul>
 <li>
-<a href="../../index/index.html">Home</a>
+<a href="../index/index.php">Home</a>
 </li>
 <li>
-<a href="../info.html#contactheader">Contact</a>
+<a href="../information/info.php#contactheader">Contact</a>
 </li>
 <li>
-<a href="../info.html">About Us</a>
+<a href="../information/info.php">About Us</a>
 </li>
 </ul>
 </div>
 <div class="middleleftcolumn">
 <ul>
 <li>
-<a href="../../products/mouse.html">Mice</a>
+<a href="../products/mouse.php">Mice</a>
 </li>
 <li>
-<a href="../../products/keyboard.html">Keyboard</a>
+<a href="../products/keyboard.php">Keyboard</a>
 </li>
 <li>
-<a href="../../products/monitor.html">Monitor</a>
+<a href="../products/monitor.php">Monitor</a>
 </li>
 </ul>
 </div>
@@ -254,17 +254,17 @@ while($rows=mysqli_fetch_array($result2)){
 <ul>
 
 <li>
-<a href="forum.php">Forum</a>
+<a href="./forum.php">Forum</a>
 </li>
 </ul>
 </div>
 <div class="bottomrightcolumn">
 <ul>
 <li>
-<a href="../signup.html">Sign-Up</a>
+<a href="../index/register_form.php">Sign-Up</a>
 </li>
 <li>
-<a href="../sitemap.html">Sitemap</a>
+<a href="../information/sitemap.php">Sitemap</a>
 </li>
 </ul>
 </div>
