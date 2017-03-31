@@ -92,19 +92,7 @@
                     <a href="./login_form.php">Log In</a>
                 </div>';
         }
-    ?>
-
-<!--SLIDE SHOW SCRIPT-->
-    <script>
-  $(function(){
-    $('.indexPictures img:gt(0)').hide(); 
-    setInterval(function(){
-    $('.indexPictures :first-child').fadeOut(1000)
-    .next('img').fadeIn(1000)
-    .end().appendTo('.indexPictures');}, 
-      4700);
-});
-</script>   
+    ?>   
 
 <!--SLIDE SHOW IMAGES-->
         <main id="indexMainWrapper">
@@ -113,18 +101,68 @@
         </div>
         <div class="indexPictures">
             <!-- <p class="indexPicturesText">MKM<br>REVIEWS</p> -->
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="../images/monitortransparent_mini.jpg" alt="Main Pictures">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="../images/keyboardtransparent_mini.jpg" alt="Main Pictures">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="../images/micetransparent_mini.jpg" alt="Main Pictures">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                <br>
+            </div><!-- 
             <img src="../images/monitortransparent_mini.jpg" alt="Main Pictures">
 
             <img src="../images/keyboardtransparent_mini.jpg" alt="Main Pictures">
 
-            <img src="../images/micetransparent_mini.jpg" alt="Main Pictures">
+            <img src="../images/micetransparent_mini.jpg" alt="Main Pictures"> -->
 
         </div>
 
     </main>
 
 
-    
+    <!--SLIDE SHOW SCRIPT-->
+    <script>
+//   $(function(){
+//     $('.indexPictures img:gt(0)').hide(); 
+//     setInterval(function(){
+//     $('.indexPictures :first-child').fadeOut(1000)
+//     .next('img').fadeIn(1000)
+//     .end().appendTo('.indexPictures');}, 
+//       4700);
+// });
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  slides[slideIndex-1].style.display = "block";
+}
+
+</script>
 
 
 
