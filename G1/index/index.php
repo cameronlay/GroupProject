@@ -78,11 +78,21 @@
         </div>
     </nav>
 
-
-    <div class="indexSignUp_LogIn">
-        <a href="./register_form.php">Sign Up</a>
-        <a href="./login_form.php">Log In</a>
-    </div>
+    <?php
+        if (isLoggedIn()) {
+            echo '
+            <div class="indexSignUp_LogIn">
+                <a href="./logout.php">Log Out</a>
+                <a href="../forum/add_topic_form.php">New Forum</a>
+            </div>';
+        } else {
+            echo '
+                <div class="indexSignUp_LogIn">
+                    <a href="./register_form.php">Sign Up</a>
+                    <a href="./login_form.php">Log In</a>
+                </div>';
+        }
+    ?>
 
 <!--SLIDE SHOW SCRIPT-->
     <script>
@@ -98,6 +108,9 @@
 
 <!--SLIDE SHOW IMAGES-->
         <main id="indexMainWrapper">
+        <div class="siteInfoIndex">
+            MONITOR<br>KEYBOARD<br>MOUSE<br>GAMING PERIPHERALS REVIEW
+        </div>
         <div class="indexPictures">
             <!-- <p class="indexPicturesText">MKM<br>REVIEWS</p> -->
             <img src="../images/monitortransparent_mini.jpg" alt="Main Pictures">
