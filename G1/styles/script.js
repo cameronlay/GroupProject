@@ -1,68 +1,68 @@
 // USEFULL PREDEFINED FUNCTION
 
 function $(id){
-	var element = document.getElementById(id);
-	if( element == null )
-		alert( 'Programmer error: ' + id + ' does not exist.' );
-	return element;
+    var element = document.getElementById(id);
+    if( element == null )
+        alert( 'Programmer error: ' + id + ' does not exist.' );
+    return element;
 }
 
 
 function $$(className) {
-	var element = document.getElementsByClassName(className);
+    var element = document.getElementsByClassName(className);
 
-	if (element == null) {
-		alert('Programmer error (class): ' + className + 'does not exist.');
-	}
-	return element;
+    if (element == null) {
+        alert('Programmer error (class): ' + className + 'does not exist.');
+    }
+    return element;
 }
 
 /*=========Sign-up Page Javascript===============*/
 
 function testEmailType(){
-	var x = $("mail").value;
-        var patt = /^(\w+)(@){1}(\w+)(\.com|\.co|\.org|\.ca|\.net)$/;
-        var res = patt.test(x);
+    var x = $("mail").value;
+    var patt = /^(\w+)(@){1}(\w+)(\.com|\.co|\.org|\.ca|\.net)$/;
+    var res = patt.test(x);
 //        will return true if input is valid
-	return res;
+    return res;
 }
-		
+        
 function warnEmailType() {
-	if(!testEmailType()){
-		$("errEmail").style.visibility = 'visible';
-	} else { 
-		$("errEmail").style.visibility = 'hidden';
-	}
+    if(!testEmailType()){
+        $("errEmail").style.visibility = 'visible';
+    } else { 
+        $("errEmail").style.visibility = 'hidden';
+    }
 }
 
 function testUsername(){
-	var x = $("login").value;
-        var patt = /^(?:\S\w*_*)$/i;
-        var res = patt.test(x);
+    var x = $("login").value;
+    var patt = /^(?:\S\w*_*)$/i;
+    var res = patt.test(x);
 //        will return true if input is valid
-	return res;
+    return res;
 }
-		
+        
 function warnUsername() {
-	if(!testUsername()){
-		$("errUsername").style.visibility = 'visible';
-	} else { 
-		$("errUsername").style.visibility = 'hidden';
-	}
+    if(!testUsername()){
+        $("errUsername").style.visibility = 'visible';
+    } else { 
+        $("errUsername").style.visibility = 'hidden';
+    }
 }
 
 function testPassword(){
-	var x = $("password").value.length;
+    var x = $("password").value.length;
 //        will return true if input is valid
-	return 8 <= x && x <= 128;
+    return 8 <= x && x <= 128;
 }
-		
+        
 function warnPassword() {
-	if(!testPassword()){
-		$("errPassword").style.visibility = 'visible';
-	} else { 
-		$("errPassword").style.visibility = 'hidden';
-	}
+    if(!testPassword()){
+        $("errPassword").style.visibility = 'visible';
+    } else { 
+        $("errPassword").style.visibility = 'hidden';
+    }
 }
 
 function testConfirm() {
@@ -72,11 +72,11 @@ function testConfirm() {
 }
 
 function warnConfirm() {
-	if(!testConfirm()){
-		$("errConfirm").style.visibility = 'visible';
-	} else { 
-		$("errConfirm").style.visibility = 'hidden';
-	}
+    if(!testConfirm()){
+        $("errConfirm").style.visibility = 'visible';
+    } else { 
+        $("errConfirm").style.visibility = 'hidden';
+    }
 }
 
 //Validating for onsubmit
@@ -113,42 +113,42 @@ function formValidate() {
 /*================= Contact-Us JavaScript============*/
 
 //function testEmailValid(id){
-//	var x = $(id).value;
-//	x = x.substring(x.lastIndexOf("."));
-//	return x == ".com" || x == ".ca" || x == ".org";
+//  var x = $(id).value;
+//  x = x.substring(x.lastIndexOf("."));
+//  return x == ".com" || x == ".ca" || x == ".org";
 //}
 
 function testEmailValid(){
-	var x = $("mailUs").value;
-        var patt = /(\w+)(@)(\w+)(\.com$|\.co$|\.org$|\.ca$|\.net$)/;
-        var res = patt.test(x);
+    var x = $("mailUs").value;
+    var patt = /(\w+)(@)(\w+)(\.com$|\.co$|\.org$|\.ca$|\.net$)/;
+    var res = patt.test(x);
 //        will return true if input is valid
-	return res;
+    return res;
 }
 
 //function warnEmailValid(id) {
-//	if(!testEmailValid(id)){
-//		$("errEmailValid").style.visibility = 'visible';
-//	} else { 
-//		$("errEmailValid").style.visibility = 'hidden';
-//	}
+//  if(!testEmailValid(id)){
+//      $("errEmailValid").style.visibility = 'visible';
+//  } else { 
+//      $("errEmailValid").style.visibility = 'hidden';
+//  }
 //}
 
 
 function testEmptyField () {
     // will return if all inputs' are completed
-	var x = !($("mailUs").value == "" 
+    var x = !($("mailUs").value == "" 
                 || $("subject").value == "" 
                 || $("emailReply").value == "");
-        return x;
+    return x;
 }
 
 //function warnEmptyField (id, id1, id2) {
-//	if($(id).value == "" || $(id1).value == "" || $(id2).value == ""){
-//		$("errEmptyField").style.visibility = 'visible';
-//	} else {
-//		$("errEmptyField").style.visibility = 'hidden';
-//	}
+//  if($(id).value == "" || $(id1).value == "" || $(id2).value == ""){
+//      $("errEmptyField").style.visibility = 'visible';
+//  } else {
+//      $("errEmptyField").style.visibility = 'hidden';
+//  }
 //}
 
 function infoValidate() {
@@ -158,15 +158,15 @@ function infoValidate() {
         if (!testEmailValid()) {
             $("errEmailValid").style.visibility = 'visible';
             $("errEmailValid").style.textAlign = "right";
-	} else { 
+    } else { 
             $("errEmailValid").style.visibility = 'hidden';
-	}
+    }
         if (!testEmptyField()) {
             $("errEmptyField").style.visibility = 'visible';
             $("errEmptyField").style.textAlign = "right";
-	} else {
+    } else {
             $("errEmptyField").style.visibility = 'hidden';
-	}
+    }
         return false;
     }
 }
@@ -177,22 +177,22 @@ function infoValidate() {
 
 /*
 var z= document.getElementsByClassName("extraText");
-	var i;
-	for(i = 0; i < z.length; i++){
-		z[i].style.display = "none";
-	}
+    var i;
+    for(i = 0; i < z.length; i++){
+        z[i].style.display = "none";
+    }
 */
-	function expandContent(num){
-	
-		var x = document.getElementsByClassName("extraText");
-		var y = document.getElementsByClassName("contentbox");
-		var z = document.getElementsByClassName("readMore");
-		
-		x[num].style.display = "block";
-		y[num].style.height = "700px";
+    function expandContent(num){
+    
+        var x = document.getElementsByClassName("extraText");
+        var y = document.getElementsByClassName("contentbox");
+        var z = document.getElementsByClassName("readMore");
+        
+        x[num].style.display = "block";
+        y[num].style.height = "700px";
         z[num].style.display = "none";
-				
-	}
+                
+    }
    
     
     function showLess(num) {
@@ -202,6 +202,6 @@ var z= document.getElementsByClassName("extraText");
         var z = document.getElementsByClassName("readMore");
         
         x[num].style.display = "none";
-		y[num].style.height = "350px";
+        y[num].style.height = "350px";
         z[num].style.display = "block";
     }

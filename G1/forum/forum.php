@@ -12,59 +12,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <title>MKM Reviews</title>
-   <link rel="icon" href="../images/titleimg2.ico"/>
-   
-   <style></style>
-   <meta charset="utf-8">
-   <link rel="stylesheet" href="../styles/base.css" />
-   <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet"/>
-   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>MKM Reviews</title>
+    <link rel="icon" href="../images/titleimg2.ico"/>
+    <style></style>
+    <meta charset="utf-8">
+    <meta name="description" content="Gaming Peripheral Reviews">
+    <meta name="keywords" content="Monitor, Mouse, Keyboards">
+    <link rel="stylesheet" href="../styles/base.css" />
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 
 <body>
-   <nav>
+    <nav>
         <div id="navwrapper">
-            
-                <ul>
+            <ul>
+                <li>
+                    <!-- Button is seperate from the div -->
+                    <div class="dropdown"><a href="../products/mouse.php" class="dropdown">Mice</a>
+                        <div class="dropdown_content">
+                            <p><a href="../products/mouse.php#pricebracketlow">$</a></p>
+                            <p><a href="../products/mouse.php#pricebracketmid">$$</a></p>
+                            <p><a href="../products/mouse.php#pricebrackethigh">$$$</a></p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown"><a href="../products/keyboard.php" class="dropdown">Keyboard</a>
+                            <div class="dropdown_content">
+                                <p><a href="../products/keyboard.php#pricebracketlow">$</a></p>
+                                <p><a href="../products/keyboard.php#pricebracketmid">$$</a></p>
+                                <p><a href="../products/keyboard.php#pricebrackethigh">$$$</a></p>
+                            </div>
+                        </div>
+                    </li>
                     <li>
-						<!-- Button is seperate from the div -->
-						<div class="dropdown"><a href="../products/mouse.php" class="dropdown">Mice</a>
-							<div class="dropdown_content">
-							<p><a href="../products/mouse.php#pricebracketlow">$</a></p>
-							<p><a href="../products/mouse.php#pricebracketmid">$$</a></p>
-							<p><a href="../products/mouse.php#pricebrackethigh">$$$</a></p>
-							</div>
-						</div>
-					</li>
-                    <li><div class="dropdown"><a href="../products/keyboard.php" class="dropdown">Keyboard</a>
+                        <div class="dropdown"><a href="../products/monitor.php" class="dropdown">Monitor</a>
                             <div class="dropdown_content">
-                            <p><a href="../products/keyboard.php#pricebracketlow">$</a></p>
-                            <p><a href="../products/keyboard.php#pricebracketmid">$$</a></p>
-                            <p><a href="../products/keyboard.php#pricebrackethigh">$$$</a></p>
+                                <p><a href="../products/monitor.php#pricebracketlow">$</a></p>
+                                <p><a href="../products/monitor.php#pricebracketmid">$$</a></p>
+                                <p><a href="../products/monitor.php#pricebrackethigh">$$$</a></p>
                             </div>
                         </div>
                     </li>
-                    <li><div class="dropdown"><a href="../products/monitor.php" class="dropdown">Monitor</a>
-                            <div class="dropdown_content">
-                            <p><a href="../products/monitor.php#pricebracketlow">$</a></p>
-                            <p><a href="../products/monitor.php#pricebracketmid">$$</a></p>
-                            <p><a href="../products/monitor.php#pricebrackethigh">$$$</a></p>
-                            </div>
-                        </div>
+                    <li>
+                        <a href="../index/index.php"><img id="imgid" src="../images/logonew.PNG" alt="Logo"></a>
                     </li>
-                
-            <li>
-                <a href="../index/index.php"><img id="imgid" src="../images/logonew.PNG" alt="Logo"></a>
-            </li>
-
                     <li><div class="dropdown"><a href="../information/info.php" class="dropdown">About Us</a></div></li>
                     <li><div class="dropdown"><a href="../information/info.php#contactheader" class="dropdown">Contact</a></div></li>
                     <li><div class="dropdown"><a href="./forum.php" class="dropdown">Forum</a></div></li>
                 </ul>
-            
-        </div>
-    </nav>
+            </div>
+        </nav>
     
     <?php
         if (isLoggedIn()) {
@@ -82,24 +81,24 @@
         }
     ?>
 
-	<!-- Main Page Content -->
-	<main id="signupmain">
+    <!-- Main Page Content -->
+    <main id="signupmain">
 
 
 
 
             <?php
-            	require_once('../php/config.php');
+                require_once('../php/config.php');
             
-            	// Connect to server and select database.
-            	($GLOBALS["___mysqli_ston"] = mysqli_connect(DB_HOST,  DB_USER,  DB_PASSWORD))or die("cannot connect");
-            	((bool)mysqli_query($GLOBALS["___mysqli_ston"], "USE " . constant('DB_DATABASE')))or die("cannot select DB");
-            	$tbl_name="topic"; // Table name
+                // Connect to server and select database.
+                ($GLOBALS["___mysqli_ston"] = mysqli_connect(DB_HOST,  DB_USER,  DB_PASSWORD))or die("cannot connect");
+                ((bool)mysqli_query($GLOBALS["___mysqli_ston"], "USE " . constant('DB_DATABASE')))or die("cannot select DB");
+                $tbl_name="topic"; // Table name
             
             
-            	$sql="SELECT * FROM $tbl_name ORDER BY id DESC";
-            	// ORDER BY id DESC is order result by descending
-            	$result=mysqli_query($GLOBALS["___mysqli_ston"], $sql);
+                $sql="SELECT * FROM $tbl_name ORDER BY id DESC";
+                // ORDER BY id DESC is order result by descending
+                $result=mysqli_query($GLOBALS["___mysqli_ston"], $sql);
             ?>
             
             <table width="90%" border="0" align="center" cellpadding="3" cellspacing="1" bgcolor="#CCCCCC">
@@ -135,41 +134,41 @@
 
         
         </main>
-	<!-- Footer -->
+    <!-- Footer -->
    <footer>
-		<div class="footerconstraint">
+        <div class="footerconstraint">
         <div class="bottomleftcolumn">
             <ul>
                 <li><a href="../index/index.php">Home</a></li>
                 <li><a href="../information/info.php#contactheader">Contact</a></li>
-				<li><a href="../information/info.php">About Us</a></li>
-			</ul>
-		</div>
-		<div class="middleleftcolumn">
-			<ul>
+                <li><a href="../information/info.php">About Us</a></li>
+            </ul>
+        </div>
+        <div class="middleleftcolumn">
+            <ul>
                 <li><a href="../products/mouse.php">Mice</a></li>
                 <li><a href="../products/keyboard.php">Keyboard</a></li>
                 <li><a href="../products/monitor.php">Monitor</a></li>
-			</ul>
-		</div>
-		<div class="middlerightcolumn">
-			<ul>
+            </ul>
+        </div>
+        <div class="middlerightcolumn">
+            <ul>
 
-                <li><a href="./forum.php">Forum</a></li>				
+                <li><a href="./forum.php">Forum</a></li>                
             </ul>
         </div>
         <div class="bottomrightcolumn">
             <ul>
-				<li><a href="../index/register_form.php">Sign-Up</a></li>
+                <li><a href="../index/register_form.php">Sign-Up</a></li>
                 <li><a href="../information/sitemap.php">Sitemap</a></li>
             </ul>
         </div>
-		<p>&copy; Copyright 2017 | lol </p>
-		</div>
+        <p>&copy; Copyright 2017 | lol </p>
+        </div>
    </footer>
    
 </body>
 </html>
 
 
-	
+    
