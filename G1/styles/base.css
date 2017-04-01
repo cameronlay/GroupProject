@@ -16,7 +16,7 @@
 }
 
 html, body {
-	height: 100%
+    height: 100%
 }
 
 body {
@@ -24,8 +24,8 @@ body {
     color: #404040;
     margin: 0;
     width: 100%;
-	height: 100%;
-	min-width: 1300px;
+    height: 100%;
+    min-width: 1300px;
 }
 
 /* nav */
@@ -59,35 +59,35 @@ nav {
     min-height: 60px;
     max-height: 60px;
     position: fixed;
-	z-index: 100;
+    z-index: 100;
 }
 
 #navleft {
-	/* position:absolute; /* required so the UL doesnt push itself down */ 
+    /* position:absolute; /* required so the UL doesnt push itself down */ 
     float: left;
 }
 
-#navright {	
-	/* margin-left: 60%;	/* Prevents Stacking with the center logo*/ 
-	float: right;
+#navright { 
+    /* margin-left: 60%;    /* Prevents Stacking with the center logo*/ 
+    float: right;
 }
 
 /*This is the logo*/
 
 #imgid {
     width: 100%;
-	height: 100%;
+    height: 100%;
     /* width: 16%; */
     margin: 0;
     background-color: #183030;
     padding: 0;
-	/* position:absolute; 	/* Fixes the image*/
+    /* position:absolute;   /* Fixes the image*/
 }
 /* resizing the icon boxes*/
 .dropdown{
-	min-width: 160px; 
-	/* margin:0; */
-	/* padding:0; */
+    min-width: 160px; 
+    /* margin:0; */
+    /* padding:0; */
 }
 
 nav ul {
@@ -102,7 +102,7 @@ nav ul {
     display: -webkit-flex;
     display: flex;
     width: 100%;
-	/* overflow:hidden; /* the magic happens here prevents it from the ul from cascading */
+    /* overflow:hidden; /* the magic happens here prevents it from the ul from cascading */
 }
 
 nav ul li {
@@ -180,58 +180,58 @@ main, section {
 
 footer {
     font-family: 'Open Sans', sans-serif;
-	width: 100%;
-	min-height: 100px;
-	bottom: 0;
-	background-color: #183030;
-	z-index: 20;
-	font-size: 0.8em;
+    width: 100%;
+    min-height: 100px;
+    bottom: 0;
+    background-color: #183030;
+    z-index: 20;
+    font-size: 0.8em;
 }
 
 footer li {
-	list-style: none;
+    list-style: none;
 }
 
 footer li a:hover {
-	background-color: #f6f6e8;
+    background-color: #f6f6e8;
     color: #183030;
 }
 
 footer li a {
-	color: #f6f6e8;
-	text-decoration: none;
+    color: #f6f6e8;
+    text-decoration: none;
 }
 
 .footerconstraint { 
-	width: 1000px;
-	margin: auto;
+    width: 1000px;
+    margin: auto;
 }
 
 .footerconstraint p {
-	text-align: center;
-	margin: 0;
-	padding: 0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 .bottomleftcolumn { 
-	display: inline-table;
-	width: 20%;
-	margin-left: 10%;
+    display: inline-table;
+    width: 20%;
+    margin-left: 10%;
 }
 
 .middleleftcolumn { 
-	display:inline-table;
-	width: 20%;
+    display:inline-table;
+    width: 20%;
 }
 
 .middlerightcolumn {
-	display: inline-table;
-	width: 20%;
+    display: inline-table;
+    width: 20%;
 }
 
 .bottomrightcolumn {
-	display: inline-table;
-	width: 20%;
+    display: inline-table;
+    width: 20%;
 }
 
 /*--------------------------*/
@@ -241,13 +241,13 @@ footer li a {
 /* index  */
 
 #indexMainWrapper {
-	position:relative;
+    position:relative;
     width: 85%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 80px;
     margin-bottom: 100px;
-	min-height: 600px;
+    min-height: 600px;
 }
 
 #indexMainWrapper div.siteInfoIndex {
@@ -320,17 +320,17 @@ footer li a {
     /*margin-left: 63px;*/
     /*margin-right: 63px;   */
     /*background-image: url("../images/monitorhighcropped.jpg");*/
-	/*background-size: contain;*/
-	/*height: 500px;*/
+    /*background-size: contain;*/
+    /*height: 500px;*/
 }
 
 #indexMainWrapper img { 
-	/*position:absolute; 
-	left:0;
-	top:0; */
-	/*z-index: 2;*/
-	/*height:100%;*/
-	width:100%;
+    /*position:absolute; 
+    left:0;
+    top:0; */
+    /*z-index: 2;*/
+    /*height:100%;*/
+    width:100%;
 
 }
 
@@ -377,63 +377,63 @@ div.indexSignUp_LogIn a {
 
 
 #forumcontainer {
-	/* Box Offsets */
-	margin-top: 15%; /* If this changes Photo needs to change too*/
-	margin-left: 10%;
-	margin-bottom:10%;
-	/* main box */
-	width:80%;
-	min-width: 350px; /* restricting size */
-	height:700px;
-	
+    /* Box Offsets */
+    margin-top: 15%; /* If this changes Photo needs to change too*/
+    margin-left: 10%;
+    margin-bottom:10%;
+    /* main box */
+    width:80%;
+    min-width: 350px; /* restricting size */
+    height:700px;
+    
 }
 
 /* -- Forum Elements -- */
 #forumtable {
-	margin: auto;
-	padding:15px;
-	text-align:center;
+    margin: auto;
+    padding:15px;
+    text-align:center;
 }
 
 
 
 #forumtable .forumheader {
-	color:#ffffff;
-	height:50px; 
-	font-size: 24px;
+    color:#ffffff;
+    height:50px; 
+    font-size: 24px;
 }
 
 #forumtable td,#forumtable tr,#forumtable th {
-	margin: auto;
-	border: 1px solid black;
-	width: 600px;
-	max-width: 30%;
-	height: 100px; 
-	background-color:#4b6b36; 
-	color: #183030;
+    margin: auto;
+    border: 1px solid black;
+    width: 600px;
+    max-width: 30%;
+    height: 100px; 
+    background-color:#4b6b36; 
+    color: #183030;
 }
 #forumheader {
-	background-color:#f0f0f0;
-	height:50px;
+    background-color:#f0f0f0;
+    height:50px;
 }
 /* topic is wider */
 
 #forumtable td {
-	width:300px;
+    width:300px;
 }
 a.forumelements {
-	height: 100px;
+    height: 100px;
 }
 
 
 
 a.forumelements:visited {
-	color: #ffffff;
+    color: #ffffff;
 }
 
 /* This content are special */
 .forumcontent  {
-	width: 600px;
+    width: 600px;
 }
 
 /**/
@@ -441,72 +441,72 @@ a.forumelements:visited {
 /* Info Page */
 
 #infomain {
-	margin-top: 40px;
-	margin-bottom: 100px;
+    margin-top: 40px;
+    margin-bottom: 100px;
 }
 
 .infoheader {
-	text-align: center;
-	width: 1000px;
-	margin: auto;
+    text-align: center;
+    width: 1000px;
+    margin: auto;
 }
 
 #topthree {
-	width: 1000px;
-	margin: auto;
-	margin-top: 40px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 40px;
 }
 #bottomtwo {
-	width: 1000px;
-	margin: auto;
+    width: 1000px;
+    margin: auto;
 }
 
 .profilepic {
-	width: 140px;
-	height: 140px;
+    width: 140px;
+    height: 140px;
 }
 
 #cameroninfo {
-	display: inline-block;
-	text-align: center;
-	width: 33%;
+    display: inline-block;
+    text-align: center;
+    width: 33%;
 }
 
 #edmundinfo {
-	display: inline-block;
-	text-align: center;	
-	width: 33%;
+    display: inline-block;
+    text-align: center; 
+    width: 33%;
 }
 #jasoninfo {
-	display: inline-block;
-	text-align: center;
-	width: 33%;
+    display: inline-block;
+    text-align: center;
+    width: 33%;
 }
 #danielinfo {
-	display: inline-block;
-	text-align: center;
-	width: 33%;
-	margin-left: 140px;
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+    margin-left: 140px;
 }
 #josephinfo {
-	display: inline-block;
-	text-align: center;	
-	width: 33%;
+    display: inline-block;
+    text-align: center; 
+    width: 33%;
 }
 
 #contactus{
-	width: 1000px;
-	margin: auto;
-	text-align: center;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
 }
 
 #emailForm {
-	width: 1000px;
-	margin: auto;
+    width: 1000px;
+    margin: auto;
 }
 
 #emailtable {
-	margin: auto;
+    margin: auto;
 }
 
 /*-------------------*/
@@ -514,38 +514,38 @@ a.forumelements:visited {
 /* Sign-Up Page */
 
 #centerlogo{
-	/*text-align:center;*/
-	margin-top: 70px;
-	margin-bottom: 10px;
-	/*margin-left: auto;*/
-	/*margin-right: auto;*/
+    /*text-align:center;*/
+    margin-top: 70px;
+    margin-bottom: 10px;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
 }
 
 #largeLogo {
-	width: 350px;
-	height: 275px;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-	clear: both;
+    width: 350px;
+    height: 275px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    clear: both;
 }
 
 #signupform {
-	margin: auto;
-	margin-bottom: 50px;
-	width : 1000px;
+    margin: auto;
+    margin-bottom: 50px;
+    width : 1000px;
 }
 
 #signuptable {
-	margin: auto;
+    margin: auto;
 }
 
 input.formfield {
-	width: 100%;
+    width: 100%;
 }
 
 #signupmain{
-	margin-bottom: 100px;
+    margin-bottom: 100px;
 }
 
 /*-------------------*/
@@ -553,82 +553,82 @@ input.formfield {
 /* Product Pages */
 
 #contentwrapper{ 
-	width: 1000px;
-	margin: auto;
-	font-family: 'Open Sans', sans-serif;
+    width: 1000px;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #pagename{ 
-	padding-top: 40px;
+    padding-top: 40px;
 }
 
 
 #ptitle  {  
-	width: 200px;
+    width: 200px;
     margin: auto;
-	text-align: center;
-	height: 50px;
-	border: 2px solid black;
-	background-color: #183030;
-	color: #f6f6e8;
+    text-align: center;
+    height: 50px;
+    border: 2px solid black;
+    background-color: #183030;
+    color: #f6f6e8;
 }
 
 #pricebracketlow{ 
-	width: 125px;
-	height: 40px;
-	text-align: center;
-	margin: 20px 450px 20px 450px;
-	border: 2px solid black;
-	background-color: #183030;
-	color: #f6f6e8;
+    width: 125px;
+    height: 40px;
+    text-align: center;
+    margin: 20px 450px 20px 450px;
+    border: 2px solid black;
+    background-color: #183030;
+    color: #f6f6e8;
 }
 
 #pricebracketmid{ 
-	width: 125px;
-	height: 40px;
-	text-align: center;
-	margin: 20px 450px 20px 450px;
-	border: 2px solid black;
-	background-color: #183030;
-	color: #f6f6e8;
+    width: 125px;
+    height: 40px;
+    text-align: center;
+    margin: 20px 450px 20px 450px;
+    border: 2px solid black;
+    background-color: #183030;
+    color: #f6f6e8;
 }
 
 #pricebrackethigh{ 
-	width: 125px;
-	height: 40px;
-	text-align: center;
-	margin: 20px 450px 20px 450px;
-	border: 2px solid black;
-	background-color: #183030;
-	color: #f6f6e8;
+    width: 125px;
+    height: 40px;
+    text-align: center;
+    margin: 20px 450px 20px 450px;
+    border: 2px solid black;
+    background-color: #183030;
+    color: #f6f6e8;
 }
 
 .contentbox { 
-	width: 750px;
-	height: 350px;
-	border: 2px solid black;
-	margin: 0px 0px 20px 150px;
-			  
+    width: 750px;
+    height: 350px;
+    border: 2px solid black;
+    margin: 0px 0px 20px 150px;
+              
 }
 
 .contentbox button { 
-	position: relative;
-	left: 500px;
+    position: relative;
+    left: 500px;
     top: 25px;
 }
 
 .contentbox img { 
-	height: 250px;
+    height: 250px;
     width: 300px;
-	margin-top: 20px;
-	padding-left: 10px;
+    margin-top: 20px;
+    padding-left: 10px;
 }
 
 .textbox { 
-	width: 400px;
-	float: right;
-	padding: 20px 20px 0px 0px;
-		   
+    width: 400px;
+    float: right;
+    padding: 20px 20px 0px 0px;
+           
 }
 
 .proTitle {
@@ -650,11 +650,11 @@ input.formfield {
 
 
 .extraText { 
-	float:right;
-	padding:0px 20px 0px 20px;
+    float:right;
+    padding:0px 20px 0px 20px;
     margin-top: 30px;
-	display: none;
-			 
+    display: none;
+             
 }
 
 .extraText button {
@@ -664,19 +664,19 @@ input.formfield {
     
    
 }
-	
+    
 /*---------------------------------------*/
 
 /* Site Map Page */
 
 .middlerightcolumn {
-	display: inline-table;
-	width: 20%;
+    display: inline-table;
+    width: 20%;
 }
 
 .bottomrightcolumn {
-	display: inline-table;
-	width: 20%;
+    display: inline-table;
+    width: 20%;
 }
 
 /*SITEMAP START*/
@@ -743,12 +743,12 @@ input.formfield {
 
 #sitemaptablecontent th {
     border-bottom: 0;
-	border-left: 0;
+    border-left: 0;
     margin: 0;
 }
 #sitemaptablecontent td {
     border-bottom: 0;
-	border-left: 0;
+    border-left: 0;
     margin:0;
 }
 
@@ -758,83 +758,83 @@ input.formfield {
 
 .keyboardcell img {
     width:75px; 
-	height:auto;
+    height:auto;
 }
 
 .mousecell img {
     width:75px; 
-	height:auto;
+    height:auto;
 }
 
 .monitorcell img {
     width:75px; 
-	height:auto;
+    height:auto;
 }
 
 
 .cameron img{
     width:50px; 
-	height:auto;
+    height:auto;
 }
 
 .edmund img{
     width: 50px; 
-	height:auto;
+    height:auto;
 }
 
 .jason img{
     width: 50px; 
-	height:auto;
+    height:auto;
 }
 
 .daniel img{
     width: 50px; 
-	height:auto;
+    height:auto;
 }
 
 .joseph img{
     width: 50px; 
-	height:auto;
+    height:auto;
 }
 
 /*----------------------------*/
 
 #errEmail {
-	visibility: hidden;
-	color: red;
-	font-size: .8em;
-	text-align: right;
+    visibility: hidden;
+    color: red;
+    font-size: .8em;
+    text-align: right;
 }
 
 #errUsername {
-	visibility: hidden;
-	color: red;
-	font-size: .8em;
-	text-align: right;
+    visibility: hidden;
+    color: red;
+    font-size: .8em;
+    text-align: right;
 }
 
 #errPassword {
-	visibility: hidden;
-	color: red;
-	font-size: .8em;
-	text-align: right;
+    visibility: hidden;
+    color: red;
+    font-size: .8em;
+    text-align: right;
 }
 
 #errConfirm {
-	visibility: hidden;
-	color: red;
-	font-size: .8em;
-	text-align: right;
+    visibility: hidden;
+    color: red;
+    font-size: .8em;
+    text-align: right;
 }
 
 #errEmailValid {
-	visibility: hidden;
-	color: red;
-	font-size: .8em;
+    visibility: hidden;
+    color: red;
+    font-size: .8em;
 }
 
 #errEmptyField{
-	visibility: hidden;
-	color: red;
-	font-size: .8em;
+    visibility: hidden;
+    color: red;
+    font-size: .8em;
 }
