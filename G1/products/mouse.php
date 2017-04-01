@@ -1,3 +1,16 @@
+<?php
+    require_once('../php/auth.php');
+
+    include '../php/functions.php';
+    require_once('../php/config.php');
+    session_start();
+
+    // Connect to server and select database.
+    ($GLOBALS["___mysqli_ston"] = mysqli_connect(DB_HOST,  DB_USER,  DB_PASSWORD))or die("cannot connect, error: ".((is_object($GLOBALS["___mysqli_ston"])) ? mysqli_error($GLOBALS["___mysqli_ston"]) : (($___mysqli_res = mysqli_connect_error()) ? $___mysqli_res : false)));
+    ((bool)mysqli_query($GLOBALS["___mysqli_ston"], "USE " . constant('DB_DATABASE')))or die("cannot select DB, error: ".((is_object($GLOBALS["___mysqli_ston"])) ? mysqli_error($GLOBALS["___mysqli_ston"]) : (($___mysqli_res = mysqli_connect_error()) ? $___mysqli_res : false)));
+    $tbl_name="topic"; // Table name
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -58,6 +71,23 @@
             
         </div>
     </nav>
+
+    <?php
+        if (isLoggedIn()) {
+            echo '
+            <div class="indexSignUp_LogIn">
+                <a href="../index/logout.php">Log Out</a>
+                <a href="../forum/add_topic_form.php">New Forum</a>
+            </div>';
+        } else {
+            echo '
+                <div class="indexSignUp_LogIn">
+                    <a href="../index/register_form.php">Sign Up</a>
+                    <a href="../index/login_form.php">Log In</a>
+                </div>';
+        }
+    ?>
+
 <!-- product content -->   
 <main>
 	<div id="contentwrapper">

@@ -1,8 +1,8 @@
 <?php
 	session_start();
-?>
 
-<?php
+
+  
   include '../php/functions.php';
   require_once('../php/config.php');
   session_start();

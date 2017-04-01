@@ -449,6 +449,7 @@ a.forumelements:visited {
     text-align: center;
     width: 1000px;
     margin: auto;
+    clear: both;
 }
 
 #topthree {
