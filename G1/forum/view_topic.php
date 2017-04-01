@@ -1,5 +1,5 @@
 <?php
-    require_once('../php/auth.php');
+    // require_once('../php/auth.php');
 
     include '../php/functions.php';
     require_once('../php/config.php');
