@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-   <title> Site Map </title>
+   <title>MKM Reviews</title>
    <style>
       
    </style>

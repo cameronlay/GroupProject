@@ -1,20 +1,9 @@
-<?php
-    // require_once('../php/auth.php');
 
-    include '../php/functions.php';
-    require_once('../php/config.php');
-    session_start();
-
-    // Connect to server and select database.
-    ($GLOBALS["___mysqli_ston"] = mysqli_connect(DB_HOST,  DB_USER,  DB_PASSWORD))or die("cannot connect, error: ".((is_object($GLOBALS["___mysqli_ston"])) ? mysqli_error($GLOBALS["___mysqli_ston"]) : (($___mysqli_res = mysqli_connect_error()) ? $___mysqli_res : false)));
-    ((bool)mysqli_query($GLOBALS["___mysqli_ston"], "USE " . constant('DB_DATABASE')))or die("cannot select DB, error: ".((is_object($GLOBALS["___mysqli_ston"])) ? mysqli_error($GLOBALS["___mysqli_ston"]) : (($___mysqli_res = mysqli_connect_error()) ? $___mysqli_res : false)));
-    $tbl_name="topic"; // Table name
-?>
 
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Forum</title>
+        <title>MKM Reviews</title>
         <link rel="icon" href="../images/titleimg2.ico"/>
 
         <style></style>
@@ -106,6 +95,10 @@
         </nav>
         
     <?php
+    include '../php/functions.php';
+    require_once('../php/config.php');
+    session_start();
+
         if (isLoggedIn()) {
             echo '
             <div class="indexSignUp_LogIn">
@@ -133,9 +126,7 @@
 
 <?php
 
-	include '../php/functions.php';
-	require_once('../php/config.php');
-	session_start();
+	
 
 	// Connect to server and select database.
 	($GLOBALS["___mysqli_ston"] = mysqli_connect(DB_HOST,  DB_USER,  DB_PASSWORD))or die("cannot connect");

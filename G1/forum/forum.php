@@ -12,7 +12,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <title>Forum</title>
+   <title>MKM Reviews</title>
    <link rel="icon" href="../images/titleimg2.ico"/>
    
    <style></style>

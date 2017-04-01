@@ -14,7 +14,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <title>Forum</title>
+   <title>MKM Reviews</title>
    <link rel="icon" href="../images/titleimg2.ico"/>
    
    <style></style>
@@ -85,6 +85,10 @@
 
     <!-- Main Page Content -->
 	<main id="signupmain">
+    <!-- center image is random placeholder -->
+    <div id="centerlogo"> 
+      <a href="#"><img id="largeLogo" src ="../images/logonew.PNG" alt="Logo"/></a>
+    </div>
             <table width="400" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#CCCCCC">
                 <tr>
                     <form id="form1" name="form1" method="post" action="add_topic.php">

@@ -14,7 +14,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <title>About Us</title>
+   <title>MKM Reviews</title>
    <link rel="icon" href="../images/titleimg2.ico"/>
    <style>
       

@@ -14,9 +14,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <title>
-      Monitor
-   </title>
+   <title>MKM Reviews</title>
    <style>
       
    </style>
