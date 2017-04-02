@@ -196,7 +196,7 @@
                 <ul>
                     <li>
                         <?php
-                            if (isLoggedIn()) {
+                            if (!isLoggedIn()) {
                                 echo '<a href="./register_form.php">Sign-Up</a>';
                             } else {
                                 echo '<a href="./logout.php">Log-Out</a>';

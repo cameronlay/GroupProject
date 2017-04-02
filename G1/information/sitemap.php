@@ -144,7 +144,7 @@
                     <td></td>
                     <td>
                         <?php
-                            if (isLoggedIn()) {
+                            if (!isLoggedIn()) {
                                 echo '<a href="../index/register_form.php">Sign-Up</a>';
                             } else {
                                 echo '<a href="../index/logout.php">Log-Out</a>';
