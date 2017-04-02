@@ -19,28 +19,30 @@
       
    </style>
    <meta charset="utf-8">
-	<link rel="stylesheet" href="../styles/base.css">
+    <meta name="description" content="Gaming Peripheral Reviews">
+    <meta name="keywords" content="Monitor, Mouse, Keyboards">
+    <link rel="stylesheet" href="../styles/base.css">
     <link rel="icon" href="../images/titleimg2.ico"/>
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
 </head>
 <body>
-	<!-- nav bar -->
+    <!-- nav bar -->
     <nav>
         <div id="navwrapper">
             
                 <ul>
                     <li>
-						<!-- Button is seperate from the div -->
-						<div class="dropdown"><a href="./mouse.php" class="dropdown">Mice</a>
-							<div class="dropdown_content">
-							<p><a href="mouse.php#pricebracketlow">$</a></p>
-							<p><a href="mouse.php#pricebracketmid">$$</a></p>
-							<p><a href="mouse.php#pricebrackethigh">$$$</a></p>
-							</div>
-						</div>
-					</li>
+                        <!-- Button is seperate from the div -->
+                        <div class="dropdown"><a href="./mouse.php" class="dropdown">Mice</a>
+                            <div class="dropdown_content">
+                            <p><a href="mouse.php#pricebracketlow">$</a></p>
+                            <p><a href="mouse.php#pricebracketmid">$$</a></p>
+                            <p><a href="mouse.php#pricebrackethigh">$$$</a></p>
+                            </div>
+                        </div>
+                    </li>
                     <li><div class="dropdown"><a href="./keyboard.php" class="dropdown">Keyboard</a>
                             <div class="dropdown_content">
                             <p><a href="keyboard.php#pricebracketlow">$</a></p>
@@ -88,45 +90,45 @@
 
 <!-- product content -->   
 <main>
-	<div id="contentwrapper">
-		
-		<div id="pagename">
-				<h1 id="ptitle">
-				Mice
-				</h1>
-			</div>
-	
-		
+    <div id="contentwrapper">
+        
+        <div id="pagename">
+                <h1 id="ptitle">
+                Mice
+                </h1>
+            </div>
+    
+        
         <h2 id="pricebracketlow">$20-$50</h2>
             
-			<div class="contentbox"> 
-				
-				<img src="../images/mouseprod1.png" alt="mouse1">
+            <div class="contentbox"> 
+                
+                <img src="../images/mouseprod1.png" alt="mouse1">
 
-			    <div class="textbox">
+                <div class="textbox">
                 
                  <h3 class="productName">Logitech G203</h3> 
-				
+                
                     <h4 class="proTitle">Pro's</h4>
-				
+                
                     <ul class="proList">
                         <li>6 programmable buttons</li>
                         <li>16.8M programmable RGB colors</li>
-                    </ul>	
+                    </ul>   
                     
                     <h4 class="conTitle">Con's</h4>
                     
                     <ul class="conList">
                          <li>No left-handed version</li>
-                         <li>Not much different from previous Logitech mice</li>			
+                         <li>Not much different from previous Logitech mice</li>            
                     </ul>
                 
                 </div>
-				
-				<button class="readMore" type="button" onclick="expandContent(0)">Read More</button>
-				
-				<div class="extraText">
-				
+                
+                <button class="readMore" type="button" onclick="expandContent(0)">Read More</button>
+                
+                <div class="extraText">
+                
                 <p>
                 Logitech G203 mouse has a reasonable price with reasonable quality. Although it does not have a lot of extra 
                 functions for gamers, it is cheap compared to other gaming mice while having other minor functions that make 
@@ -140,44 +142,44 @@
                 this mouse has acceptable quality with a quite good price, so it is worth to buying it if you want to get the 
                 best mouse under CAD $50.
                 </p>
-				
+                
                 <button type="button" onclick="showLess(0)">Show Less</button>
                 </div>
-				
-			</div>
-			
-			
-			
-			<div class="contentbox"> 
-				
-				<img src="../images/mouseprod2.png" alt="mouse1">
+                
+            </div>
+            
+            
+            
+            <div class="contentbox"> 
+                
+                <img src="../images/mouseprod2.png" alt="mouse1">
 
-			    <div class="textbox">
+                <div class="textbox">
                 
                  <h3 class="productName"> Asus ROG Sica </h3> 
-				
+                
                     <h4 class="proTitle">Pro's</h4>
-				
+                
                     <ul class="proList">
                         <li>5000 DPI</li>
                         <li>Ambidextrous design</li>
-                    </ul>	
+                    </ul>   
                     
                     <h4 class="conTitle">Con's</h4>
                     
                     <ul class="conList">
                          <li>3 buttons and no thumb button</li>
-                         <li>Unable to switch DPI on the fly</li>			
+                         <li>Unable to switch DPI on the fly</li>           
                     </ul>
                 
                 
                 </div>
-				
-				<button class="readMore" type="button" onclick="expandContent(1)">Read More</button>
-				
-				<div class="extraText">
-				
-				<p>
+                
+                <button class="readMore" type="button" onclick="expandContent(1)">Read More</button>
+                
+                <div class="extraText">
+                
+                <p>
                 The Asus ROG Sica is a simple mouse with a sleek look designed for MOBA users. It is 
                 a 5000 DPI ambidextrous mouse. It has left and right buttons that are separated from 
                 the body and a clickable scroll wheel. You can swap out the switches on the mouse with 
@@ -191,42 +193,42 @@
                 
                 <button type="button" onclick="showLess(1)">Show Less</button>
                 </div>
-				
-			
-			</div>
-			
+                
+            
+            </div>
+            
         
         <h2 id="pricebracketmid"> $50-$80 </h2>
-		
-			<div class="contentbox"> 
-				
-				<img src="../images/mouseprod3.png" alt="mouse1">
+        
+            <div class="contentbox"> 
+                
+                <img src="../images/mouseprod3.png" alt="mouse1">
 
-			    <div class="textbox">
+                <div class="textbox">
                 
                 <h3 class="productName">Razer DeathAdder Chroma </h3> 
-				
+                
                     <h4 class="proTitle">Pro's</h4>
-				
+                
                     <ul class="proList">
                         <li>RGB</li>
                         <li>Good price for decent DPI</li>
-                    </ul>	
+                    </ul>   
                     
                     <h4 class="conTitle">Con's</h4>
                     
                     <ul class="conList">
                          <li>Non-adjustable DPI</li>
-                         <li>Right-handed only</li>			
+                         <li>Right-handed only</li>         
                     </ul>
                 
                 </div>
-				
-				<button class="readMore" type="button" onclick="expandContent(2)">Read More</button>
-				
-				<div class="extraText">
-				
-				<p>
+                
+                <button class="readMore" type="button" onclick="expandContent(2)">Read More</button>
+                
+                <div class="extraText">
+                
+                <p>
                 The Razer DeathAdder Chroma is a popular series made by Razer. With a long time of 
                 DeathAdder Series, this is one of the affordable gaming mouse that offers RGB color lighting. 
                 For a Mice of its price it offers a decent DPI of 6400, leveled right between too fast or too slow. 
@@ -240,39 +242,39 @@
                 
                 <button type="button" onclick="showLess(2)">Show Less</button>
                 </div>
-				
-			</div>
-			
-			
-			<div class="contentbox"> 
-				
-				<img src="../images/mouseprod4.png" alt="mouse1">
+                
+            </div>
+            
+            
+            <div class="contentbox"> 
+                
+                <img src="../images/mouseprod4.png" alt="mouse1">
 
-			    <div class="textbox">
+                <div class="textbox">
                 
                 <h3 class="productName">Razer Mamba </h3> 
-				
+                
                     <h4 class="proTitle">Pro's</h4>
-				
+                
                     <ul class="proList">
                         <li>16,000 DPI 5G laser sensor</li>
                         <li>Adjustable Click Force Technology</li>
-                    </ul>	
+                    </ul>   
                     
                     <h4 class="conTitle">Con's</h4>
                     
                     <ul class="conList">
                          <li>Low charge speed</li>
-                         <li>$220 price point</li>			
+                         <li>$220 price point</li>          
                     </ul>
                 
                 </div>
-				
-				<button class="readMore" type="button" onclick="expandContent(3)">Read More</button>
-				
-				<div class="extraText">
-				
-				<p>
+                
+                <button class="readMore" type="button" onclick="expandContent(3)">Read More</button>
+                
+                <div class="extraText">
+                
+                <p>
                 The Razer Mamba while very expensive comes with a multitude of features. One of the 
                 most notable is its Adjustable Click Force Technology, this allows the user to set the
                 click strength to offer more or less resistance. Its laser sensor is capable of going 
@@ -290,39 +292,39 @@
                 
                 <button type="button" onclick="showLess(3)">Show Less</button>
                 </div>
-				
-			</div>
-			
+                
+            </div>
+            
         
         <h2 id="pricebrackethigh"> $80+ </h2>
         
-		<div class="contentbox"> 
-				
-				<img src="../images/mouseprod5.png" alt="mouse1">
+        <div class="contentbox"> 
+                
+                <img src="../images/mouseprod5.png" alt="mouse1">
 
-			    <div class="textbox">
+                <div class="textbox">
                 
                 <h3 class="productName"> Logitech G900 </h3> 
-				
+                
                     <h4 class="proTitle">Pro's</h4>
-				
+                
                     <ul class="proList">
                         <li>Ambidextrous design</li>
                         <li>Very good sensor</li>
-                    </ul>	
+                    </ul>   
                     
                     <h4 class="conTitle">Con's</h4>
                     
                     <ul class="conList">
                          <li>No charging dock</li>
-                         <li>Expensive</li>			
+                         <li>Expensive</li>         
                     </ul>
                 
                 </div>
-				
-				<button class="readMore type="button" onclick="expandContent(4)">Read More</button>
-				
-				<div class="extraText">
+                
+                <button class="readMore type="button" onclick="expandContent(4)">Read More</button>
+                
+                <div class="extraText">
                 
                 <p>
                 At roughly $160, the G900 is Logitech’s most expensive mouse they have released. The G900 is 
@@ -338,49 +340,57 @@
                 sleek design that fits both right handed and left handed users. It is fairly expensive, but you are paying for 
                 arguably one of the best gaming mouses on the market.
                 </p>
-				
+                
                 <button type="button" onclick="showLess(4)">Show Less</button>
-				</div>
-				
+                </div>
+                
         </div>
-			
+            
     </div>
             
         
     </main>
-	<!-- footer -->
+    <!-- footer -->
     <footer>
         <div class="footerconstraint">
         <div class="bottomleftcolumn">
             <ul>
                 <li><a href="../index/index.php">Home</a></li>
                 <li><a href="../information/info.php#contactheader">Contact</a></li>
-				<li><a href="../information/info.php">About Us</a></li>
-			</ul>
-		</div>
-		<div class="middleleftcolumn">
-			<ul>
+                <li><a href="../information/info.php">About Us</a></li>
+            </ul>
+        </div>
+        <div class="middleleftcolumn">
+            <ul>
                 <li><a href="mouse.php">Mice</a></li>
                 <li><a href="keyboard.php">Keyboard</a></li>
                 <li><a href="monitor.php">Monitor</a></li>
-			</ul>
-		</div>
-		<div class="middlerightcolumn">
-			<ul>
+            </ul>
+        </div>
+        <div class="middlerightcolumn">
+            <ul>
 
-                <li><a href="../forum/forum.php">Forum</a></li>				
+                <li><a href="../forum/forum.php">Forum</a></li>             
             </ul>
         </div>
         <div class="bottomrightcolumn">
             <ul>
-				<li><a href="../index/register_form.php">Sign-Up</a></li>
+                <li>
+                    <?php
+                            if (isLoggedIn()) {
+                                echo '<a href="../index/register_form.php">Sign-Up</a>';
+                            } else {
+                                echo '<a href="../index/logout.php">Log-Out</a>';
+                            }
+                        ?>
+                </li>
                 <li><a href="../information/sitemap.php">Sitemap</a></li>
             </ul>
         </div>
-		<p>&copy; Copyright 2017 | lol </p>
-		</div>
+        <p>&copy; Copyright 2017 | lol </p>
+        </div>
     </footer>
-	
-	<script src="../styles/script.js"></script>	
+    
+    <script src="../styles/script.js"></script> 
 </body>
 </html>

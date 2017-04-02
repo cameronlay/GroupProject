@@ -150,9 +150,9 @@
                     <li>
                         <?php
                             if (isLoggedIn()) {
-                                echo '<a href="./register_form.php">Sign-Up</a>'    
+                                echo '<a href="./register_form.php">Sign-Up</a>';
                             } else {
-                                echo '<a href="./logout.php">Log-Out</a>'
+                                echo '<a href="./logout.php">Log-Out</a>';
                             }
                         ?>
                     </li>
