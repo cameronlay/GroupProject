@@ -74,8 +74,9 @@
         if (isLoggedIn()) {
             echo '
             <div class="indexSignUp_LogIn">
-                <a href="./logout.php">Log Out</a>
-                <a href="../forum/add_topic_form.php">New Forum</a>
+                <span>Welcome '.$_SESSION['SESS_MEMBER_ID'].
+                '</span>
+                <a href="./logout.php"><span>Log Out</span></a>
             </div>';
         } else {
             echo '

@@ -77,12 +77,13 @@
     </nav>
 
     <?php
-
+        
         if (isLoggedIn()) {
             echo '
             <div class="indexSignUp_LogIn">
-                <a href="./logout.php">Log Out</a>
-                <a href="../forum/add_topic_form.php">New Forum</a>
+                <span>Welcome '.$_SESSION['SESS_MEMBER_ID'].
+                '</span>
+                <a href="./logout.php"><span>Log Out</span></a>
             </div>';
         } else {
             echo '
@@ -91,9 +92,8 @@
                     <a href="./login_form.php">Log In</a>
                 </div>';
         }
-
-    ?>   
-
+    ?>
+    
 <!--SLIDE SHOW IMAGES-->
     <main id="indexMainWrapper">
         <div class="siteInfoIndex">
@@ -103,10 +103,10 @@
             <!-- <p class="indexPicturesText">MKM<br>REVIEWS</p> -->
             <div class="slideshow-container">
                 <div class="mySlides fade">
-                    <img src="../images/monitortransparent_mini.jpg" alt="Main Pictures">
+                    <img src="../images/monitorslide.jpg" alt="Main Pictures">
                 </div>
                 <div class="mySlides fade">
-                    <img src="../images/keyboardtransparent_mini.jpg" alt="Main Pictures">
+                    <img src="../images/keyboardslide.jpg" alt="Main Pictures">
                 </div>
                 <div class="mySlides fade">
                     <img src="../images/micetransparent_mini.jpg" alt="Main Pictures">
