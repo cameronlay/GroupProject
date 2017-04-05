@@ -81,6 +81,7 @@ nav {
     margin: 0;
     background-color: #183030;
     padding: 0;
+    text-align: center;
     /* position:absolute;   /* Fixes the image*/
 }
 /* resizing the icon boxes*/
