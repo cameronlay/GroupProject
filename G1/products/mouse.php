@@ -148,7 +148,7 @@
                 
             </div>
             
-            <h2 id="pricebracketmid"> $50-$80 </h2>
+            <h2 id="pricebracketmid"> $50-$100 </h2>
             
             <div class="contentbox"> 
                 
@@ -229,8 +229,8 @@
                 <div class="extraText">
                 
                 <p>
-                The Razer DeathAdder Chroma is a popular series made by Razer. With a long time of 
-                DeathAdder Series, this is one of the affordable gaming mouse that offers RGB color lighting. 
+                The Razer DeathAdder Chroma is a popular series made by Razer. It has a price point of $90 CDN. With a 
+				long time of DeathAdder Series, this is one of the affordable gaming mouse that offers RGB color lighting. 
                 For a Mice of its price it offers a decent DPI of 6400, leveled right between too fast or too slow. 
                 It gives off a simple, smooth, and clean feel to it, and is easy to clean. To prevent damages to one 
                 of the weak spots of electronics all razer products have all the cables fiber braided. As most modern 
@@ -245,7 +245,7 @@
                 
             </div>
             
-			<h2 id="pricebrackethigh"> $80+ </h2>
+			<h2 id="pricebrackethigh"> $100+ </h2>
             
             <div class="contentbox"> 
                 

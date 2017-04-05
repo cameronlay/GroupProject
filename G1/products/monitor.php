@@ -127,13 +127,14 @@
                 
                 <p>
                 The Asus VX238H monitor has an extremely fast response time and a crisp 1920x1080 resolution for 
-                its price range. It’s perfectly suitable for gaming as well as everyday use. The 1ms response time
-                offers a flawless, fluid gaming experience.It has many features such as  ASUS’s  Smart Contrast Ratio 
+                its $180 price range. It’s perfectly suitable for gaming as well as everyday use. The 1ms response time
+                offers a flawless, fluid gaming experience. It has many features such as  ASUS’s Smart Contrast Ratio 
                 (ASCR) adjusts the luminance in too dark and too bright areas for a optimal movie watching and gaming 
                 experience. The monitor is not VESA compatible so you would need to purchase a separate fitting to mount 
                 it into the wall. The monitor can tilt up to 25 degrees, but lacks other ergonomic functions such as height 
                 adjustment. The quality of speakers are mediocre, but they are more of a secondary accessory. Overall the 
-                ASUS VX238H is an excellent monitor for anybody on a tight budget.    
+                ASUS VX238H is an excellent monitor for anybody on a tight budget epsecially with the features that Asus offers
+				for this monitor.
                 </p>
                 
                 <button type="button" onclick="showLess(0)">Show Less</button>
@@ -174,15 +175,15 @@
                 
                 <p>
                 The BenQ XL2411z offers a crisp and clear display at 1920 x 1080 resolution that compares to the colour 
-                and image quality of high end televisions. This monitor sits at 24inches and it’s a suitable for any 
-                particular desk space whether it’s for work, leisure, or gaming use. For gamers, it’s ideal for monitors 
-                to have a low response time, and high refresh rate for optimal gaming experience. The monitor settings are 
-                highly customizable and utilizes saved profiles to quickly switch between optimal movie viewing settings,
-                picture viewing, gaming, etc. One of the major functionalities the monitor includes is the ability to change
-                blur reduction and black equalizer to provide the most preferred settings for every user. The monitor itself 
-                is physically very ergonomic and can be oriented many different ways to fit positioning needs. Having high a 
-                quality monitor along with optimal refresh rate is essential for all gamers to take their experience to the 
-                next level. The BenQ XL2411z one of the most affordable monitors that meets all the needs of even professional 
+                and image quality of high end televisions. It has a $300 CDN price point. This monitor sits at 24 inches and 
+				it’s a suitable for any particular desk space whether it’s for work, leisure, or gaming use. For gamers, 
+				it’s ideal for monitors to have a low response time, and high refresh rate for optimal gaming experience. 
+				The monitor settings are highly customizable and utilizes saved profiles to quickly switch between optimal 
+				movie viewing settings,picture viewing, gaming, etc. One of the major functionalities the monitor includes is
+				the ability to change blur reduction and black equalizer to provide the most preferred settings for every user. 
+				The monitor itself is physically very ergonomic and can be oriented many different ways to fit positioning needs. 
+				Having high a quality monitor along with optimal refresh rate is essential for all gamers to take their experience 
+				to the next level. The BenQ XL2411z one of the most affordable monitors that meets all the needs of even professional 
                 gamers. Overall, the quality and customer support of this company is highly regarded as one of the best and it 
                 shows with its affiliation in multiple large gaming companies across the world.
                 </p>
@@ -222,7 +223,7 @@
                 <div class="extraText">
                 
                 <p>
-                The ASUS VS247 is a moderately priced monitor for its type. It is a optimal monitor if you are tight 
+                The ASUS VS247 is a moderately priced monitor at $200 CDN for its type. It is a optimal monitor if you are tight 
                 in space. It offers a HDMI and VGA input for old graphics cards or new cards. It also has some small 
                 in-built speakers if you decide to plug a console in it. It is light weight and it offers decent refresh 
                 rate with a HD 1920x1080 Monitor size. Like most modern monitors, it has many monitor lighting options 
@@ -268,8 +269,8 @@
                 <div class="extraText">
                 
                 <p>
-                The LG monitor 34UC88-B is one of the most expensive monitors you can see in the market. Its price is almost 
-                equivalent with standard TV. It has a 3440x1440 resolution, 21:9, which is nowadays supported by most games, 
+                The LG monitor 34UC88-B is one of the most expensive monitors you can see in the market. Its $1000 CDN price is almost 
+                equivalent with standard TV . It has a 3440x1440 resolution, 21:9, which is nowadays supported by most games, 
                 with UltraWide QHD which is 1.8 times larger pixel area than UltraWide Full HD. It can display more than 1 billion 
                 colors which cover 99% of sRGB spectrum. It also supports USB 3.0 quick charging which is 4 times faster than normal 
                 USB 3.0 at the backside of the monitor, so that users can enjoy quick charging while playing a game or working. Moreover, 
