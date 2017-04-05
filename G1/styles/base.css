@@ -348,7 +348,7 @@ footer li a {
     margin-top: 10px;
 }
 
-div.indexSignUp_LogIn a {
+div.indexSignUp_LogIn span {
     text-decoration: none;
     background-color: #183030;
     color: #f6f6e8;
@@ -359,7 +359,7 @@ div.indexSignUp_LogIn a {
     text-align: center;
 }
 
-.indexSignUp_LogIn a:hover {
+.indexSignUp_LogIn span:hover {
     background-color: #78c048;
     color: #f6f6e8;
 }
