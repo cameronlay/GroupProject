@@ -40,7 +40,7 @@
             <ul>
                 <li>
                     <!-- Button is seperate from the div -->
-                    <div class="dropdown"><a href="../products/mouse.php" class="dropdown">Mice</a>
+                    <div class="dropdown"><a href="../products/mouse.php" class="dropdown">Mouse</a>
                         <div class="dropdown_content">
                             <p><a href="../products/mouse.php#pricebracketlow">$</a></p>
                             <p><a href="../products/mouse.php#pricebracketmid">$$</a></p>
@@ -97,7 +97,7 @@
 <!--SLIDE SHOW IMAGES-->
     <main id="indexMainWrapper">
         <div class="siteInfoIndex">
-            MONITOR<br>KEYBOARD<br>MOUSE<br>GAMING PERIPHERALS REVIEW
+            MOUSE<br>KEYBOARD<br>MONITOR<br>GAMING PERIPHERAL REVIEWS
         </div>
         <div class="indexPictures">
             <!-- <p class="indexPicturesText">MKM<br>REVIEWS</p> -->
