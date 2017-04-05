@@ -133,7 +133,7 @@
         <form id="emailForm" name="emailForm" method="post" onsubmit="return infoValidate()" action="php/formmail.php"><br/>
             <input type="hidden" name="recipients" value="mkbmreviews@gmail.com" />
             <input type="hidden" name="subject" value="Sample FormMail Testing" />
-            <input type="hidden" name="good_url" value="thankyou.html" />
+            <input type="hidden" name="good_url" value="../index/index.php" />
             <table id="emailtable">
                 <tbody>
                     <tr>
