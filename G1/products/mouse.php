@@ -103,7 +103,7 @@
             
             <div class="contentbox"> 
                 
-                <img src="../images/mouseprod1.png" alt="mouse1">
+                <img src="../images/mouseprod1.jpg" alt="mouse1">
 
                 <div class="textbox">
                 
@@ -152,7 +152,7 @@
             
             <div class="contentbox"> 
                 
-                <img src="../images/mouseprod2.png" alt="mouse1">
+                <img src="../images/mouseprod2.jpg" alt="mouse1">
 
                 <div class="textbox">
                 
@@ -202,7 +202,7 @@
         
             <div class="contentbox"> 
                 
-                <img src="../images/mouseprod3.png" alt="mouse1">
+                <img src="../images/mouseprod3.jpg" alt="mouse1">
 
                 <div class="textbox">
                 
@@ -248,7 +248,7 @@
             
             <div class="contentbox"> 
                 
-                <img src="../images/mouseprod4.png" alt="mouse1">
+                <img src="../images/mouseprod4.jpg" alt="mouse1">
 
                 <div class="textbox">
                 
@@ -300,7 +300,7 @@
         
         <div class="contentbox"> 
                 
-                <img src="../images/mouseprod5.png" alt="mouse1">
+                <img src="../images/mouseprod5.jpg" alt="mouse1">
 
                 <div class="textbox">
                 

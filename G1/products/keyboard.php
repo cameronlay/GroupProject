@@ -93,7 +93,7 @@
             </div>
             <h2 id="pricebracketlow">$50-$80</h2>
             <div class="contentbox"> 
-                <img src="../images/keyboardprod1.png" alt="Corsair K55 RGB keyboard">
+                <img src="../images/keyboardprod1.jpg" alt="Corsair K55 RGB keyboard">
                 <div class="textbox">
                     <h3 class="productName"> Corsair K55 Keyboard</h3> 
                     <h4 class="proTitle">Pro's</h4>
@@ -122,7 +122,7 @@
             </div>
             <h2 id="pricebracketmid">$80-$150</h2>
             <div class="contentbox"> 
-                <img src="../images/keyboardprod2.png" alt="razer blackwidow ultimate x keyboard">
+                <img src="../images/keyboardprod2.jpg" alt="razer blackwidow ultimate x keyboard">
                 <div class="textbox">
                     <h3 class="productName">Razer Black Widow X Ultimate</h3> 
                     <h4 class="proTitle">Pro's</h4>
@@ -152,7 +152,7 @@
                 </div>
             </div>
             <div class="contentbox"> 
-                <img src="../images/keyboardprod3.png" alt="K70 rapidfire rgb keyboard">
+                <img src="../images/keyboardprod3.jpg" alt="K70 rapidfire rgb keyboard">
                 <div class="textbox">
                     <h3 class="productName">Corsair K70 Rapidfire Keyboard</h3> 
                     <h4 class="proTitle">Pro's</h4>
@@ -182,7 +182,7 @@
             </div>
             <h2 id="pricebrackethigh"> $150+ </h2>
             <div class="contentbox"> 
-                <img src="../images/keyboardprod4.png" alt="topre real force">
+                <img src="../images/keyboardprod4.jpg" alt="topre real force">
                 <div class="textbox">
                     <h3 class="productName">Topre REAL FORCE RGB Keyboard</h3> 
                     <h4 class="proTitle">Pro's</h4>
@@ -211,7 +211,7 @@
                 </div>
             </div>
             <div class="contentbox"> 
-                <img src="../images/keyboardprod5.png" alt="das pro 4">
+                <img src="../images/keyboardprod5.jpg" alt="das pro 4">
                 <div class="textbox">
                     <h3 class="productName">Das Professional 4 Keyboard</h3> 
                     <h4 class="proTitle">Pro's</h4>

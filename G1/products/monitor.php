@@ -99,7 +99,7 @@
             
             <div class="contentbox"> 
                 
-                <img src="../images/monitorprod1.png" alt="monitor">
+                <img src="../images/monitorprod1.jpg" alt="monitor">
 
                 <div class="textbox">
                 
@@ -145,7 +145,7 @@
             
             <div class="contentbox"> 
                 
-                <img src="../images/monitorprod2.png" alt="monitor">
+                <img src="../images/monitorprod2.jpg" alt="monitor">
 
                 <div class="textbox">
                 
@@ -195,7 +195,7 @@
         
             <div class="contentbox"> 
                 
-                <img src="../images/monitorprod3.png" alt="monitor">
+                <img src="../images/monitorprod3.jpg" alt="monitor">
 
                 <div class="textbox">
                 
@@ -241,7 +241,7 @@
             
             <div class="contentbox"> 
                 
-                <img src="../images/monitorprod4.png" alt="monitor">
+                <img src="../images/monitorprod4.jpg" alt="monitor">
 
                 <div class="textbox">
                 
@@ -290,7 +290,7 @@
         
         <div class="contentbox"> 
                 
-                <img src="../images/monitorprod5.png" alt="monitor">
+                <img src="../images/monitorprod5.jpg" alt="monitor">
 
                 <div class="textbox">
                 
