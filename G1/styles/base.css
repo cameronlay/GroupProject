@@ -359,7 +359,7 @@ div.indexSignUp_LogIn span {
     text-align: center;
 }
 
-.indexSignUp_LogIn a:hover {
+.indexSignUp_LogIn span:hover {
     background-color: #78c048;
     color: #f6f6e8;
 }
