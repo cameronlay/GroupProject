@@ -35,7 +35,7 @@
                 <ul>
                     <li>
                         <!-- Button is seperate from the div -->
-                        <div class="dropdown"><a href="./mouse.php" class="dropdown">Mice</a>
+                        <div class="dropdown"><a href="./mouse.php" class="dropdown">Mouse</a>
                             <div class="dropdown_content">
                             <p><a href="mouse.php#pricebracketlow">$</a></p>
                             <p><a href="mouse.php#pricebracketmid">$$</a></p>
