@@ -1,0 +1,64 @@
+/* WTB VARIABLES*/
+/* offset: 25px */
+
+
+/* Main Container for contents */
+
+#container{
+	width:70%; /* 75% of total page */
+	
+	height:1000px;
+	/* centered */
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#form1 {
+	margin-top: 10%; /* If this changes Photo needs to change too*/
+	/* main box */
+	width:60%;
+	float:left;
+	height:700px;
+	background-color:blue;
+	min-width: 350px; /* restricting size */
+}
+/* photo is offsetting from form1's margin left*/
+#photo {
+	/* main box */
+	margin-top: 10%;
+	width:35%;
+	float: right;
+	height:700px;
+	background-color:green;
+	min-width: 350px; /* restricting size */
+	/* RANDOM PLACEHOLDER */
+	
+	text-align:center;
+}
+#fillinfo {
+	/* centered */
+	margin-left:auto;
+	margin-right:auto;
+	
+	margin-top: 25px;
+	width:80%; /*400-25-25*/
+	height:30%;
+	min-width: 300px; /* restricting size */
+	
+	background-color:red;
+}
+
+#textbox {
+	/* centered */
+	margin-left:auto;
+	margin-right:auto;
+	
+	margin-top: 20px;
+	background-color: yellow;
+	width:80%;
+	height:50%;
+	min-width: 300px; /* restricting size */
+	/* RANDOM PLACEHOLDER */
+	text-align:center;
+}
+
