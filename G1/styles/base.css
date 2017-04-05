@@ -348,7 +348,7 @@ footer li a {
     margin-top: 10px;
 }
 
-div.indexSignUp_LogIn a {
+div.indexSignUp_LogIn span {
     text-decoration: none;
     background-color: #183030;
     color: #f6f6e8;

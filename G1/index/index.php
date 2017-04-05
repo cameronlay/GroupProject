@@ -81,7 +81,7 @@
         if (isLoggedIn()) {
             echo '
             <div class="indexSignUp_LogIn">
-                <span>Welcome '.$_SESSION['SESS_MEMBER_ID'].
+                <span>Hi '.$_SESSION['SESS_FIRST_NAME'].
                 '</span>
                 <a href="./logout.php"><span>Log Out</span></a>
             </div>';
