@@ -180,15 +180,18 @@
                 <div class="extraText">
                 
                 <p>
-                The Asus ROG Sica is a simple mouse with a sleek look designed for MOBA users. It is 
-                a 5000 DPI ambidextrous mouse. It has left and right buttons that are separated from 
-                the body and a clickable scroll wheel. You can swap out the switches on the mouse with 
-                ease for more customization. It comes with an application (ROG Armory) to allow tweaking 
-                of DPI from 50-5000 in increments of 50. It has a built in flash memory to save your 
-                favorite profiles. It has only 3 buttons which may not be enough in terms of macro 
-                customization. There isn’t a option to switch DPI on the fly. Overall the Asus ROG Sica 
-                is a excellent, precise point and clicking mouse.
-                
+                The Asus ROG Sica is a simple mouse with a sleek look designed for MOBA users. It has a $60
+				CDN price point. It is a 5000 DPI ambidextrous mouse with a 1000Hz polling rate which enables fast
+				and accurate tracking. It has left and right buttons that are separated from the main chassis which
+				creates a shorter actuation length for mosue buttons as well as increased tactile feedback. You can 
+				swap out the Omron switches on the mouse with ease for more customization. The mouse supports Omron 
+				D2F Series and D2FC Series switches. It comes with an application (ROG Armory) to allow tweaking of DPI 
+				from 50-5000 in increments of 50. You can change the polling rate, the acceleration / deceleration as well 
+				as adjust the light on the back. It has a built in flash memory to save your favorite profiles. It has only 
+				3 buttons and a clickable scroll wheel which may not be enough in terms of macro customization. There isn’t 
+				a option to switch DPI on the fly which may affect some users who like to switch DPI quickly for different games.
+				Overall the Asus ROG Sica is a excellent, precise point and clicking mouse. 
+                 
                 </p>
                 
                 <button type="button" onclick="showLess(1)">Show Less</button>
