@@ -94,7 +94,7 @@
             ((bool)mysqli_query($GLOBALS["___mysqli_ston"], "USE " . constant('DB_DATABASE')))or die("cannot select DB");
             $tbl_name="topic"; // Table name
             
-            $sql="SELECT * FROM $tbl_name ORDER BY id DESC";
+            $sql="SELECT * FROM $tbl_name JOIN members ON members.member_id = topic.member_id";
                 // ORDER BY id DESC is order result by descending
             $result=mysqli_query($GLOBALS["___mysqli_ston"], $sql);
         
@@ -104,7 +104,8 @@
             <tr>
                 <td width="6%" align="center" bgcolor="#E6E6E6"><strong>#</strong></td>
                 <td width="53%" align="center" bgcolor="#E6E6E6"><strong>Topic</strong></td>
-                <td width="13%" align="center" bgcolor="#E6E6E6"><strong>Date/Time</strong></td>
+                <td width="7%" align="center" bgcolor="#E6E6E6"><strong>Date/Time</strong></td>
+				<td width="6%" align="center" bgcolor="#E6E6E6"><strong>Name</strong></td>
             </tr>
                 
             <?php

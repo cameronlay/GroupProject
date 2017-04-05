@@ -90,7 +90,7 @@
             // get value of id that sent from address bar
             $id=$_GET['id'];
 
-            $sql="SELECT * FROM $tbl_name WHERE id='$id'";
+            $sql="SELECT * FROM $tbl_name JOIN members ON members.member_id = topic.member_id where id='$id'";
             $result=mysqli_query($GLOBALS["___mysqli_ston"], $sql);
 
             $rows=mysqli_fetch_array($result);
@@ -121,7 +121,7 @@
         
             $tbl_name2="response"; // Switch to table "response"
 
-            $sql2="SELECT * FROM $tbl_name2 WHERE topic_id='$id'";
+            $sql2="SELECT * FROM $tbl_name2 JOIN members ON members.member_id = response.member_id where id='$id'";
             $result2=mysqli_query($GLOBALS["___mysqli_ston"], $sql2);
 
             while($rows=mysqli_fetch_array($result2)) {
