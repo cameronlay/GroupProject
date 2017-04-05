@@ -109,7 +109,7 @@
                     <img src="../images/keyboardslide.jpg" alt="Main Pictures">
                 </div>
                 <div class="mySlides fade">
-                    <img src="../images/micetransparent_mini.jpg" alt="Main Pictures">
+                    <img src="../images/mouseslide.jpg" alt="Main Pictures">
                 </div>
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
