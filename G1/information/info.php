@@ -130,7 +130,7 @@
             <div id="contactus">
                 <p>If you have any questions or concerns about us or the site please feel free to contact us through the form below.</p>
             </div>
-        <form id="emailForm" name="emailForm" method="post" onsubmit="return infoValidate()" action="php/formmail.php"><br/>
+        <form id="emailForm" name="emailForm" method="post" onsubmit="return infoValidate()" action="../php/formmail.php"><br/>
             <input type="hidden" name="recipients" value="mkbmreviews@gmail.com" />
             <input type="hidden" name="subject" value="Sample FormMail Testing" />
             <input type="hidden" name="good_url" value="../index/index.php" />
