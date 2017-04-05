@@ -145,7 +145,7 @@
                     </tr>
                     <tr> 
                         <td><label for="subject">Subject:</label></td>  
-                        <td><input type="text" id="subject" name="subject" class="formfield"/></td>
+                        <td><input type="text" id="subject" name="realname" class="formfield"/></td>
                     </tr>
                     <tr>
                         <td colspan="2" id="errEmptyField">Please complete all fields</td>
