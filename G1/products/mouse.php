@@ -148,7 +148,7 @@
                 
             </div>
             
-            
+            <h2 id="pricebracketmid"> $50-$80 </h2>
             
             <div class="contentbox"> 
                 
@@ -197,9 +197,6 @@
             
             </div>
             
-        
-        <h2 id="pricebracketmid"> $50-$80 </h2>
-        
             <div class="contentbox"> 
                 
                 <img src="../images/mouseprod3.jpg" alt="mouse1">
@@ -245,6 +242,7 @@
                 
             </div>
             
+			<h2 id="pricebrackethigh"> $80+ </h2>
             
             <div class="contentbox"> 
                 
@@ -294,11 +292,8 @@
                 </div>
                 
             </div>
-            
         
-        <h2 id="pricebrackethigh"> $80+ </h2>
-        
-        <div class="contentbox"> 
+			<div class="contentbox"> 
                 
                 <img src="../images/mouseprod5.jpg" alt="mouse1">
 
