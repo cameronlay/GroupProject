@@ -103,10 +103,10 @@
             <!-- <p class="indexPicturesText">MKM<br>REVIEWS</p> -->
             <div class="slideshow-container">
                 <div class="mySlides fade">
-                    <img src="../images/monitortransparent_mini.jpg" alt="Main Pictures">
+                    <img src="../images/monitorslide.jpg" alt="Main Pictures">
                 </div>
                 <div class="mySlides fade">
-                    <img src="../images/keyboardtransparent_mini.jpg" alt="Main Pictures">
+                    <img src="../images/keyboardslide.jpg" alt="Main Pictures">
                 </div>
                 <div class="mySlides fade">
                     <img src="../images/micetransparent_mini.jpg" alt="Main Pictures">
