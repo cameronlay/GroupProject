@@ -578,7 +578,7 @@ input.formfield {
     width: 125px;
     height: 40px;
     text-align: center;
-    margin: 20px 450px 20px 450px;
+    margin: auto;
     border: 2px solid black;
     background-color: #183030;
     color: #f6f6e8;
@@ -588,7 +588,7 @@ input.formfield {
     width: 125px;
     height: 40px;
     text-align: center;
-    margin: 20px 450px 20px 450px;
+    margin: auto;
     border: 2px solid black;
     background-color: #183030;
     color: #f6f6e8;
@@ -598,7 +598,7 @@ input.formfield {
     width: 125px;
     height: 40px;
     text-align: center;
-    margin: 20px 450px 20px 450px;
+    margin: auto;
     border: 2px solid black;
     background-color: #183030;
     color: #f6f6e8;
