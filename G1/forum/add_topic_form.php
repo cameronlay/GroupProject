@@ -77,8 +77,8 @@
         } else {
             echo '
                 <div class="indexSignUp_LogIn">
-                    <a href="../index/register_form.php">Sign Up</a>
-                    <a href="../index/login_form.php">Log In</a>
+                    <a href="../index/register_form.php"><span>Sign Up</span></a>
+                    <a href="../index/login_form.php"><span>Log In</span></a>
                 </div>';
         }
     ?>
