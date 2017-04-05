@@ -71,10 +71,11 @@
     <?php
         if (isLoggedIn()) {
             echo '
-                <div class="indexSignUp_LogIn">
-                    <a href="../index/logout.php">Log Out</a>
-                    <a href="../forum/add_topic_form.php">New Forum</a>
-                </div>';
+            <div class="indexSignUp_LogIn">
+                <span>Hi '.$_SESSION['SESS_FIRST_NAME'].
+                '</span>
+                <a href="../index/logout.php"><span>Log Out</span></a>
+            </div>';
         } else {
             echo '
                 <div class="indexSignUp_LogIn">

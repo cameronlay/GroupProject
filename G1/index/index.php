@@ -97,7 +97,7 @@
 <!--SLIDE SHOW IMAGES-->
     <main id="indexMainWrapper">
         <div class="siteInfoIndex">
-            MONITOR<br>KEYBOARD<br>MOUSE<br>GAMING PERIPHERALS REVIEW
+            MOUSE<br>KEYBOARD<br>MONITOR<br>GAMING PERIPHERAL REVIEWS
         </div>
         <div class="indexPictures">
             <!-- <p class="indexPicturesText">MKM<br>REVIEWS</p> -->

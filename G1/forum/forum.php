@@ -70,14 +70,15 @@
         if (isLoggedIn()) {
             echo '
             <div class="indexSignUp_LogIn">
-                <a href="../index/logout.php">Log Out</a>
-                <a href="./add_topic_form.php">New Forum</a>
+                <span>Hi '.$_SESSION['SESS_FIRST_NAME'].
+                '</span>
+                <a href="../index/logout.php"><span>Log Out</span></a>
             </div>';
         } else {
             echo '
                 <div class="indexSignUp_LogIn">
                     <a href="../index/register_form.php">Sign Up</a>
-                    <a href="../idnex/login_form.php">Log In</a>
+                    <a href="../index/login_form.php">Log In</a>
                 </div>';
         }
     
