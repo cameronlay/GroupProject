@@ -91,39 +91,35 @@
                 <div id="cameroninfo">
                     <p><a href="#"><img class="profilepic" src="../images/igloo.jpg" alt="Cartoon Eskimo"/></a></p>
                     <p> Cameron</p>
-                    <p>Duis a leo ac ipsum tempor sollicitudin. Praesent risus purus, porta iaculis cursus et, vehicula imperdiet mauris. 
-                    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed vel tincidunt magna. 
-                    Praesent ex dolor, elementum eu convallis vitae, rhoncus dictum metus.</p>
+                    <p>Been playing games since 6 (17 years). Personally used many keyboards and monitors.
+					   Using a mid-high range computer to push higher end monitors. </p>
                 </div>
                 <div id="edmundinfo">
                     <p><a href="#"><img class="profilepic" src="../images/SungukHam.JPG" alt="Edmund Ham"/></a></p>
                     <p>Edmund</p>
-                    <p>Duis a leo ac ipsum tempor sollicitudin. Praesent risus purus, porta iaculis cursus et, vehicula imperdiet mauris. 
-                    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed vel tincidunt magna. 
-                    Praesent ex dolor, elementum eu convallis vitae, rhoncus dictum metus.</p>
+                    <p>Been playing video gams since 12 (7 years). Usually plays RPGs.
+					   Usually prefers cheap products with acceptable quality and simple
+					   design. Currently using a Asus gaming laptop.</p>
                 </div>
                 <div id="jasoninfo">
                     <p><a href="#"><img class="profilepic" src="../images/jason.jpg" alt="Jason Huang"/></a></p>
                     <p>Jason</p>
-                    <p>Duis a leo ac ipsum tempor sollicitudin. Praesent risus purus, porta iaculis cursus et, vehicula imperdiet mauris. 
-                    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed vel tincidunt magna. 
-                    Praesent ex dolor, elementum eu convallis vitae, rhoncus dictum metus.</p>
+                    <p>Been playing video games since 10 (10 years). Have used many different
+					   peripherals ranging from multiple different price points.</p>
                 </div>
             </div>
             <div id="bottomtwo">        
                 <div id="danielinfo">
                     <p><a href="#"><img class="profilepic" src="../images/daniel.jpg" alt="Daniel Zhang"/></a></p>
                     <p>Daniel</p>
-                    <p>Duis a leo ac ipsum tempor sollicitudin. Praesent risus purus, porta iaculis cursus et, vehicula imperdiet mauris. 
-                    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed vel tincidunt magna. 
-                    Praesent ex dolor, elementum eu convallis vitae, rhoncus dictum metus.</p>
+                    <p>Been playing video games since 12 (10 years). Played a variety of different
+					   generes of games over the years. Have used many keyboards and mice for gaming.</p>
                 </div>
                 <div id="josephinfo">
                     <p><a href="#"><img class="profilepic" src="../images/joseph.png" alt="Joseph Yang"/></a></p>
                     <p>Joseph</p>
-                    <p>Duis a leo ac ipsum tempor sollicitudin. Praesent risus purus, porta iaculis cursus et, vehicula imperdiet mauris. 
-                    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed vel tincidunt magna. 
-                    Praesent ex dolor, elementum eu convallis vitae, rhoncus dictum metus.</p>
+                    <p>Been playing video games since 12 (13 years). Usually uses moderate
+					   priced gaming products. Plays a variety of games, RTS, MMOs, Shooters</p>
                 </div>
             </div>
             <h1 class="infoheader" id="contactheader">Contact Us</h1>
