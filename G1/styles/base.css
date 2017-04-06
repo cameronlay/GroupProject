@@ -811,6 +811,13 @@ input.formfield {
     text-align: right;
 }
 
+#errEmail2 {
+    visibility: hidden;
+    color: red;
+    font-size: .8em;
+    text-align: right;
+}
+
 #errUsername {
     visibility: hidden;
     color: red;
