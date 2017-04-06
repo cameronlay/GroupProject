@@ -93,19 +93,7 @@
             <a href="#"><img id="largeLogo" src ="../images/logonew.PNG" alt="Logo"/></a>
         </div>
 
-    <?php
-        if( isset($_SESSION['ERRMSG_ARR']) && is_array($_SESSION['ERRMSG_ARR']) && count($_SESSION['ERRMSG_ARR']) >0 ) {
-            echo '<ul class="err">';
-            
-            foreach($_SESSION['ERRMSG_ARR'] as $msg) {
-                echo '<li>',$msg,'</li>'; 
-            }
-            
-            echo '</ul>';
-            unset($_SESSION['ERRMSG_ARR']);
-        }
-    ?>
-    
+
     <p>&nbsp;</p>
     <form id="loginForm" name="loginForm" method="post" action="login.php">
         <table width="300" border="0" align="center" cellpadding="2" cellspacing="0">
@@ -116,6 +104,21 @@
             <tr>
                 <td><b>Password</b></td>
                 <td><input name="password" type="password" class="textfield" id="password" /></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <?php
+                        if( isset($_SESSION['ERRMSG_ARR']) && is_array($_SESSION['ERRMSG_ARR']) && count($_SESSION['ERRMSG_ARR']) >0 ) {
+                            echo '<ul class="err">';
+                            foreach($_SESSION['ERRMSG_ARR'] as $msg) {
+                                echo '<li>',$msg,'</li>'; 
+                            }   
+            
+                            echo '</ul>';
+                            unset($_SESSION['ERRMSG_ARR']);
+                        }
+                    ?>
+                </td>
             </tr>
             <tr>
                 <td>&nbsp;</td>
