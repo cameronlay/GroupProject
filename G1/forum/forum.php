@@ -101,11 +101,11 @@
         ?>
         
         <table width="90%" border="0" align="center" cellpadding="3" cellspacing="1" bgcolor="#CCCCCC">
-            <tr>
-                <td width="6%" align="center" bgcolor="#E6E6E6"><strong>#</strong></td>
-                <td width="53%" align="center" bgcolor="#E6E6E6"><strong>Topic</strong></td>
-                <td width="7%" align="center" bgcolor="#E6E6E6"><strong>Date/Time</strong></td>
-				<td width="6%" align="center" bgcolor="#E6E6E6"><strong>Name</strong></td>
+            <tr id="forumheader">
+                <td width="6%" align="center"><strong>#</strong></td>
+                <td width="53%" align="center"><strong>Topic</strong></td>
+                <td width="7%" align="center"><strong>Date/Time</strong></td>
+				<td width="6%" align="center"><strong>Name</strong></td>
             </tr>
                 
             <?php

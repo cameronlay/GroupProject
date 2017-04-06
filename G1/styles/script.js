@@ -19,6 +19,22 @@ function $$(className) {
 
 /*=========Sign-up Page Javascript===============*/
 
+function testNameType2(){
+    var x = $("mail2").value;
+    var patt = /^\w+$/;
+    var res = patt.test(x);
+//        will return true if input is valid
+    return res;
+}
+        
+function warnNameType2() {
+    if(!testNameType2()){
+        $("errEmail2").style.visibility = 'visible';
+    } else { 
+        $("errEmail2").style.visibility = 'hidden';
+    }
+}
+
 function testNameType(){
     var x = $("mail").value;
     var patt = /^\w+$/;
@@ -82,14 +98,19 @@ function warnConfirm() {
 //Validating for onsubmit
 
 function formValidate() {
-    if (testNameType() && testUsername() && testPassword()
-            && testConfirm()) {
+    if (testNameType2() && testUsername() && testNameType()
+     && testPassword() && testConfirm()) {
         return true;
     }   else {
         if (!testNameType()) {
             $("errEmail").style.visibility = 'visible';
         }   else {
             $("errEmail").style.visibility = 'hidden';
+        }
+        if (!testNameType2()) {
+            $("errEmail2").style.visibility = 'visible';
+        }   else {
+            $("errEmail2").style.visibility = 'hidden';
         }
         if (!testUsername()) {
             $("errUsername").style.visibility = 'visible';
