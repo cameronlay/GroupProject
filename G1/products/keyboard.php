@@ -90,9 +90,14 @@
     <main>
 	
 		<div id="leftNav">
+		<h3 id="filter"> Filter by Price </h3>
+		<form>
 		<ul>
-			<li> some stuff </li>
+			<li>$50 - $80 <input type="radio" name="price" value="cheap"></li>
+			<li>$80 - $150 <input type="radio" name="price" value="modest"></li>
+			<li>$150+  <input type="radio" name="price" value="expensive"></li>
 		</ul>
+		</form>
 		</div>
         
 		<div id="contentwrapper">
