@@ -567,7 +567,7 @@ input.formfield {
 }
 
 #filter {
-	margin:auto;
+	padding-left: 20px;
 }
 
 #contentwrapper{ 

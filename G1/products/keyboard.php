@@ -93,9 +93,9 @@
 		<h3 id="filter"> Filter by Price </h3>
 		<form>
 		<ul>
-			<li>$50 - $80 <input type="radio" name="price" value="cheap"></li>
-			<li>$80 - $150 <input type="radio" name="price" value="modest"></li>
-			<li>$150+  <input type="radio" name="price" value="expensive"></li>
+			<li>$50 - $80 <input type="checkbox" name="price" value="cheap"></li>
+			<li>$80 - $150 <input type="checkbox" name="price" value="modest"></li>
+			<li>$150+  <input type="checkbox" name="price" value="expensive"></li>
 		</ul>
 		</form>
 		</div>
