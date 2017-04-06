@@ -37,14 +37,14 @@
     $password = clean($_REQUEST['password']);
     
     //Input Validations
-    if($login == '') {
-        $errmsg_arr[] = 'Login ID missing';
-        $errflag = true;
-    }
-    if($password == '') {
-        $errmsg_arr[] = 'Password missing';
-        $errflag = true;
-    }
+    // if($login == '') {
+    //     $errmsg_arr[] = 'Login ID missing';
+    //     $errflag = true;
+    // }
+    // if($password == '') {
+    //     $errmsg_arr[] = 'Password missing';
+    //     $errflag = true;
+    // }
     
     //If there are input validations, redirect back to the login form
     if($errflag) {

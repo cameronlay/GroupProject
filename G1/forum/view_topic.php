@@ -108,7 +108,7 @@
                             <td bgcolor="#F8F7F1"><?php echo $rows['detail']; ?></td>
                         </tr>
                         <tr>
-                            <td bgcolor="#F8F7F1"><strong>By :</strong> <strong></td>
+                            <td bgcolor="#F8F7F1"><strong>By :</strong> &nbsp;<?php echo $rows['firstname']; ?><strong></td>
                         </tr>
                         <tr>
                             <td bgcolor="#F8F7F1"><strong>Date/time : </strong><?php echo $rows['datetime']; ?></td>
@@ -141,7 +141,7 @@
                         <tr>
                             <td width="18%" bgcolor="#F8F7F1"><strong>Name</strong></td>
                             <td width="5%" bgcolor="#F8F7F1">:</td>
-                            <td width="77%" bgcolor="#F8F7F1"></td>
+                            <td width="77%" bgcolor="#F8F7F1"><?php echo $rows['firstname']; ?></td>
                         </tr>
                         <tr>
                             <td bgcolor="#F8F7F1"><strong>Response</strong></td>
@@ -161,7 +161,7 @@
         <?php
         
             }
-        
+        require_once("../php/auth.php");
             ((is_null($___mysqli_res = mysqli_close($GLOBALS["___mysqli_ston"]))) ? false : $___mysqli_res);
         ?>
 
@@ -174,7 +174,7 @@
                             <tr>
                                 <td valign="top"><strong>Response</strong></td>
                                 <td valign="top">:</td>
-                                <td><textarea name="response" cols="45" rows="3" id="answer"></textarea></td>
+                                <td><textarea name="response" cols="45" rows="3" id="answer" required></textarea></td>
                             </tr>
                             <tr>
                                 <td>&nbsp;</td>

@@ -101,12 +101,12 @@
                             <tr>
                                 <td width="14%"><strong>Topic</strong></td>
                                 <td width="2%">:</td>
-                                <td width="84%"><input name="topic" type="text" id="topic" size="50" /></td>
+                                <td width="84%"><input name="topic" type="text" id="topic" size="50" required></td>
                             </tr>
                             <tr>
                                 <td valign="top"><strong>Detail</strong></td>
                                 <td valign="top">:</td>
-                                <td><textarea name="detail" cols="50" rows="3" id="detail"></textarea></td>
+                                <td><textarea name="detail" cols="50" rows="3" id="detail" required></textarea></td>
                             </tr>
                             <tr>
                                 <td>&nbsp;</td>

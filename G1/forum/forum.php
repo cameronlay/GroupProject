@@ -87,7 +87,6 @@
     <main id="signupmain">
 
         <?php
-            require_once('../php/config.php');
             
             // Connect to server and select database.
             ($GLOBALS["___mysqli_ston"] = mysqli_connect(DB_HOST,DB_USER,  DB_PASSWORD))or die("cannot connect");
@@ -116,17 +115,21 @@
                 <td bgcolor="#FFFFFF"><?php echo $rows['id']; ?></td>
                 <td bgcolor="#FFFFFF"><a href="./view_topic.php?id=<?php echo $rows['id']; ?>"><?php echo $rows['topic']; ?></a><BR></td>
                 <td align="center" bgcolor="#FFFFFF"><?php echo $rows['datetime']; ?></td>
+                <td align="center" bgcolor="#ffffff"><?php echo $rows['firstname']; ?></td>
             </tr>
                 
             <?php
                 // Exit looping and close connection
                 }
                 
+            require_once('../php/auth.php');
                 ((is_null($___mysqli_res = mysqli_close($GLOBALS["___mysqli_ston"]))) ? false : $___mysqli_res);
-            ?>
+            echo '
             <tr>
                 <td colspan="5" align="right" bgcolor="#E6E6E6"><a href="./add_topic_form.php"><strong>Create New Topic</strong> </a></td>
-            </tr>
+            </tr>';
+            
+            ?>
         </table>
     </main>
     <!-- Footer -->
