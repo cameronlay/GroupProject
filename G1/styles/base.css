@@ -557,9 +557,12 @@ input.formfield {
 
 #leftNav{
 	width: 200px;
-	height: 2200px;
+	height: 220px;
 	background-color: #183030;
 	float: left;
+	position: fixed;
+	margin-top: 100px;
+	margin-bottom: 100px;
 }
 #contentwrapper{ 
     width: 1000px;
