@@ -157,8 +157,8 @@
                 </div>
                 
             </div>
-            </div>
-			<div id="modestContent">
+        </div>
+		<div id="modestContent">
         <h2 id="pricebracketmid"> $200-$400 </h2>   
             
             <div class="contentbox"> 
@@ -254,8 +254,8 @@
                 </div>
                 
             </div>
-            </div>
-			<div id="expensiveContent">
+        </div>
+		<div id="expensiveContent">
         <h2 id="pricebrackethigh"> $400+ </h2>
             
             <div class="contentbox"> 
@@ -305,7 +305,7 @@
                 </div>
                 
             </div>
-			</div>
+			
         
         <div class="contentbox"> 
                 
@@ -354,7 +354,7 @@
                 </div>
                 
             </div>
-            
+        </div>
             
         
         </div>
