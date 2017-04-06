@@ -557,18 +557,69 @@ input.formfield {
 
 #leftNav{
 	width: 200px;
-	height: 220px;
+	height: 300px;
 	background-color: #183030;
 	color: #f6f6e8;
 	float: left;
 	position: fixed;
 	margin-top: 100px;
 	margin-bottom: 100px;
+    padding-top: 20px;
+    text-align: center;
+}
+/*CHECK BOX*/
+#filter {
+	
 }
 
-#filter {
-	padding-left: 20px;
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 34px;
+  text-align: left;
+  padding-left: 15px;
 }
+
+.switch input {
+    display:none;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #f8f8e6;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 40px;
+  left: 10px;
+  bottom: 4px;
+  background-color: #ffffff;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #78c048;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(40px);
+  -ms-transform: translateX(40px);
+  transform: translateX(40px);
+}
+
+/*==========================*/
 
 #contentwrapper{ 
     width: 1000px;

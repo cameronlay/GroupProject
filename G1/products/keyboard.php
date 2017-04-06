@@ -92,11 +92,14 @@
 		<div id="leftNav">
 		<h3 id="filter"> Filter by Price </h3>
 		<form>
-		<ul>
-			<li>$50 - $80 <input type="checkbox" name="price" value="cheap"></li>
-			<li>$80 - $150 <input type="checkbox" name="price" value="modest"></li>
-			<li>$150+  <input type="checkbox" name="price" value="expensive"></li>
-		</ul>
+        
+			<span>$50 - $80</span><br>
+            <label class="switch" for="cheap"><input id="cheap" type="checkbox" name="price" value="cheap"><div class="slider"></div></label><br>
+			<span>$80 - $150</span><br>
+            <label class="switch" for="modest"><input id="modest" type="checkbox" name="price" value="modest"><div class="slider"></div></label><br>
+			<span>$150+</span><br>
+            <label class="switch" for="expensive"><input id="expensive" type="checkbox" name="price" value="expensive"><div class="slider"></div></label>
+		
 		</form>
 		</div>
         
