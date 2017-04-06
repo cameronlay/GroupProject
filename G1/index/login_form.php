@@ -103,18 +103,18 @@
             </tr>
             <tr>
                 <td><b>Password</b></td>
-                <td><input name="password" type="password" class="textfield" id="password" /></td>
+                <td><input name="password" type="password" placeholder="********" class="textfield" id="password" /></td>
             </tr>
             <tr>
                 <td colspan="2">
                     <?php
                         if( isset($_SESSION['ERRMSG_ARR']) && is_array($_SESSION['ERRMSG_ARR']) && count($_SESSION['ERRMSG_ARR']) >0 ) {
-                            echo '<ul class="err">';
+                            echo '<div id="errLogin">';
                             foreach($_SESSION['ERRMSG_ARR'] as $msg) {
-                                echo '<li>',$msg,'</li>'; 
+                                echo $msg; 
                             }   
             
-                            echo '</ul>';
+                            echo '</div>';
                             unset($_SESSION['ERRMSG_ARR']);
                         }
                     ?>
