@@ -91,6 +91,21 @@
 
 <!-- product content -->   
 <main>
+
+		<div id="leftNav">
+		<h3 id="filter"> Filter by Price </h3>
+		<form>
+        
+			<span>$20 - $50</span><br>
+            <label class="switch" for="cheap"><input id="cheap" type="checkbox" name="price" value="cheap" onclick="filtering('cheap', 'cheapContent')" checked><div class="slider"></div></label><br>
+			<span>$50 - $100</span><br>
+            <label class="switch" for="modest"><input id="modest" type="checkbox" name="price" value="modest" onclick="filtering('modest', 'modestContent')" checked><div class="slider"></div></label><br>
+			<span>$100+</span><br>
+            <label class="switch" for="expensive"><input id="expensive" type="checkbox" name="price" value="expensive" onclick="filtering('expensive', 'expensiveContent')" checked><div class="slider"></div></label>
+		
+		</form>
+		</div>
+		
     <div id="contentwrapper">
         
         <div id="pagename">
@@ -99,7 +114,7 @@
                 </h1>
             </div>
     
-        
+        <div id="cheapContent">
         <h2 id="pricebracketlow">$20-$50</h2>
             
             <div class="contentbox"> 
@@ -148,7 +163,8 @@
                 </div>
                 
             </div>
-            
+            </div>
+			<div id="modestContent">
             <h2 id="pricebracketmid"> $50-$100 </h2>
             
             <div class="contentbox"> 
@@ -245,7 +261,8 @@
                 </div>
                 
             </div>
-            
+			</div>
+            <div id="expensiveContent">
 			<h2 id="pricebrackethigh"> $100+ </h2>
             
             <div class="contentbox"> 
@@ -346,6 +363,7 @@
         </div>
             
     </div>
+	</div>
             
         
     </main>
