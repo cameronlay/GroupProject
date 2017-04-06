@@ -171,6 +171,7 @@ nav li a:hover {
 
 main, section {
     font-family: 'Open Sans', sans-serif;
+	min-height: 500px;
 }
 
 
@@ -183,7 +184,7 @@ footer {
     font-family: 'Open Sans', sans-serif;
     width: 100%;
     min-height: 100px;
-    bottom: 0;
+    bottom: 0px;
     background-color: #183030;
     z-index: 20;
     font-size: 0.8em;
