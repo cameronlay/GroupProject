@@ -90,8 +90,8 @@
     <main>
 	
 		<div id="leftNav">
-		<h3> Filter by Price </h3>
-		<form action="">
+		<h3 id="filter"> Filter by Price </h3>
+		<form>
 		<ul>
 			<li>$50 - $80 <input type="checkbox" name="price" value="cheap"></li>
 			<li>$80 - $150 <input type="checkbox" name="price" value="modest"></li>
