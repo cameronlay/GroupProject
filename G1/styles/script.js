@@ -226,3 +226,5 @@ var z= document.getElementsByClassName("extraText");
         y[num].style.height = "350px";
         z[num].style.display = "block";
     }
+
+
