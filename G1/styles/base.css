@@ -257,8 +257,8 @@ footer li a {
     font-size: 3.5em;
     color: #183030;
     text-align: left;
-    padding-left: 50px;
-    padding-top: 350px;
+    padding-left: 100px;
+    padding-top: 200px;
     margin: 0;
     position: absolute;
     width: 100%;
@@ -557,9 +557,12 @@ input.formfield {
 
 #leftNav{
 	width: 200px;
-	height: 2200px;
+	height: 220px;
 	background-color: #183030;
 	float: left;
+	position: fixed;
+	margin-top: 100px;
+	margin-bottom: 100px;
 }
 
 #contentwrapper{ 
