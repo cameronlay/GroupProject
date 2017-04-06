@@ -88,7 +88,14 @@
     
     <!-- product content -->   
     <main>
-        <div id="contentwrapper">
+	
+		<div id="leftNav">
+		<ul>
+			<li> some stuff </li>
+		</ul>
+		</div>
+        
+		<div id="contentwrapper">
             <div id="pagename">
                 <h1 id="ptitle">Keyboard</h1>
             </div>
