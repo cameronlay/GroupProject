@@ -171,7 +171,10 @@ nav li a:hover {
 
 main, section {
     font-family: 'Open Sans', sans-serif;
-	min-height: 500px;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -100;
 }
 
 
