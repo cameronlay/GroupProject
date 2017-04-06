@@ -122,7 +122,7 @@
         
             $tbl_name2="response"; // Switch to table "response"
 
-            $sql2="SELECT * FROM $tbl_name2 JOIN members ON members.member_id = response.member_id where id='$id'";
+            $sql2="SELECT * FROM $tbl_name2 JOIN members ON members.member_id = response.member_id where topic_id='$id'";
             $result2=mysqli_query($GLOBALS["___mysqli_ston"], $sql2);
 
             while($rows=mysqli_fetch_array($result2)) {
