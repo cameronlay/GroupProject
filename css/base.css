@@ -427,9 +427,16 @@ ul.forumbody{
 /*-------- Product Pages ------*/
 
 #contentwrapper{ 
-	width: 1000px;
+	width: 80%;
 	margin: auto;
 	font-family: 'Open Sans', sans-serif;
+}
+
+#leftMenu{
+	float: left;
+	height: 100%;
+	width: 200px;
+	background-color: blue;
 }
 
 #pagename{ 
