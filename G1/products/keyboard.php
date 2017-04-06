@@ -94,11 +94,11 @@
 		<form>
         
 			<span>$50 - $80</span><br>
-            <label class="switch" for="cheap"><input id="cheap" type="checkbox" name="price" value="cheap"><div class="slider"></div></label><br>
+            <label class="switch" for="cheap"><input id="cheap" type="checkbox" name="price" value="cheap" onclick="filtering('cheap', 'cheapContent')" checked><div class="slider"></div></label><br>
 			<span>$80 - $150</span><br>
-            <label class="switch" for="modest"><input id="modest" type="checkbox" name="price" value="modest"><div class="slider"></div></label><br>
+            <label class="switch" for="modest"><input id="modest" type="checkbox" name="price" value="modest" onclick="filtering('modest', 'modestContent')" checked><div class="slider"></div></label><br>
 			<span>$150+</span><br>
-            <label class="switch" for="expensive"><input id="expensive" type="checkbox" name="price" value="expensive"><div class="slider"></div></label>
+            <label class="switch" for="expensive"><input id="expensive" type="checkbox" name="price" value="expensive" onclick="filtering('expensive', 'expensiveContent')" checked><div class="slider"></div></label>
 		
 		</form>
 		</div>
@@ -107,6 +107,7 @@
             <div id="pagename">
                 <h1 id="ptitle">Keyboard</h1>
             </div>
+            <div id="cheapContent">
             <h2 id="pricebracketlow">$50-$80</h2>
             <div class="contentbox"> 
                 <img src="../images/keyboardprod1.jpg" alt="Corsair K55 RGB keyboard">
@@ -136,6 +137,8 @@
                     <button type="button" onclick="showLess(0)">Show Less</button>
                 </div>
             </div>
+            </div>
+            <div id="modestContent">
             <h2 id="pricebracketmid">$80-$150</h2>
             <div class="contentbox"> 
                 <img src="../images/keyboardprod2.jpg" alt="razer blackwidow ultimate x keyboard">
@@ -196,6 +199,8 @@
                     <button type="button" onclick="showLess(2)">Show Less</button>
                 </div>
             </div>
+            </div>
+            <div id="expensiveContent">
             <h2 id="pricebrackethigh"> $150+ </h2>
             <div class="contentbox"> 
                 <img src="../images/keyboardprod4.jpg" alt="topre real force">
@@ -256,6 +261,7 @@
                     Das Keyboard 4 Professional is a very good keyboard for someone looking for a solid keyboard without the “gaming” appearance.</p>
                     <button type="button" onclick="showLess(4)">Show Less</button>
                 </div>
+            </div>
             </div>
         </div>
     </main>

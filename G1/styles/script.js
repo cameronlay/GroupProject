@@ -228,3 +228,13 @@ var z= document.getElementsByClassName("extraText");
     }
 
 
+function filtering(check, content) {
+    var x = $(check);
+    var y = $(content);
+
+    if (x.checked) {
+        y.style.display = "block";
+    } else if(!x.checked) {
+        y.style.display = "none";
+    }
+}
