@@ -79,8 +79,8 @@
         } else {
             echo '
                 <div class="indexSignUp_LogIn">
-                    <a href="../index/register_form.php">Sign Up</a>
-                    <a href="../index/login_form.php">Log In</a>
+                    <a href="../index/register_form.php"><span>Sign Up</span></a>
+                    <a href="../index/login_form.php"><span>Log In</span></a>
                 </div>';
         }
     ?>
@@ -130,10 +130,10 @@
             <div id="contactus">
                 <p>If you have any questions or concerns about us or the site please feel free to contact us through the form below.</p>
             </div>
-        <form id="emailForm" name="emailForm" method="post" onsubmit="return infoValidate()" action="php/formmail.php"><br/>
+        <form id="emailForm" name="emailForm" method="post" onsubmit="return infoValidate()" action="../php/formmail.php"><br/>
             <input type="hidden" name="recipients" value="mkbmreviews@gmail.com" />
             <input type="hidden" name="subject" value="Sample FormMail Testing" />
-            <input type="hidden" name="good_url" value="thankyou.html" />
+            <input type="hidden" name="good_url" value="../index/index.php" />
             <table id="emailtable">
                 <tbody>
                     <tr>
@@ -145,7 +145,7 @@
                     </tr>
                     <tr> 
                         <td><label for="subject">Subject:</label></td>  
-                        <td><input type="text" id="subject" name="subject" class="formfield"/></td>
+                        <td><input type="text" id="subject" name="realname" class="formfield"/></td>
                     </tr>
                     <tr>
                         <td colspan="2" id="errEmptyField">Please complete all fields</td>

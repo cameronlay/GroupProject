@@ -80,8 +80,8 @@
         } else {
             echo '
                 <div class="indexSignUp_LogIn">
-                    <a href="./register_form.php">Sign Up</a>
-                    <a href="./login_form.php">Log In</a>
+                    <a href="./register_form.php"><span>Sign Up</span></a>
+                    <a href="./login_form.php"><span>Log In</span></a>
                 </div>';
         }
     ?>
