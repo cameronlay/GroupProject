@@ -95,45 +95,62 @@
   
         <div id="signupform">
 
-            <?php
-                if( isset($_SESSION['ERRMSG_ARR']) && is_array($_SESSION['ERRMSG_ARR']) && count($_SESSION['ERRMSG_ARR']) >0 ) {
+            <!-- <?php
+                // if( isset($_SESSION['ERRMSG_ARR']) && is_array($_SESSION['ERRMSG_ARR']) && count($_SESSION['ERRMSG_ARR']) >0 ) {
                     
-                    echo '<ul class="err">';
+                //     echo '<ul class="err">';
                     
-                    foreach($_SESSION['ERRMSG_ARR'] as $msg) {
-                        echo '<li>',$msg,'</li>'; 
-                    }
+                //     foreach($_SESSION['ERRMSG_ARR'] as $msg) {
+                //         echo '<li>',$msg,'</li>'; 
+                //     }
     
-                    echo '</ul>';
-                    unset($_SESSION['ERRMSG_ARR']);
+                //     echo '</ul>';
+                //     unset($_SESSION['ERRMSG_ARR']);
                 }
-            ?>
+            ?> -->
 
             <form id="registerForm" name="registerForm" method="post" action="./register.php">
                 <table width="300" border="0" align="center" cellpadding="2" cellspacing="0">
                     <tr>
-                        <th>First Name </th>
-                        <td><input name="fname" type="text" class="textfield" id="fname" /></td>
+                        <td><label for="mail">First Name</label></td>      
+                        <td><input type="text" onblur="warnNameType()" id="mail" name="fname" class="formfield"/></td>
                     </tr>
                     <tr>
-                        <th>Last Name </th>
-                        <td><input name="lname" type="text" class="textfield" id="lname" /></td>
+                        <td colspan="2" id="errEmail">Please enter a valid first name</td>
                     </tr>
                     <tr>
-                        <th width="124">Login</th>
-                        <td width="168"><input name="login" type="text" class="textfield" id="login" /></td>
+                        <td><label for="mail">Last Name</label></td>      
+                        <td><input type="text" onblur="warnEmailType()" id="mail" name="Email" class="formfield"/></td>
                     </tr>
                     <tr>
-                        <th>Password</th>
-                        <td><input name="password" type="password" class="textfield" id="password" /></td>
+                        <td colspan="2" id="errEmail">Please enter a valid last name</td>
+                    </tr>
+                   <tr> 
+                        <td><label for="login">Username:</label></td>   
+                        <td><input type="text" id="login" name="lname" onblur="warnUsername()" class="formfield"/></td>
                     </tr>
                     <tr>
-                        <th>Confirm Password </th>
-                        <td><input name="cpassword" type="password" class="textfield" id="cpassword" /></td>
+                        <td colspan="2"  id="errUsername">Please enter a valid username</td>
+                    </tr>
+                    <tr> 
+                        <td><label for="password">Password:</label></td>
+                        <td><input type="password" placeholder="********"onblur="warnPassword()" id="password" name="password" class="formfield"/></td>
                     </tr>
                     <tr>
-                        <td>&nbsp;</td>
-                        <td><input type="submit" name="Submit" value="Register" /></td>
+                        <td colspan="2" id="errPassword">Password must be between 8 and 16 characters in length</td>
+                    </tr>
+                    <tr> 
+                        <!-- to do : confirm password == password2 -->
+                        <td><label for="password2">Confirm Password:</label></td>   
+                        <td><input type="password" placeholder="********" onblur="warnConfirm()" id="password2" name="cpassword" class="formfield"/></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"  id="errConfirm">Does not match password</td>
+                    </tr>
+                    <tr id="submitbutton"> 
+                        <!-- Currently the button cannot be centered because it is in a table-->
+                        <td></td>
+                        <td><input id="registerbutton" name="Submit" value="Register" type="submit"/></td>
                     </tr>
                 </table>
             </form>

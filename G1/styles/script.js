@@ -19,16 +19,16 @@ function $$(className) {
 
 /*=========Sign-up Page Javascript===============*/
 
-function testEmailType(){
+function testNameType(){
     var x = $("mail").value;
-    var patt = /^(\w+)(@){1}(\w+)(\.com|\.co|\.org|\.ca|\.net)$/;
+    var patt = /^\w+$/;
     var res = patt.test(x);
 //        will return true if input is valid
     return res;
 }
         
-function warnEmailType() {
-    if(!testEmailType()){
+function warnNameType() {
+    if(!testNameType()){
         $("errEmail").style.visibility = 'visible';
     } else { 
         $("errEmail").style.visibility = 'hidden';
@@ -82,11 +82,11 @@ function warnConfirm() {
 //Validating for onsubmit
 
 function formValidate() {
-    if (testEmailType() && testUsername() && testPassword()
+    if (testNameType() && testUsername() && testPassword()
             && testConfirm()) {
         return true;
     }   else {
-        if (!testEmailType()) {
+        if (!testNameType()) {
             $("errEmail").style.visibility = 'visible';
         }   else {
             $("errEmail").style.visibility = 'hidden';

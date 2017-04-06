@@ -80,7 +80,7 @@
                     <a href="../index/register_form.php"><span>Sign Up</span></a>
                     <a href="../index/login_form.php"><span>Log In</span></a>
                 </div>';
-    
+          }
     ?>
 
     <!-- Main Page Content -->
