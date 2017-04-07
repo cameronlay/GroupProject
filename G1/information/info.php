@@ -97,7 +97,7 @@
                 <div id="edmundinfo">
                     <p><a href="#"><img class="profilepic" src="../images/SungukHam.JPG" alt="Edmund Ham"/></a></p>
                     <p>Edmund</p>
-                    <p>Been playing video gams since 12 (7 years). Usually plays RPGs.
+                    <p>Been playing video gams since 12 (7 years).
 					   Usually prefers cheap products with acceptable quality and simple
 					   design. Currently using a Asus gaming laptop.</p>
                 </div>
