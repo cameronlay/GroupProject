@@ -643,6 +643,26 @@ input:checked + .slider:before {
 
 /*==========================*/
 
+/*forum button*/
+
+.forumAddTopic {
+    background-color: #183030;
+    color: #f8f8e6;
+    font-family: Anton, sans-serif;
+    font-size: 1.2em;
+    position: absolute;
+    float: left;
+    clear: both;
+    padding: 0 5px 0 5px;
+}
+
+.forumAddTopic:hover {
+    background-color: #78c048;
+    text-decoration: none;
+}
+
+/*====================*/
+
 #contentwrapper{ 
     width: 1000px;
     margin: auto;
@@ -709,6 +729,15 @@ input:checked + .slider:before {
     position: relative;
     left: 500px;
     top: 25px;
+    background-color: #183030;
+    border: 0;
+    color: #f6f6e8;
+    font-family: Anton, sans-serif;
+    font-size: 1.4em;
+}
+
+.contentbox button:hover {
+    background-color: #78c048;
 }
 
 .contentbox img { 

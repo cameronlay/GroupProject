@@ -158,6 +158,7 @@
                 this mouse has acceptable quality with a quite good price, so it is worth to buying it if you want to get the 
                 best mouse under CAD $50.
                 </p>
+                <a class="forumAddTopic" href="../forum/add_topic_form.php">Add Topic</a>
                 
                 <button type="button" onclick="showLess(0)">Show Less</button>
                 </div>
@@ -210,6 +211,7 @@
 				Overall the Asus ROG Sica is a excellent, precise point and clicking mouse. 
                  
                 </p>
+                <a class="forumAddTopic" href="../forum/add_topic_form.php">Add Topic</a>
                 
                 <button type="button" onclick="showLess(1)">Show Less</button>
                 </div>
@@ -256,6 +258,7 @@
                 For more Advance functionality, you are required to install Razer Synapse on to your hard drive, and 
                 require to run it for the full effect of the mouse.
                 </p>
+                <a class="forumAddTopic" href="../forum/add_topic_form.php">Add Topic</a>
                 
                 <button type="button" onclick="showLess(2)">Show Less</button>
                 </div>
@@ -308,6 +311,7 @@
                 rather large price tag of $220 is in your budget it is definitely worth considering the Razer Mamba.
 
                 </p>
+                <a class="forumAddTopic" href="../forum/add_topic_form.php">Add Topic</a>
                 
                 <button type="button" onclick="showLess(3)">Show Less</button>
                 </div>
@@ -356,6 +360,7 @@
                 sleek design that fits both right handed and left handed users. It is fairly expensive, but you are paying for 
                 arguably one of the best gaming mouses on the market.
                 </p>
+                <a class="forumAddTopic" href="../forum/add_topic_form.php">Add Topic</a>
                 
                 <button type="button" onclick="showLess(4)">Show Less</button>
                 </div>

@@ -134,6 +134,7 @@
                     It comes with a soft detachable rubber wrist rest. It’s priced at $70 when most RGB keyboards are $130 or more. 
                     It doesn’t have a mechanical keyboard which may affect some users due to the tactile feedback mechanical keyboards give. 
                     It doesn’t have per-key RGB lighting. Overall the Corsair K55 RGB keyboard is a very good keyboard for its price range.</p>
+                    <a class="forumAddTopic" href="../forum/add_topic_form.php">Add Topic</a>
                     <button type="button" onclick="showLess(0)">Show Less</button>
                 </div>
             </div>
@@ -167,6 +168,7 @@
                     The down side is that to use the Macro option, you need to install Razer Synapses. The Pulsing effect of the Illumination on the 
                     keyboard also requires Razer Synapses. Because of Razer’s special unique design of the keys and the green switches, if 
                     the keyboard ever breaks down, it is often hard to find replacements.</p>
+                    <a class="forumAddTopic" href="../forum/add_topic_form.php">Add Topic</a>
                     <button type="button" onclick="showLess(1)">Show Less</button>
                 </div>
             </div>
@@ -196,6 +198,7 @@
                     detachable wrist rest, textured keycaps, multimedia controls, and software for macro customization. 
                     Overall the keyboard is great for its price and perfect for gamers and everyday users who want a comfortable 
                     and responsive mechanical keyboard.</p>
+                    <a class="forumAddTopic" href="../forum/add_topic_form.php">Add Topic</a>
                     <button type="button" onclick="showLess(2)">Show Less</button>
                 </div>
             </div>
@@ -228,6 +231,7 @@
                     users also can customize their keyboards pressure which means some keys can be touched at 1.5mm or some keys can be touched at 2.2mm 
                     or even 3.0mm. Each key reacts very sensitively, giving users great feeling by touching keys minimum 45g pressure. To sum up, 
                     it is one of the most expensive keyboards in the world, but its functions make the products worth buying it.</p>
+                    <a class="forumAddTopic" href="../forum/add_topic_form.php">Add Topic</a>
                     <button type="button" onclick="showLess(3)">Show Less</button>
                 </div>
             </div>
@@ -259,6 +263,7 @@
                     etched characters so there is no need to worry about fading letters. The cord only features a single USB type-A connector which 
                     leads to less clutter when it is plugged in but on the downside that it is not braided but simply plastic. Overall the
                     Das Keyboard 4 Professional is a very good keyboard for someone looking for a solid keyboard without the “gaming” appearance.</p>
+                    <a class="forumAddTopic" href="../forum/add_topic_form.php">Add Topic</a>
                     <button type="button" onclick="showLess(4)">Show Less</button>
                 </div>
             </div>

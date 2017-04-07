@@ -152,6 +152,7 @@
                 ASUS VX238H is an excellent monitor for anybody on a tight budget epsecially with the features that Asus offers
 				for this monitor.
                 </p>
+                <a class="forumAddTopic" href="../forum/add_topic_form.php">Add Topic</a>
                 
                 <button type="button" onclick="showLess(0)">Show Less</button>
                 </div>
@@ -204,6 +205,7 @@
                 gamers. Overall, the quality and customer support of this company is highly regarded as one of the best and it 
                 shows with its affiliation in multiple large gaming companies across the world.
                 </p>
+                <a class="forumAddTopic" href="../forum/add_topic_form.php">Add Topic</a>
                 
                 <button type="button" onclick="showLess(1)">Show Less</button>
                 </div>
@@ -249,6 +251,7 @@
                 it is not optimized fully for gaming. It does not offer G-Sync or support NVidia 3D Vision.
 
                 </p>
+                <a class="forumAddTopic" href="../forum/add_topic_form.php">Add Topic</a>
                 
                 <button type="button" onclick="showLess(2)">Show Less</button>
                 </div>
@@ -300,6 +303,7 @@
                 regarding computer monitor, but it perfectly fits for people who want the big screen that they can do everything, 
                 it is the best monitor concerning expensive monitors.
                 </p>
+                <a class="forumAddTopic" href="../forum/add_topic_form.php">Add Topic</a>
                 
                 <button type="button" onclick="showLess(3)">Show Less</button>
                 </div>
@@ -349,6 +353,7 @@
                 monitor which gives a much smoother user experience in everything from web browsing to gaming. G-Sync 
                 guarantees that no frame tearing and a smooth experience is had for anyone with a nVidia GPU.
                 </p>
+                <a class="forumAddTopic" href="../forum/add_topic_form.php">Add Topic</a>
                 
                 <button type="button" onclick="showLess(4)">Show Less</button>
                 </div>
