@@ -1,0 +1,984 @@
+ /*Common CSS */
+/*===================================================================================================*/
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(./Open_Sans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: Anton;
+    src: url(./Anton/Anton-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%
+}
+
+body {
+    background-color: #f6f6e8;
+    color: #404040;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    min-width: 1300px;
+}
+
+/* nav */
+/*=============================================================================================================*/
+
+nav {
+    background-color: #183030;
+    /* <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+        if you guys want to use Anton font, then copy this link inside your
+        head section of html file. */
+    font-family: 'Anton', sans-serif;
+    width: 100%;
+    height: 60px;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}   
+
+#navli {
+    width: 160px;
+}
+
+#navwrapper {
+    display: block;
+    background-color: #183030;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 60px;
+    min-width: 1300px;
+    min-height: 60px;
+    max-height: 60px;
+    position: fixed;
+    z-index: 100;
+}
+
+#navleft {
+    /* position:absolute; /* required so the UL doesnt push itself down */ 
+    float: left;
+}
+
+#navright { 
+    /* margin-left: 60%;    /* Prevents Stacking with the center logo*/ 
+    float: right;
+}
+
+/*This is the logo*/
+
+#imgid {
+    width: 100%;
+    height: 100%;
+    /* width: 16%; */
+    margin: 0;
+    background-color: #183030;
+    padding: 0;
+    text-align: center;
+    /* position:absolute;   /* Fixes the image*/
+}
+/* resizing the icon boxes*/
+.dropdown{
+    min-width: 160px; 
+    /* margin:0; */
+    /* padding:0; */
+}
+
+nav ul {
+    background-color: #183030;
+    list-style-type: none;
+    height: 60px;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    /* overflow:hidden; /* the magic happens here prevents it from the ul from cascading */
+}
+
+nav ul li {
+    display: flex;
+    display: -webkit-flex;
+    flex: 1; 
+    background-color: #183030;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+nav ul div a {
+    /* flex: 1; */
+    color: #f6f6e8;
+    text-decoration: none;
+    display: block;
+    /* width: 300px; */
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin: 0;
+    width: 100%;
+    /* vertical-align: middle; */
+}
+
+nav li a:hover {
+    background-color: #78c048;
+    color: #f6f6e8;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.dropdown_content {
+    display: none;
+    position: absolute;
+    background-color: #183030;
+    width: 100%;
+    z-index: 21;
+    color: #f6f6e8;
+    padding-left: 0;
+    margin: 0;
+}
+
+.dropdown_content p {
+    padding-top: 0;
+    margin: 0;
+}
+
+.dropdown:hover .dropdown_content {
+    display: block;
+}
+
+/*-------------------------------------------*/
+
+/* body */
+
+/*Because of this, you should use main tag instead of section tag*/
+/*Otherwise you should add section {font-family}*/
+
+main, section {
+    font-family: 'Open Sans', sans-serif;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -100;
+}
+
+
+
+/*------------------------------------------*/
+
+/* footer */
+
+footer {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    min-height: 100px;
+    bottom: 0px;
+    background-color: #183030;
+    z-index: 20;
+    font-size: 0.8em;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer li a:hover {
+    background-color: #f6f6e8;
+    color: #183030;
+}
+
+footer li a {
+    color: #f6f6e8;
+    text-decoration: none;
+}
+
+.footerconstraint { 
+    width: 1000px;
+    margin: auto;
+}
+
+.footerconstraint p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.bottomleftcolumn { 
+    display: inline-table;
+    width: 20%;
+    margin-left: 10%;
+}
+
+.middleleftcolumn { 
+    display:inline-table;
+    width: 20%;
+}
+
+.middlerightcolumn {
+    display: inline-table;
+    width: 20%;
+}
+
+.bottomrightcolumn {
+    display: inline-table;
+    width: 20%;
+}
+
+/*--------------------------*/
+
+/* // END OF Common CSS */
+
+/* index  */
+
+#indexMainWrapper {
+    position:relative;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    min-height: 600px;
+}
+
+#indexMainWrapper div.siteInfoIndex {
+    /*background-color: rgba(0, 0, 0, 0.3);*/
+    font-family: Anton, sans-serif;
+    font-size: 3.5em;
+    color: #183030;
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 200px;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    z-index: 10;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 30%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  z-index: 22;
+  background-color: #183030;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(120,192,72,0.8);
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  z-index: 30;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.indexPictures {
+    /*display: inline-block;*/
+    /*margin-left: 63px;*/
+    /*margin-right: 63px;   */
+    /*background-image: url("../images/monitorhighcropped.jpg");*/
+    /*background-size: contain;*/
+    /*height: 500px;*/
+}
+
+#indexMainWrapper img { 
+    /*position:absolute; 
+    left:0;
+    top:0; */
+    /*z-index: 2;*/
+    /*height:100%;*/
+    width:100%;
+
+}
+
+
+
+.indexSignUp_LogIn {
+    float: right;
+    margin-right: 30px;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+    padding: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+div.indexSignUp_LogIn span {
+    text-decoration: none;
+    background-color: #183030;
+    color: #f6f6e8;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+}
+
+.indexSignUp_LogIn span:hover {
+    background-color: #78c048;
+    color: #f6f6e8;
+}
+
+/* // END OF index */
+
+/* THIS IS INDEX CSS FOR THE AB TESTING */
+
+.indexPicturesTesting {
+    display: inline;
+    margin: 80px;
+}
+
+
+/*----------------------------  Main Container for Contents of Page: Forums ----------------------------*/
+
+
+#forumcontainer {
+    /* Box Offsets */
+    margin-top: 15%; /* If this changes Photo needs to change too*/
+    margin-left: 10%;
+    margin-bottom:10%;
+    /* main box */
+    width:80%;
+    min-width: 350px; /* restricting size */
+    height:700px;
+    
+}
+
+/* -- Forum Elements -- */
+#forumtable {
+    margin: auto;
+    padding:15px;
+    text-align:center;
+}
+
+
+
+#forumtable .forumheader {
+    color:#ffffff;
+    height:50px; 
+    font-size: 24px;
+}
+
+#forumtable td,#forumtable tr,#forumtable th {
+    margin: auto;
+    border: 1px solid black;
+    width: 600px;
+    max-width: 30%;
+    height: 100px; 
+    background-color:#4b6b36; 
+    color: #183030;
+}
+#forumheader {
+    background-color: #183030;
+    color: #f6f6e8;
+    height:50px;
+}
+/* topic is wider */
+
+#forumtable td {
+    width:300px;
+}
+a.forumelements {
+    height: 100px;
+}
+
+
+
+a.forumelements:visited {
+    color: #ffffff;
+}
+
+/* This content are special */
+.forumcontent  {
+    width: 600px;
+}
+
+/**/
+
+/* Info Page */
+
+#infomain {
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.infoheader {
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+    clear: both;
+}
+
+#topthree {
+    width: 1000px;
+    margin: auto;
+    margin-top: 40px;
+}
+#bottomtwo {
+    width: 1000px;
+    margin: auto;
+}
+
+.profilepic {
+    width: 140px;
+    height: 140px;
+}
+
+#cameroninfo {
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+}
+
+#edmundinfo {
+    display: inline-block;
+    text-align: center; 
+    width: 33%;
+}
+#jasoninfo {
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+}
+#danielinfo {
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+    margin-left: 140px;
+}
+#josephinfo {
+    display: inline-block;
+    text-align: center; 
+    width: 33%;
+}
+
+#contactus{
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+#emailForm {
+    width: 1000px;
+    margin: auto;
+}
+
+#emailtable {
+    margin: auto;
+}
+
+/*-------------------*/
+
+/* Sign-Up Page */
+
+#centerlogo{
+    /*text-align:center;*/
+    margin-top: 70px;
+    margin-bottom: 10px;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+}
+
+#largeLogo {
+    width: 350px;
+    height: 275px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    clear: both;
+}
+
+#signupform {
+    margin: auto;
+    margin-bottom: 50px;
+    width : 1000px;
+}
+
+#signuptable {
+    margin: auto;
+}
+
+input.formfield {
+    width: 100%;
+}
+
+#signupmain{
+    margin-bottom: 100px;
+}
+
+/*-------------------*/
+
+/* Product Pages */
+
+#leftNav{
+    width: 200px;
+    height: 300px;
+    background-color: #183030;
+    color: #f6f6e8;
+    float: left;
+    position: fixed;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 20px;
+    text-align: center;
+}
+/*CHECK BOX*/
+#filter {
+    
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 34px;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.switch input {
+    display:none;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #FE1500;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 40px;
+  left: 10px;
+  bottom: 4px;
+  background-color: #ffffff;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #78c048;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(40px);
+  -ms-transform: translateX(40px);
+  transform: translateX(40px);
+}
+
+/*==========================*/
+
+/*forum button*/
+
+.forumAddTopic {
+    background-color: #183030;
+    color: #f8f8e6;
+    font-family: Anton, sans-serif;
+    font-size: 1.2em;
+    position: absolute;
+    float: left;
+    clear: both;
+    padding: 0 5px 0 5px;
+}
+
+.forumAddTopic:hover {
+    background-color: #78c048;
+    text-decoration: none;
+}
+
+/*====================*/
+
+#contentwrapper{ 
+    width: 1000px;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#pagename{ 
+    padding-top: 40px;
+}
+
+
+#ptitle  {  
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    height: 50px;
+    border: 2px solid black;
+    background-color: #183030;
+    color: #f6f6e8;
+}
+
+#pricebracketlow{ 
+    width: 125px;
+    height: 40px;
+    text-align: center;
+    margin: 20px auto 20px auto;
+    border: 2px solid black;
+    background-color: #183030;
+    color: #f6f6e8;
+}
+
+#pricebracketmid{ 
+    width: 125px;
+    height: 40px;
+    text-align: center;
+    margin: 20px auto 20px auto;
+    border: 2px solid black;
+    background-color: #183030;
+    color: #f6f6e8;
+}
+
+#pricebrackethigh{ 
+    width: 125px;
+    height: 40px;
+    text-align: center;
+    margin: 20px auto 20px auto;
+    border: 2px solid black;
+    background-color: #183030;
+    color: #f6f6e8;
+}
+
+.contentbox { 
+    width: 750px;
+    height: 350px;
+    border: 2px solid black;
+    margin: 0px 0px 20px 150px;
+    margin-left: auto;
+    margin-right: auto;
+    
+              
+}
+
+.contentbox button { 
+    position: relative;
+    left: 500px;
+    top: 25px;
+    background-color: #183030;
+    border: 0;
+    color: #f6f6e8;
+    font-family: Anton, sans-serif;
+    font-size: 1.4em;
+}
+
+.contentbox button:hover {
+    background-color: #78c048;
+}
+
+.contentbox img { 
+    height: 250px;
+    width: 300px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.textbox { 
+    width: 400px;
+    float: right;
+    padding: 20px 20px 0px 0px;
+           
+}
+
+.proTitle {
+    margin: 0;
+}
+
+.proList {
+    margin: 0;
+}
+
+.conTitle {
+    margin:0;
+    padding-top: 20px;
+}
+
+.conList {
+    margin: 0;
+}
+
+
+.extraText { 
+    float:right;
+    padding:0px 20px 0px 20px;
+    margin-top: 30px;
+    display: none;
+             
+}
+
+.extraText button {
+    position: relative;
+    left: 300px;
+    top: -5px;
+    
+   
+}
+    
+/*---------------------------------------*/
+
+/* Site Map Page */
+
+.middlerightcolumn {
+    display: inline-table;
+    width: 20%;
+}
+
+.bottomrightcolumn {
+    display: inline-table;
+    width: 20%;
+}
+
+/*SITEMAP START*/
+
+/*.sitemap{
+    text-align: center;
+     font-family: 'Anton', sans-serif;
+    border-bottom: solid;
+    
+}*/
+
+#sitemaptop {
+    font-size: 60px;
+    color:#183030;
+    height:200px;
+    font-family:'Anton';
+    width: 100%;
+    height: 160px;
+    position:relative;
+    text-align: center;
+    bottom:0;
+}
+
+#sitemaptable{
+
+    background-color: #183030;
+    font-family: 'Arial', sans-serif;   
+    font-size:27px;
+    color:black;
+    margin-left: 22%;
+    margin-right: 20%;
+    margin-top:10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px 10px #183030;
+   
+}
+#sitemaptablecontent{
+    border-collapse: collapse;
+     width:100%; 
+}
+
+#sitemaptablecontent th a{
+    color:#f6f6e8;
+    text-decoration: none;
+}
+
+#sitemaptablecontent td a{
+    color:#f6f6e8;
+    text-decoration: none;
+}
+
+#sitemaptablecontent tr:hover a{
+    background-color: #f6f6e8;
+    color: #183030;
+}
+#sitemaptablecontent tr:hover {
+    background-color: #f6f6e8;
+    color: #183030;
+}
+/*#sitemaptablecontent th:hover {
+    background-color: #f6f6e8;
+    color: #183030;
+}*/
+
+#sitemaptablecontent th {
+    border-bottom: 0;
+    border-left: 0;
+    margin: 0;
+}
+#sitemaptablecontent td {
+    border-bottom: 0;
+    border-left: 0;
+    margin:0;
+}
+
+.col{
+    text-align: center;
+}
+
+.keyboardcell img {
+    width:75px; 
+    height:auto;
+}
+
+.mousecell img {
+    width:75px; 
+    height:auto;
+}
+
+.monitorcell img {
+    width:75px; 
+    height:auto;
+}
+
+
+.cameron img{
+    width:50px; 
+    height:auto;
+}
+
+.edmund img{
+    width: 50px; 
+    height:auto;
+}
+
+.jason img{
+    width: 50px; 
+    height:auto;
+}
+
+.daniel img{
+    width: 50px; 
+    height:auto;
+}
+
+.joseph img{
+    width: 50px; 
+    height:auto;
+}
+
+/*----------------------------*/
+
+#errEmail {
+    visibility: hidden;
+    color: red;
+    font-size: .8em;
+    text-align: right;
+}
+
+#errEmail2 {
+    visibility: hidden;
+    color: red;
+    font-size: .8em;
+    text-align: right;
+}
+
+#errUsername {
+    visibility: hidden;
+    color: red;
+    font-size: .8em;
+    text-align: right;
+}
+
+#errPassword {
+    visibility: hidden;
+    color: red;
+    font-size: .8em;
+    text-align: right;
+}
+
+#errConfirm {
+    visibility: hidden;
+    color: red;
+    font-size: .8em;
+    text-align: right;
+}
+
+#errEmailValid {
+    visibility: hidden;
+    color: red;
+    font-size: .8em;
+}
+
+#errEmptyField{
+    visibility: hidden;
+    color: red;
+    font-size: .8em;
+}
+
+#errLogin {
+    color: red;
+    font-size: .8em;
+    text-align: right;
+}
+
+#login {
+    width: 100%;
+}
+
+#password {
+    width: 100%;
+}
