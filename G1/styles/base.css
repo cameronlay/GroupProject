@@ -1,6 +1,7 @@
  /*Common CSS */
 /*===================================================================================================*/
 
+/*Added two font-face since firefox and IE can't perform this font very well.*/
 @font-face {
     font-family: 'Open Sans';
     src: url(./Open_Sans/OpenSans-Regular.ttf);
