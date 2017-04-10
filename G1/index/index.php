@@ -103,13 +103,13 @@
             <!-- <p class="indexPicturesText">MKM<br>REVIEWS</p> -->
             <div class="slideshow-container">
                 <div class="mySlides fade">
-                    <img src="../images/monitorslide.jpg" alt="Main Pictures">
+                    <img src="../images/mouseslide.jpg" alt="Main Pictures">
                 </div>
                 <div class="mySlides fade">
                     <img src="../images/keyboardslide.jpg" alt="Main Pictures">
                 </div>
                 <div class="mySlides fade">
-                    <img src="../images/mouseslide.jpg" alt="Main Pictures">
+                    <img src="../images/monitorslide.jpg" alt="Main Pictures">
                 </div>
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -167,20 +167,20 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-var slideshowIndex = 0;
-showSlides1();
+// var slideshowIndex = 0;
+// showSlides1();
 
-function showSlides1() {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none"; 
-    }
-    slideshowIndex++;
-    if (slideshowIndex> slides.length) {slideshowIndex = 1} 
-    slides[slideshowIndex-1].style.display = "block"; 
-    setTimeout(showSlides1, 4500); // Change image every 2 seconds
-}
+// function showSlides1() {
+//     var i;
+//     var slides = document.getElementsByClassName("mySlides");
+//     for (i = 0; i < slides.length; i++) {
+//         slides[i].style.display = "none"; 
+//     }
+//     slideshowIndex++;
+//     if (slideshowIndex> slides.length) {slideshowIndex = 1} 
+//     slides[slideshowIndex-1].style.display = "block"; 
+//     setTimeout(showSlides1, 4500); // Change image every 2 seconds
+// }
 
     </script>
 
