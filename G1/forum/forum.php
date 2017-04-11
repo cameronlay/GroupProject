@@ -122,13 +122,14 @@
                 // Exit looping and close connection
                 }
                 
-            require_once('../php/auth.php');
+            if (isLoggedIn()) {
                 ((is_null($___mysqli_res = mysqli_close($GLOBALS["___mysqli_ston"]))) ? false : $___mysqli_res);
+            
             echo '
             <tr>
                 <td colspan="5" align="right" bgcolor="#E6E6E6"><a href="./add_topic_form.php"><strong>Create New Topic</strong> </a></td>
             </tr>';
-            
+            }
             ?>
         </table>
     </main>

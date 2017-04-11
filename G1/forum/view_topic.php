@@ -161,8 +161,9 @@
         <?php
         
             }
-        require_once("../php/auth.php");
+            if (isLoggedIn()) {
             ((is_null($___mysqli_res = mysqli_close($GLOBALS["___mysqli_ston"]))) ? false : $___mysqli_res);
+            }
         ?>
 
         <br>
