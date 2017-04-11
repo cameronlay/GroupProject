@@ -196,13 +196,16 @@
                 <!-- <td>&#8627; FAQ</td>MAYBE USE?-->
                 </tr>
                 <tr class="col">
-                    <th><a href="php/forum.php">&#8649; FORUM</a></th>
+                    <th><a href="../forum/forum.php">&#8649; FORUM</a></th>
                     <td></td>
                     <td></td>
                 </tr>
                 <tr class="col">
                     <td></td>
-                    <td><a href="php/add_topic_form.php">&#8594; Forum post</a></td>
+                    <td>
+                    <?php if (isLoggedIn()) {
+                            echo '<a href="../forum/add_topic_form.php">&#8594; Forum post</a></td>';
+                        } ?>
                     <td></td>
                 </tr>
             </table>
