@@ -70,7 +70,7 @@
                     <a href="./index.php"><img id="imgid" src="../images/logonew.PNG" alt="Logo"></a>
                 </li>
                 <li><div class="dropdown"><a href="../information/info.php" class="dropdown">About Us</a></div></li>
-                <li><div class="dropdown"><a href="../information/info.php#contactheader" class="dropdown">Contact</a></div></li>
+                <li><div class="dropdown"><a href="../information/info.php#contactheader" class="dropdown">Contact Us</a></div></li>
                 <li><div class="dropdown"><a href="../forum/forum.php" class="dropdown">Forum</a></div></li>
             </ul>
         </div>
@@ -116,10 +116,10 @@
                 <br>
             </div>
             <div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-</div><!-- 
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+            </div><!-- 
             <img src="../images/monitortransparent_mini.jpg" alt="Main Pictures">
 
             <img src="../images/keyboardtransparent_mini.jpg" alt="Main Pictures">
@@ -131,63 +131,75 @@
 
     <!--SLIDE SHOW SCRIPT-->
     <script>
-//   $(function(){
-//     $('.indexPictures img:gt(0)').hide(); 
-//     setInterval(function(){
-//     $('.indexPictures :first-child').fadeOut(1000)
-//     .next('img').fadeIn(1000)
-//     .end().appendTo('.indexPictures');}, 
-//       4700);
-// });
+        //   $(function(){
+        //     $('.indexPictures img:gt(0)').hide(); 
+        //     setInterval(function(){
+        //     $('.indexPictures :first-child').fadeOut(1000)
+        //     .next('img').fadeIn(1000)
+        //     .end().appendTo('.indexPictures');}, 
+        //       4700);
+        // });
 
-var slideIndex = 1;
-var timer = null;
-showSlides(slideIndex);
+        var slideIndex = 1;
+        var timer = null;
+        showSlides(slideIndex);
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-  clearTimeout(timer);
-}
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+            clearTimeout(timer);
+        }
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-  clearTimeout(timer);
-}
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+            clearTimeout(timer);
+        }
 
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n==undefined){n = ++slideIndex}
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+
+            if (n==undefined) {
+                n = ++slideIndex
+            }
+
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
   
-    // Change image every 5 seconds
-  timer = setTimeout(showSlides, 5000);
-}
+            // Change image every 5 seconds
+            timer = setTimeout(showSlides, 5000);
+        }
 
-// var slideshowIndex = 0;
-// showSlides1();
+        // var slideshowIndex = 0;
+        // showSlides1();
 
-// function showSlides1() {
-//     var i;
-//     var slides = document.getElementsByClassName("mySlides");
-//     for (i = 0; i < slides.length; i++) {
-//         slides[i].style.display = "none"; 
-//     }
-//     slideshowIndex++;
-//     if (slideshowIndex> slides.length) {slideshowIndex = 1} 
-//     slides[slideshowIndex-1].style.display = "block"; 
-//     setTimeout(showSlides1, 4500); // Change image every 2 seconds
-// }    
+        // function showSlides1() {
+        //     var i;
+        //     var slides = document.getElementsByClassName("mySlides");
+        //     for (i = 0; i < slides.length; i++) {
+        //         slides[i].style.display = "none"; 
+        //     }
+        //     slideshowIndex++;
+        //     if (slideshowIndex> slides.length) {slideshowIndex = 1} 
+        //     slides[slideshowIndex-1].style.display = "block"; 
+        //     setTimeout(showSlides1, 4500); // Change image every 2 seconds
+        // }    
 
     </script>
 

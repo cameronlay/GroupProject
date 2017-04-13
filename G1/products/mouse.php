@@ -65,7 +65,7 @@
             </li>
 
                     <li><div class="dropdown"><a href="../information/info.php" class="dropdown">About Us</a></div></li>
-                    <li><div class="dropdown"><a href="../information/info.php#contactheader" class="dropdown">Contact</a></div></li>
+                    <li><div class="dropdown"><a href="../information/info.php#contactheader" class="dropdown">Contact Us</a></div></li>
                     <li><div class="dropdown"><a href="../forum/forum.php" class="dropdown">Forum</a></div></li>
                 </ul>
             
